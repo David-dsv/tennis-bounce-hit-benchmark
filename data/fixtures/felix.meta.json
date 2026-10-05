@@ -1,0 +1,21 @@
+{
+  "clip": "felix",
+  "video": "felix (live canonical run)",
+  "fps": 60.0,
+  "width": 1920,
+  "height": 1080,
+  "frames": 1860,
+  "start_frame": 0,
+  "source_dump": "data/gt_clips/dumps/felix_methodo.json",
+  "source_dump_sha256": "0ee6fccb837e96a5ebb43757ec5e3ba655a2d7a362ebea86ee0a5f6fc114ed97",
+  "wasb_source": null,
+  "built_at": "2026-09-05T12:46:00+00:00",
+  "git_head": "06700c5",
+  "builder": "scripts/rebuild_event_cache_from_dump.py",
+  "coverage": {
+    "ball_raw": 0.9053763440860215,
+    "ball_spline": 0.9865591397849462,
+    "pose_ge2": 0.774731182795699
+  },
+  "note": "Frozen replay snapshot of live methodo inputs. Rebuild from a fresh live dump after any pose/tracking/candidate change \u2014 a stale cache lies in both directions."
+}

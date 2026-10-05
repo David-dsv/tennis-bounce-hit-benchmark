@@ -1,0 +1,328 @@
+{
+  "video": "clay_am2_40s.mp4",
+  "fps": 59.94005994005994,
+  "n_frames": 2639,
+  "width": 1920,
+  "height": 1080,
+  "frame_offset": 0,
+  "annotator": "",
+  "created": "2026-09-03T18:35:54",
+  "policy_version": 2,
+  "notes": "",
+  "events": [
+    {
+      "frame": 14,
+      "label": "B",
+      "tag": "toss"
+    },
+    {
+      "frame": 15,
+      "label": "H",
+      "tag": "toss",
+      "player": "far",
+      "stroke": null
+    },
+    {
+      "frame": 150,
+      "label": "H",
+      "tag": "serve",
+      "player": "far",
+      "stroke": "serve"
+    },
+    {
+      "frame": 197,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 229,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 278,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 306,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 375,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 392,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "BH"
+    },
+    {
+      "frame": 459,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 498,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 568,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 590,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 660,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 696,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 787,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 841,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 912,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 946,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 1022,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1066,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 1123,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1152,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "BH"
+    },
+    {
+      "frame": 1211,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1247,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 1312,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1343,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 1396,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1438,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 1498,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1524,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 1588,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1604,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "BH"
+    },
+    {
+      "frame": 1681,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1702,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "BH"
+    },
+    {
+      "frame": 1751,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1792,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "BH"
+    },
+    {
+      "frame": 1882,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1930,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 2001,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 2018,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "BH"
+    },
+    {
+      "frame": 2103,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 2130,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 2203,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 2238,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 2294,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 2326,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "BH"
+    },
+    {
+      "frame": 2373,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 2412,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 2466,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 2496,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 2586,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    }
+  ]
+}

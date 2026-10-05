@@ -1,0 +1,83 @@
+{
+ "video": "tennis_demo3 (tennis.mp4 -s 73 -d 13)",
+ "fps": 50.0,
+ "events": [
+  {
+   "frame": 44,
+   "label": "HIT"
+  },
+  {
+   "frame": 63,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 79,
+   "label": "HIT"
+  },
+  {
+   "frame": 122,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 144,
+   "label": "HIT"
+  },
+  {
+   "frame": 172,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 194,
+   "label": "HIT"
+  },
+  {
+   "frame": 253,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 275,
+   "label": "HIT"
+  },
+  {
+   "frame": 307,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 331,
+   "label": "HIT"
+  },
+  {
+   "frame": 369,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 396,
+   "label": "HIT"
+  },
+  {
+   "frame": 455,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 468,
+   "label": "HIT"
+  },
+  {
+   "frame": 510,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 527,
+   "label": "HIT"
+  },
+  {
+   "frame": 568,
+   "label": "BOUNCE"
+  }
+ ],
+ "_provenance": {
+  "source_file": "data/gt_clips/preds/demo3_pred.json",
+  "source_sha256": "427c6d35ffaa6db135d9d875f00f7a1520f10019c47fab80c458bbf1a337364e",
+  "note": "Frozen pipeline output used for the paper's single test-split scoring (2026-09-07); stripped to event fields."
+ }
+}

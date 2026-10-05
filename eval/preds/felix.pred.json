@@ -1,0 +1,166 @@
+{
+ "video": "felix.mp4",
+ "fps": 60.0,
+ "frame_range": [
+  0,
+  1860
+ ],
+ "speed_source": "homography(low)",
+ "bounces": [
+  {
+   "frame": 160,
+   "x": 673,
+   "y": 627,
+   "depth": "deep",
+   "confidence": 1.0
+  },
+  {
+   "frame": 245,
+   "x": 1377,
+   "y": 540,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 329,
+   "x": 825,
+   "y": 593,
+   "depth": "deep",
+   "confidence": 1.0
+  },
+  {
+   "frame": 430,
+   "x": 1616,
+   "y": 571,
+   "depth": "mid",
+   "confidence": 0.8
+  },
+  {
+   "frame": 884,
+   "x": 1477,
+   "y": 586,
+   "depth": "deep",
+   "confidence": 0.67
+  },
+  {
+   "frame": 1140,
+   "x": 1213,
+   "y": 543,
+   "depth": "mid",
+   "confidence": 0.67
+  },
+  {
+   "frame": 1253,
+   "x": 345,
+   "y": 688,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1347,
+   "x": 1301,
+   "y": 550,
+   "depth": "deep",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1440,
+   "x": 606,
+   "y": 641,
+   "depth": "deep",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1519,
+   "x": 1657,
+   "y": 556,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1666,
+   "x": 1259,
+   "y": 546,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1795,
+   "x": 925,
+   "y": 616,
+   "depth": "deep",
+   "confidence": 1.0
+  }
+ ],
+ "shots": [
+  {
+   "frame": 38,
+   "x": 231,
+   "y": 552,
+   "player_side": "near",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 182,
+   "x": 221,
+   "y": 596,
+   "player_side": "near",
+   "stroke": "unknown",
+   "confidence": 1.0
+  },
+  {
+   "frame": 374,
+   "x": 437,
+   "y": 533,
+   "player_side": "near",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 449,
+   "x": 1728,
+   "y": 494,
+   "player_side": "far",
+   "stroke": "unknown",
+   "confidence": 0.67
+  },
+  {
+   "frame": 509,
+   "x": 1032,
+   "y": 500,
+   "player_side": "far",
+   "stroke": "unknown",
+   "confidence": 1.0
+  },
+  {
+   "frame": 941,
+   "x": 1012,
+   "y": 536,
+   "player_side": "near",
+   "stroke": "unknown",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1159,
+   "x": 1344,
+   "y": 445,
+   "player_side": "far",
+   "stroke": "unknown",
+   "confidence": 0.7
+  },
+  {
+   "frame": 1458,
+   "x": 218,
+   "y": 620,
+   "player_side": "near",
+   "stroke": "forehand",
+   "confidence": 1.0
+  }
+ ],
+ "_provenance": {
+  "source_file": "data/output/felix_annotated_stats.json",
+  "source_sha256": "b3edcd89edd7c76b1d102b55720aa9d30169d8325ba1d0d07cdefcbd50c13226",
+  "note": "Frozen pipeline output used for the paper's single test-split scoring (2026-09-07); stripped to event fields."
+ }
+}

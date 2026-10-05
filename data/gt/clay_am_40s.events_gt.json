@@ -1,0 +1,250 @@
+{
+ "video": "clay_am_40s.mp4",
+ "fps": 60.0,
+ "n_frames": 2591,
+ "width": 1920,
+ "height": 1080,
+ "frame_offset": 0,
+ "annotator": "",
+ "created": "2026-09-03T18:25:36",
+ "policy_version": 1,
+ "notes": "",
+ "events": [
+  {
+   "frame": 14,
+   "label": "H",
+   "tag": null,
+   "player": "near",
+   "stroke": "FH"
+  },
+  {
+   "frame": 189,
+   "label": "H",
+   "tag": null,
+   "player": "far",
+   "stroke": "FH"
+  },
+  {
+   "frame": 278,
+   "label": "H",
+   "tag": null,
+   "player": "near",
+   "stroke": "smash"
+  },
+  {
+   "frame": 303,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 358,
+   "label": "H",
+   "tag": null,
+   "player": "far",
+   "stroke": "BH"
+  },
+  {
+   "frame": 513,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 597,
+   "label": "H",
+   "tag": null,
+   "player": "near",
+   "stroke": "FH"
+  },
+  {
+   "frame": 752,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 831,
+   "label": "H",
+   "tag": null,
+   "player": "far",
+   "stroke": "smash"
+  },
+  {
+   "frame": 871,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 905,
+   "label": "B",
+   "tag": "dead"
+  },
+  {
+   "frame": 933,
+   "label": "B",
+   "tag": "dead"
+  },
+  {
+   "frame": 954,
+   "label": "B",
+   "tag": "dead"
+  },
+  {
+   "frame": 972,
+   "label": "B",
+   "tag": "dead"
+  },
+  {
+   "frame": 989,
+   "label": "B",
+   "tag": "dead"
+  },
+  {
+   "frame": 1139,
+   "label": "H",
+   "tag": "serve",
+   "player": "near",
+   "stroke": "serve"
+  },
+  {
+   "frame": 1171,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 1200,
+   "label": "H",
+   "tag": null,
+   "player": "far",
+   "stroke": "BH"
+  },
+  {
+   "frame": 1270,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 1289,
+   "label": "H",
+   "tag": null,
+   "player": "near",
+   "stroke": "BH"
+  },
+  {
+   "frame": 1335,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 1365,
+   "label": "H",
+   "tag": null,
+   "player": "far",
+   "stroke": "FH"
+  },
+  {
+   "frame": 1419,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 1440,
+   "label": "H",
+   "tag": null,
+   "player": "near",
+   "stroke": "FH"
+  },
+  {
+   "frame": 1495,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 1521,
+   "label": "H",
+   "tag": null,
+   "player": "far",
+   "stroke": "FH"
+  },
+  {
+   "frame": 1572,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 1596,
+   "label": "H",
+   "tag": null,
+   "player": "near",
+   "stroke": "FH"
+  },
+  {
+   "frame": 1692,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 1726,
+   "label": "H",
+   "tag": null,
+   "player": "far",
+   "stroke": "BH"
+  },
+  {
+   "frame": 1776,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 1804,
+   "label": "H",
+   "tag": null,
+   "player": "near",
+   "stroke": "BH"
+  },
+  {
+   "frame": 1903,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 1968,
+   "label": "B",
+   "tag": "dead"
+  },
+  {
+   "frame": 2173,
+   "label": "H",
+   "tag": "serve",
+   "player": "near",
+   "stroke": "serve"
+  },
+  {
+   "frame": 2204,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 2241,
+   "label": "H",
+   "tag": null,
+   "player": "far",
+   "stroke": "FH"
+  },
+  {
+   "frame": 2284,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 2554,
+   "label": "H",
+   "tag": "serve",
+   "player": "near",
+   "stroke": "serve"
+  },
+  {
+   "frame": 2582,
+   "label": "B",
+   "tag": null
+  }
+ ]
+}

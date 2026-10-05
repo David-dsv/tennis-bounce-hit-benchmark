@@ -1,0 +1,127 @@
+{
+ "video": "tennis_demo3.mp4",
+ "fps": 50.0,
+ "n_frames": 650,
+ "width": 1920,
+ "height": 1080,
+ "frame_offset": 0,
+ "annotator": "david (manual, frame-by-frame)",
+ "created": "2026-09-05T15:44:51",
+ "policy_version": 2,
+ "notes": "D\u00e9riv\u00e9 des fixtures legacy bounces/shots (17 events, inchang\u00e9es) + serve f44 et toss f11 (policy v2: annoter tout, taguer). Frames = rep\u00e8re fen\u00eatre tennis.mp4 -s 73 -d 13.",
+ "events": [
+  {
+   "frame": 11,
+   "label": "B",
+   "tag": "toss"
+  },
+  {
+   "frame": 44,
+   "label": "H",
+   "tag": "serve",
+   "player": "far",
+   "stroke": "serve"
+  },
+  {
+   "frame": 62,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 81,
+   "label": "H",
+   "tag": null,
+   "player": "near",
+   "stroke": "BH"
+  },
+  {
+   "frame": 120,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 141,
+   "label": "H",
+   "tag": null,
+   "player": "far",
+   "stroke": "FH"
+  },
+  {
+   "frame": 174,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 196,
+   "label": "H",
+   "tag": null,
+   "player": "near",
+   "stroke": "FH"
+  },
+  {
+   "frame": 255,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 268,
+   "label": "H",
+   "tag": null,
+   "player": "far",
+   "stroke": "BH"
+  },
+  {
+   "frame": 308,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 333,
+   "label": "H",
+   "tag": null,
+   "player": "near",
+   "stroke": "FH"
+  },
+  {
+   "frame": 369,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 394,
+   "label": "H",
+   "tag": null,
+   "player": "far",
+   "stroke": "FH"
+  },
+  {
+   "frame": 456,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 468,
+   "label": "H",
+   "tag": null,
+   "player": "near",
+   "stroke": "BH"
+  },
+  {
+   "frame": 511,
+   "label": "B",
+   "tag": null
+  },
+  {
+   "frame": 525,
+   "label": "H",
+   "tag": null,
+   "player": "far",
+   "stroke": "BH"
+  },
+  {
+   "frame": 569,
+   "label": "B",
+   "tag": null
+  }
+ ]
+}

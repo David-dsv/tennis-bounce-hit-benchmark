@@ -1,0 +1,13 @@
+{
+  "clip": "tennis_demo3",
+  "video": "tennis.mp4 -s 73 -d 13 (live canonical run)",
+  "fps": 50.0,
+  "width": 1920,
+  "height": 1080,
+  "frames": 650,
+  "start_frame": 0,
+  "analysis_window": "tennis.mp4 -s 73 -d 13 (50 fps; frame 0 of the fixture = absolute source frame 3650)",
+  "source_fixture": "tests/fixtures/cache/demo3_event.json",
+  "builder": "scripts/rebuild_demo3_event_cache_from_dump.py",
+  "note": "Composed at release time (2026-10-05) from the fixture header; the repo keeps no .meta.json for demo3."
+}

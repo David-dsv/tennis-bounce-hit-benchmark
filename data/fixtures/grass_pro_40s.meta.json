@@ -1,0 +1,21 @@
+{
+  "clip": "grass_pro_40s",
+  "video": "grass_pro_40s (live canonical run)",
+  "fps": 60.0,
+  "width": 1920,
+  "height": 1080,
+  "frames": 1322,
+  "start_frame": 0,
+  "source_dump": "data/gt_clips/dumps/grass_pro_40s_methodo.json",
+  "source_dump_sha256": "c0b08f5d12edacea15b04606a5d1ad74ab1e7bf80044cc4d7a0eca1151eef3b2",
+  "wasb_source": null,
+  "built_at": "2026-09-05T15:16:10+00:00",
+  "git_head": "287d951",
+  "builder": "scripts/rebuild_event_cache_from_dump.py",
+  "coverage": {
+    "ball_raw": 0.7549167927382754,
+    "ball_spline": 0.7760968229954615,
+    "pose_ge2": 0.7511346444780636
+  },
+  "note": "Frozen replay snapshot of live methodo inputs. Rebuild from a fresh live dump after any pose/tracking/candidate change \u2014 a stale cache lies in both directions."
+}

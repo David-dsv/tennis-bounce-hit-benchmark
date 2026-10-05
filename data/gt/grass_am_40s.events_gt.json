@@ -1,0 +1,351 @@
+{
+  "video": "grass_am_40s.mp4",
+  "fps": 60.0,
+  "n_frames": 2553,
+  "width": 1920,
+  "height": 1080,
+  "frame_offset": 0,
+  "annotator": "",
+  "created": "2026-09-03T18:52:43",
+  "policy_version": 2,
+  "notes": "",
+  "events": [
+    {
+      "frame": 106,
+      "label": "H",
+      "tag": "toss",
+      "player": "near",
+      "stroke": null
+    },
+    {
+      "frame": 155,
+      "label": "H",
+      "tag": "serve",
+      "player": "near",
+      "stroke": "serve"
+    },
+    {
+      "frame": 178,
+      "label": "B",
+      "tag": "far"
+    },
+    {
+      "frame": 193,
+      "label": "H",
+      "tag": "far",
+      "player": "far",
+      "stroke": "BH"
+    },
+    {
+      "frame": 309,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 383,
+      "label": "H",
+      "tag": "toss",
+      "player": "near",
+      "stroke": null
+    },
+    {
+      "frame": 432,
+      "label": "H",
+      "tag": "serve",
+      "player": "near",
+      "stroke": "serve"
+    },
+    {
+      "frame": 461,
+      "label": "B",
+      "tag": "far"
+    },
+    {
+      "frame": 484,
+      "label": "H",
+      "tag": "far",
+      "player": "far",
+      "stroke": "BH"
+    },
+    {
+      "frame": 563,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 589,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 643,
+      "label": "B",
+      "tag": "far"
+    },
+    {
+      "frame": 674,
+      "label": "H",
+      "tag": "far",
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 719,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 759,
+      "label": "H",
+      "tag": "toss",
+      "player": "near",
+      "stroke": null
+    },
+    {
+      "frame": 819,
+      "label": "H",
+      "tag": "serve",
+      "player": "near",
+      "stroke": "serve"
+    },
+    {
+      "frame": 848,
+      "label": "B",
+      "tag": "far"
+    },
+    {
+      "frame": 871,
+      "label": "H",
+      "tag": "far",
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 918,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "volley"
+    },
+    {
+      "frame": 965,
+      "label": "B",
+      "tag": "far"
+    },
+    {
+      "frame": 996,
+      "label": "H",
+      "tag": "far",
+      "player": "far",
+      "stroke": "BH"
+    },
+    {
+      "frame": 1101,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1114,
+      "label": "H",
+      "tag": "toss",
+      "player": "near",
+      "stroke": null
+    },
+    {
+      "frame": 1174,
+      "label": "H",
+      "tag": "serve",
+      "player": "near",
+      "stroke": "serve"
+    },
+    {
+      "frame": 1206,
+      "label": "B",
+      "tag": "far"
+    },
+    {
+      "frame": 1242,
+      "label": "H",
+      "tag": "far",
+      "player": "far",
+      "stroke": "BH"
+    },
+    {
+      "frame": 1294,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1306,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "BH"
+    },
+    {
+      "frame": 1369,
+      "label": "B",
+      "tag": "far"
+    },
+    {
+      "frame": 1401,
+      "label": "B",
+      "tag": "far"
+    },
+    {
+      "frame": 1494,
+      "label": "H",
+      "tag": "toss",
+      "player": "far",
+      "stroke": null
+    },
+    {
+      "frame": 1532,
+      "label": "H",
+      "tag": "far",
+      "player": "far",
+      "stroke": "serve"
+    },
+    {
+      "frame": 1560,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1574,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "BH"
+    },
+    {
+      "frame": 1646,
+      "label": "B",
+      "tag": "far"
+    },
+    {
+      "frame": 1680,
+      "label": "H",
+      "tag": "far",
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 1720,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1739,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "BH"
+    },
+    {
+      "frame": 1803,
+      "label": "B",
+      "tag": "far"
+    },
+    {
+      "frame": 1880,
+      "label": "H",
+      "tag": "toss",
+      "player": "far",
+      "stroke": null
+    },
+    {
+      "frame": 1930,
+      "label": "H",
+      "tag": "far",
+      "player": "far",
+      "stroke": "serve"
+    },
+    {
+      "frame": 1954,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1973,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 2038,
+      "label": "B",
+      "tag": "far"
+    },
+    {
+      "frame": 2060,
+      "label": "H",
+      "tag": "far",
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 2134,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 2185,
+      "label": "B",
+      "tag": "dead"
+    },
+    {
+      "frame": 2204,
+      "label": "H",
+      "tag": "toss",
+      "player": "far",
+      "stroke": null
+    },
+    {
+      "frame": 2251,
+      "label": "H",
+      "tag": "far",
+      "player": "far",
+      "stroke": "serve"
+    },
+    {
+      "frame": 2274,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 2291,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 2344,
+      "label": "B",
+      "tag": "far"
+    },
+    {
+      "frame": 2370,
+      "label": "H",
+      "tag": "far",
+      "player": "far",
+      "stroke": "BH"
+    },
+    {
+      "frame": 2438,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 2474,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "BH"
+    }
+  ]
+}

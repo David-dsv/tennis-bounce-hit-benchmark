@@ -1,0 +1,444 @@
+{
+  "split": "dev",
+  "exclude_tags": [
+    "dead",
+    "far",
+    "offscreen",
+    "replay",
+    "serve",
+    "toss"
+  ],
+  "tolerance_policy": "round(0.15*fps)",
+  "clips": [
+    {
+      "clip": "tennis_demo3",
+      "split": "dev",
+      "fps": 50.0,
+      "tol": 8,
+      "counts": {
+        "b_tp": 9,
+        "b_fp": 0,
+        "b_fn": 0,
+        "h_tp": 8,
+        "h_fp": 0,
+        "h_fn": 0,
+        "conf_HtoB": 0,
+        "conf_BtoH": 0,
+        "spurious": 0,
+        "ignored": 1,
+        "n_gt_b": 9,
+        "n_gt_h": 8
+      },
+      "bounce": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0
+      },
+      "hit": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0
+      },
+      "conf_HtoB": 0,
+      "conf_BtoH": 0,
+      "spurious": [],
+      "ignored_preds": [
+        [
+          44,
+          "HIT"
+        ]
+      ],
+      "FN_b": [],
+      "FN_h": [],
+      "annotations": {
+        "camera": "broadcast oblique, pro rally"
+      }
+    },
+    {
+      "clip": "felix",
+      "split": "dev",
+      "fps": 60.0,
+      "tol": 9,
+      "counts": {
+        "b_tp": 12,
+        "b_fp": 0,
+        "b_fn": 5,
+        "h_tp": 7,
+        "h_fp": 1,
+        "h_fn": 13,
+        "conf_HtoB": 0,
+        "conf_BtoH": 0,
+        "spurious": 1,
+        "ignored": 0,
+        "n_gt_b": 17,
+        "n_gt_h": 20
+      },
+      "bounce": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 5,
+        "P": 1.0,
+        "R": 0.7058823529411765,
+        "F1": 0.8275862068965517
+      },
+      "hit": {
+        "tp": 7,
+        "fp": 1,
+        "fn": 13,
+        "P": 0.875,
+        "R": 0.35,
+        "F1": 0.4999999999999999
+      },
+      "conf_HtoB": 0,
+      "conf_BtoH": 0,
+      "spurious": [
+        [
+          38,
+          "HIT"
+        ]
+      ],
+      "ignored_preds": [],
+      "FN_b": [
+        53,
+        547,
+        601,
+        721,
+        978
+      ],
+      "FN_h": [
+        2,
+        105,
+        277,
+        614,
+        752,
+        819,
+        905,
+        1295,
+        1389,
+        1540,
+        1609,
+        1703,
+        1830
+      ],
+      "annotations": {
+        "camera": "static phone, grazing angle, amateur"
+      }
+    },
+    {
+      "clip": "clay_am_40s",
+      "split": "dev",
+      "fps": 60.0,
+      "tol": 9,
+      "counts": {
+        "b_tp": 13,
+        "b_fp": 3,
+        "b_fn": 3,
+        "h_tp": 10,
+        "h_fp": 12,
+        "h_fn": 5,
+        "conf_HtoB": 1,
+        "conf_BtoH": 3,
+        "spurious": 11,
+        "ignored": 7,
+        "n_gt_b": 16,
+        "n_gt_h": 15
+      },
+      "bounce": {
+        "tp": 13,
+        "fp": 3,
+        "fn": 3,
+        "P": 0.8125,
+        "R": 0.8125,
+        "F1": 0.8125
+      },
+      "hit": {
+        "tp": 10,
+        "fp": 12,
+        "fn": 5,
+        "P": 0.45454545454545453,
+        "R": 0.6666666666666666,
+        "F1": 0.5405405405405405
+      },
+      "conf_HtoB": 1,
+      "conf_BtoH": 3,
+      "spurious": [
+        [
+          59,
+          "HIT"
+        ],
+        [
+          111,
+          "HIT"
+        ],
+        [
+          344,
+          "HIT"
+        ],
+        [
+          383,
+          "BOUNCE"
+        ],
+        [
+          410,
+          "HIT"
+        ],
+        [
+          441,
+          "BOUNCE"
+        ],
+        [
+          1004,
+          "HIT"
+        ],
+        [
+          1475,
+          "HIT"
+        ],
+        [
+          1737,
+          "HIT"
+        ],
+        [
+          1957,
+          "HIT"
+        ],
+        [
+          1988,
+          "HIT"
+        ]
+      ],
+      "ignored_preds": [
+        [
+          905,
+          "BOUNCE"
+        ],
+        [
+          2554,
+          "BOUNCE"
+        ],
+        [
+          932,
+          "BOUNCE"
+        ],
+        [
+          955,
+          "BOUNCE"
+        ],
+        [
+          1138,
+          "BOUNCE"
+        ],
+        [
+          2172,
+          "BOUNCE"
+        ],
+        [
+          1977,
+          "BOUNCE"
+        ]
+      ],
+      "FN_b": [],
+      "FN_h": [
+        189,
+        278,
+        358,
+        1726
+      ],
+      "annotations": {
+        "camera": "fixed camera, indoor clay, amateur"
+      }
+    },
+    {
+      "clip": "hard_pro_40s",
+      "split": "dev",
+      "fps": 60.0,
+      "tol": 9,
+      "counts": {
+        "b_tp": 12,
+        "b_fp": 2,
+        "b_fn": 3,
+        "h_tp": 7,
+        "h_fp": 3,
+        "h_fn": 1,
+        "conf_HtoB": 0,
+        "conf_BtoH": 1,
+        "spurious": 4,
+        "ignored": 20,
+        "n_gt_b": 15,
+        "n_gt_h": 8
+      },
+      "bounce": {
+        "tp": 12,
+        "fp": 2,
+        "fn": 3,
+        "P": 0.8571428571428571,
+        "R": 0.8,
+        "F1": 0.8275862068965518
+      },
+      "hit": {
+        "tp": 7,
+        "fp": 3,
+        "fn": 1,
+        "P": 0.7,
+        "R": 0.875,
+        "F1": 0.7777777777777777
+      },
+      "conf_HtoB": 0,
+      "conf_BtoH": 1,
+      "spurious": [
+        [
+          95,
+          "HIT"
+        ],
+        [
+          107,
+          "BOUNCE"
+        ],
+        [
+          130,
+          "BOUNCE"
+        ],
+        [
+          1851,
+          "HIT"
+        ]
+      ],
+      "ignored_preds": [
+        [
+          296,
+          "HIT"
+        ],
+        [
+          466,
+          "BOUNCE"
+        ],
+        [
+          608,
+          "BOUNCE"
+        ],
+        [
+          754,
+          "HIT"
+        ],
+        [
+          1124,
+          "BOUNCE"
+        ],
+        [
+          1321,
+          "HIT"
+        ],
+        [
+          1886,
+          "HIT"
+        ],
+        [
+          2341,
+          "HIT"
+        ],
+        [
+          2527,
+          "BOUNCE"
+        ],
+        [
+          2557,
+          "BOUNCE"
+        ],
+        [
+          150,
+          "BOUNCE"
+        ],
+        [
+          1704,
+          "BOUNCE"
+        ],
+        [
+          8,
+          "HIT"
+        ],
+        [
+          1863,
+          "BOUNCE"
+        ],
+        [
+          2489,
+          "BOUNCE"
+        ],
+        [
+          904,
+          "BOUNCE"
+        ],
+        [
+          1302,
+          "BOUNCE"
+        ],
+        [
+          1762,
+          "HIT"
+        ],
+        [
+          2109,
+          "HIT"
+        ],
+        [
+          500,
+          "HIT"
+        ]
+      ],
+      "FN_b": [
+        217,
+        1626
+      ],
+      "FN_h": [
+        73
+      ],
+      "annotations": {
+        "camera": "court-level practice, pro (near-only)"
+      }
+    }
+  ],
+  "pooled": {
+    "bounce": {
+      "tp": 46,
+      "fp": 5,
+      "fn": 11,
+      "P": 0.9019607843137255,
+      "R": 0.8070175438596491,
+      "F1": 0.8518518518518519
+    },
+    "hit": {
+      "tp": 32,
+      "fp": 16,
+      "fn": 19,
+      "P": 0.6666666666666666,
+      "R": 0.6274509803921569,
+      "F1": 0.6464646464646465
+    },
+    "conf_HtoB": 1,
+    "conf_BtoH": 4,
+    "spurious": 16,
+    "ignored": 28,
+    "n_gt_b": 57,
+    "n_gt_h": 51
+  },
+  "bootstrap": {
+    "bounce_f1": [
+      0.8160000000000001,
+      0.9397590361445782
+    ],
+    "hit_f1": [
+      0.523076923076923,
+      0.8823529411764706
+    ],
+    "n_clips": 4,
+    "n_iters": 10000,
+    "seed": 20260901,
+    "narrow_valid": true
+  }
+}

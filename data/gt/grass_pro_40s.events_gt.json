@@ -1,0 +1,172 @@
+{
+  "video": "grass_pro_40s.mp4",
+  "fps": 60.0,
+  "n_frames": 1322,
+  "width": 1920,
+  "height": 1080,
+  "frame_offset": 0,
+  "annotator": "",
+  "created": "2026-09-03T18:46:39",
+  "policy_version": 2,
+  "notes": "",
+  "events": [
+    {
+      "frame": 27,
+      "label": "H",
+      "tag": "serve",
+      "player": "far",
+      "stroke": "serve"
+    },
+    {
+      "frame": 49,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 65,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "BH"
+    },
+    {
+      "frame": 145,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 173,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 208,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 235,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 409,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "volley"
+    },
+    {
+      "frame": 430,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 473,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "BH"
+    },
+    {
+      "frame": 540,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 557,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "BH"
+    },
+    {
+      "frame": 634,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 676,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "BH"
+    },
+    {
+      "frame": 728,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 733,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 831,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 879,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 907,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "volley"
+    },
+    {
+      "frame": 960,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 989,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 1031,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "volley"
+    },
+    {
+      "frame": 1110,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1141,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "BH"
+    },
+    {
+      "frame": 1176,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1227,
+      "label": "B",
+      "tag": "dead"
+    }
+  ]
+}

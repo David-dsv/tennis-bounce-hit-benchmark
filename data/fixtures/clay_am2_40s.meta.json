@@ -1,0 +1,21 @@
+{
+  "clip": "clay_am2_40s",
+  "video": "clay_am2_40s (live canonical run)",
+  "fps": 59.94005994005994,
+  "width": 1920,
+  "height": 1080,
+  "frames": 2639,
+  "start_frame": 0,
+  "source_dump": "data/gt_clips/dumps/clay_am2_40s_methodo.json",
+  "source_dump_sha256": "4f14817fd0c96428ba950866a9dd59d3fc05cde7fa7514b02413cfdfeb7987ed",
+  "wasb_source": null,
+  "built_at": "2026-09-05T15:05:05+00:00",
+  "git_head": "287d951",
+  "builder": "scripts/rebuild_event_cache_from_dump.py",
+  "coverage": {
+    "ball_raw": 0.537324744221296,
+    "ball_spline": 0.6180371352785146,
+    "pose_ge2": 1.0
+  },
+  "note": "Frozen replay snapshot of live methodo inputs. Rebuild from a fresh live dump after any pose/tracking/candidate change \u2014 a stale cache lies in both directions."
+}

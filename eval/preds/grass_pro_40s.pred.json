@@ -1,0 +1,213 @@
+{
+ "video": "grass_pro_40s.mp4",
+ "fps": 60.0,
+ "frame_range": [
+  0,
+  1322
+ ],
+ "speed_source": "scalar",
+ "bounces": [
+  {
+   "frame": 49,
+   "x": 1055,
+   "y": 611,
+   "depth": "short",
+   "confidence": 0.4
+  },
+  {
+   "frame": 145,
+   "x": 1044,
+   "y": 314,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 206,
+   "x": 1341,
+   "y": 680,
+   "depth": "mid",
+   "confidence": 0.4
+  },
+  {
+   "frame": 233,
+   "x": 1616,
+   "y": 883,
+   "depth": "deep",
+   "confidence": 1.0
+  },
+  {
+   "frame": 430,
+   "x": 652,
+   "y": 585,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 470,
+   "x": 394,
+   "y": 852,
+   "depth": "deep",
+   "confidence": 0.4
+  },
+  {
+   "frame": 540,
+   "x": 1117,
+   "y": 300,
+   "depth": "deep",
+   "confidence": 1.0
+  },
+  {
+   "frame": 633,
+   "x": 770,
+   "y": 501,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 728,
+   "x": 648,
+   "y": 323,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 828,
+   "x": 822,
+   "y": 653,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 959,
+   "x": 1136,
+   "y": 710,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 989,
+   "x": 1180,
+   "y": 807,
+   "depth": "deep",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1109,
+   "x": 702,
+   "y": 645,
+   "depth": "mid",
+   "confidence": 1.0
+  }
+ ],
+ "shots": [
+  {
+   "frame": 32,
+   "x": 927,
+   "y": 130,
+   "player_side": "far",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 65,
+   "x": 1201,
+   "y": 746,
+   "player_side": "near",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 167,
+   "x": 1053,
+   "y": 215,
+   "player_side": "far",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 396,
+   "x": 772,
+   "y": 172,
+   "player_side": "far",
+   "stroke": "unknown",
+   "confidence": 1.0
+  },
+  {
+   "frame": 519,
+   "x": 1032,
+   "y": 250,
+   "player_side": "far",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 566,
+   "x": 1109,
+   "y": 167,
+   "player_side": "far",
+   "stroke": "unknown",
+   "confidence": 1.0
+  },
+  {
+   "frame": 593,
+   "x": 979,
+   "y": 186,
+   "player_side": "near",
+   "stroke": "unknown",
+   "confidence": 1.0
+  },
+  {
+   "frame": 676,
+   "x": 676,
+   "y": 537,
+   "player_side": "near",
+   "stroke": "unknown",
+   "confidence": 0.9
+  },
+  {
+   "frame": 740,
+   "x": 652,
+   "y": 214,
+   "player_side": "far",
+   "stroke": "unknown",
+   "confidence": 1.0
+  },
+  {
+   "frame": 786,
+   "x": 706,
+   "y": 197,
+   "player_side": "far",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 860,
+   "x": 876,
+   "y": 559,
+   "player_side": "near",
+   "stroke": "unknown",
+   "confidence": 1.0
+  },
+  {
+   "frame": 932,
+   "x": 1088,
+   "y": 375,
+   "player_side": "far",
+   "stroke": "unknown",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1140,
+   "x": 660,
+   "y": 530,
+   "player_side": "near",
+   "stroke": "backhand",
+   "confidence": 1.0
+  }
+ ],
+ "_provenance": {
+  "source_file": "data/output/grass_pro_40s_annotated_stats.json",
+  "source_sha256": "5629a2b3e10151dba4e4cb5bbb82757d9f0298e475b6692220331ad3ae3666bf",
+  "note": "Frozen pipeline output used for the paper's single test-split scoring (2026-09-07); stripped to event fields."
+ }
+}

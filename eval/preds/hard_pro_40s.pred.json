@@ -1,0 +1,345 @@
+{
+ "video": "hard_pro_40s.mp4",
+ "fps": 60.0,
+ "frame_range": [
+  0,
+  2581
+ ],
+ "speed_source": "scalar",
+ "bounces": [
+  {
+   "frame": 107,
+   "x": 887,
+   "y": 439,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 130,
+   "x": 829,
+   "y": 434,
+   "depth": "short",
+   "confidence": 0.67
+  },
+  {
+   "frame": 150,
+   "x": 770,
+   "y": 417,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 379,
+   "x": 864,
+   "y": 593,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 466,
+   "x": 916,
+   "y": 467,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 533,
+   "x": 1472,
+   "y": 664,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 608,
+   "x": 967,
+   "y": 475,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 669,
+   "x": 491,
+   "y": 608,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 817,
+   "x": 1415,
+   "y": 641,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 904,
+   "x": 690,
+   "y": 465,
+   "depth": "short",
+   "confidence": 0.8
+  },
+  {
+   "frame": 1092,
+   "x": 1015,
+   "y": 518,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1124,
+   "x": 1010,
+   "y": 507,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1243,
+   "x": 1058,
+   "y": 589,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1302,
+   "x": 1062,
+   "y": 465,
+   "depth": "short",
+   "confidence": 0.4
+  },
+  {
+   "frame": 1386,
+   "x": 1723,
+   "y": 795,
+   "depth": "deep",
+   "confidence": 0.67
+  },
+  {
+   "frame": 1704,
+   "x": 1040,
+   "y": 464,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1796,
+   "x": 662,
+   "y": 586,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1863,
+   "x": 1122,
+   "y": 472,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1938,
+   "x": 1610,
+   "y": 691,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2089,
+   "x": 920,
+   "y": 439,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2255,
+   "x": 1044,
+   "y": 584,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2426,
+   "x": 1338,
+   "y": 565,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2489,
+   "x": 1311,
+   "y": 526,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2527,
+   "x": 1308,
+   "y": 532,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2557,
+   "x": 1305,
+   "y": 538,
+   "depth": "short",
+   "confidence": 1.0
+  }
+ ],
+ "shots": [
+  {
+   "frame": 8,
+   "x": 1018,
+   "y": 419,
+   "player_side": "far",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 54,
+   "x": 1290,
+   "y": 636,
+   "player_side": "near",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 95,
+   "x": 917,
+   "y": 426,
+   "player_side": "far",
+   "stroke": "unknown",
+   "confidence": 1.0
+  },
+  {
+   "frame": 233,
+   "x": 828,
+   "y": 435,
+   "player_side": "near",
+   "stroke": "unknown",
+   "confidence": 1.0
+  },
+  {
+   "frame": 296,
+   "x": 1029,
+   "y": 316,
+   "player_side": "far",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 399,
+   "x": 589,
+   "y": 589,
+   "player_side": "near",
+   "stroke": "unknown",
+   "confidence": 0.4
+  },
+  {
+   "frame": 500,
+   "x": 978,
+   "y": 363,
+   "player_side": "near",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 754,
+   "x": 1068,
+   "y": 431,
+   "player_side": "far",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 856,
+   "x": 1097,
+   "y": 407,
+   "player_side": "near",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1264,
+   "x": 1241,
+   "y": 444,
+   "player_side": "near",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1321,
+   "x": 1049,
+   "y": 414,
+   "player_side": "near",
+   "stroke": "unknown",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1762,
+   "x": 1051,
+   "y": 296,
+   "player_side": "far",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1815,
+   "x": 253,
+   "y": 487,
+   "player_side": "near",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1851,
+   "x": 1059,
+   "y": 427,
+   "player_side": "far",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1886,
+   "x": 1171,
+   "y": 415,
+   "player_side": "far",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2109,
+   "x": 912,
+   "y": 379,
+   "player_side": "far",
+   "stroke": "unknown",
+   "confidence": 0.87
+  },
+  {
+   "frame": 2273,
+   "x": 1377,
+   "y": 557,
+   "player_side": "near",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2341,
+   "x": 908,
+   "y": 369,
+   "player_side": "far",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2439,
+   "x": 1418,
+   "y": 540,
+   "player_side": "near",
+   "stroke": "backhand",
+   "confidence": 1.0
+  }
+ ],
+ "_provenance": {
+  "source_file": "data/output/hard_pro_40s_annotated_stats.json",
+  "source_sha256": "4c6e0638d68d99676b790c5f5e43cf56325be878e4324f4bcb7ee8437c18ef5d",
+  "note": "Frozen pipeline output used for the paper's single test-split scoring (2026-09-07); stripped to event fields."
+ }
+}

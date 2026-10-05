@@ -1,0 +1,238 @@
+{
+ "video": "clay_am2_40s.mp4",
+ "fps": 59.94005994005994,
+ "frame_range": [
+  0,
+  2639
+ ],
+ "speed_source": "scalar",
+ "bounces": [
+  {
+   "frame": 373,
+   "x": 836,
+   "y": 676,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 568,
+   "x": 732,
+   "y": 715,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 785,
+   "x": 934,
+   "y": 577,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1588,
+   "x": 677,
+   "y": 734,
+   "depth": "mid",
+   "confidence": 0.67
+  },
+  {
+   "frame": 1751,
+   "x": 699,
+   "y": 571,
+   "depth": "short",
+   "confidence": 0.67
+  },
+  {
+   "frame": 1852,
+   "x": 0,
+   "y": 689,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1888,
+   "x": 219,
+   "y": 725,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2059,
+   "x": 283,
+   "y": 488,
+   "depth": "short",
+   "confidence": 0.8
+  },
+  {
+   "frame": 2102,
+   "x": 940,
+   "y": 417,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2201,
+   "x": 808,
+   "y": 588,
+   "depth": "short",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2411,
+   "x": 1092,
+   "y": 690,
+   "depth": "mid",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2467,
+   "x": 832,
+   "y": 444,
+   "depth": "short",
+   "confidence": 1.0
+  }
+ ],
+ "shots": [
+  {
+   "frame": 196,
+   "x": 1485,
+   "y": 526,
+   "player_side": "near",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 231,
+   "x": 1459,
+   "y": 496,
+   "player_side": "near",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 292,
+   "x": 1327,
+   "y": 593,
+   "player_side": "near",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 341,
+   "x": 1151,
+   "y": 646,
+   "player_side": "near",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 386,
+   "x": 864,
+   "y": 634,
+   "player_side": "near",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 589,
+   "x": 542,
+   "y": 686,
+   "player_side": "near",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 837,
+   "x": 891,
+   "y": 693,
+   "player_side": "near",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1601,
+   "x": 638,
+   "y": 718,
+   "player_side": "near",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1792,
+   "x": 145,
+   "y": 703,
+   "player_side": "near",
+   "stroke": "unknown",
+   "confidence": 1.0
+  },
+  {
+   "frame": 1911,
+   "x": 394,
+   "y": 669,
+   "player_side": "near",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2015,
+   "x": 624,
+   "y": 669,
+   "player_side": "near",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2083,
+   "x": 927,
+   "y": 376,
+   "player_side": "far",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2237,
+   "x": 646,
+   "y": 597,
+   "player_side": "near",
+   "stroke": "unknown",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2303,
+   "x": 1068,
+   "y": 392,
+   "player_side": "far",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2374,
+   "x": 850,
+   "y": 634,
+   "player_side": "near",
+   "stroke": "forehand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2423,
+   "x": 960,
+   "y": 487,
+   "player_side": "near",
+   "stroke": "backhand",
+   "confidence": 1.0
+  },
+  {
+   "frame": 2574,
+   "x": 1334,
+   "y": 610,
+   "player_side": "near",
+   "stroke": "forehand",
+   "confidence": 1.0
+  }
+ ],
+ "_provenance": {
+  "source_file": "data/output/clay_am2_40s_annotated_stats.json",
+  "source_sha256": "16c426d804e9153bbf05f903ae60e76d07b7e3ee21083178666da1839fadc545",
+  "note": "Frozen pipeline output used for the paper's single test-split scoring (2026-09-07); stripped to event fields."
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "_doc": "Manifest for eval/eval_multiclip.py. Paths are relative to this file. Replace 'pred' with your own system's prediction files (same layout).",
+ "clips": [
+  {
+   "clip": "tennis_demo3",
+   "pred": "preds/tennis_demo3.pred.json",
+   "gt": "../data/gt/tennis_demo3.events_gt.json",
+   "split": "dev",
+   "camera": "broadcast oblique, pro rally",
+   "fps": 50.0
+  },
+  {
+   "clip": "felix",
+   "pred": "preds/felix.pred.json",
+   "gt": "../data/gt/felix.events_gt.json",
+   "split": "dev",
+   "camera": "static phone, grazing angle, amateur"
+  },
+  {
+   "clip": "clay_am_40s",
+   "pred": "preds/clay_am_40s.pred.json",
+   "gt": "../data/gt/clay_am_40s.events_gt.json",
+   "split": "dev",
+   "camera": "fixed camera, indoor clay, amateur"
+  },
+  {
+   "clip": "hard_pro_40s",
+   "pred": "preds/hard_pro_40s.pred.json",
+   "gt": "../data/gt/hard_pro_40s.events_gt.json",
+   "split": "dev",
+   "camera": "court-level practice, pro (near-only)"
+  },
+  {
+   "clip": "clay_pro_40s",
+   "pred": "preds/clay_pro_40s.pred.json",
+   "gt": "../data/gt/clay_pro_40s.events_gt.json",
+   "split": "test",
+   "camera": "broadcast, clay, pro"
+  },
+  {
+   "clip": "clay_am2_40s",
+   "pred": "preds/clay_am2_40s.pred.json",
+   "gt": "../data/gt/clay_am2_40s.events_gt.json",
+   "split": "test",
+   "camera": "elevated fixed camera, outdoor clay, amateur"
+  },
+  {
+   "clip": "grass_pro_40s",
+   "pred": "preds/grass_pro_40s.pred.json",
+   "gt": "../data/gt/grass_pro_40s.events_gt.json",
+   "split": "test",
+   "camera": "broadcast compilation, grass, pro"
+  },
+  {
+   "clip": "grass_am_40s",
+   "pred": "preds/grass_am_40s.pred.json",
+   "gt": "../data/gt/grass_am_40s.events_gt.json",
+   "split": "test",
+   "camera": "low-angle amateur, grass (near-only)"
+  }
+ ]
+}
