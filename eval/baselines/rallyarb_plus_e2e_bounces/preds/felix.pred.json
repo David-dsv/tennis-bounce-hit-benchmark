@@ -1,0 +1,91 @@
+{
+ "video": "felix",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 38,
+   "label": "HIT"
+  },
+  {
+   "frame": 160,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 182,
+   "label": "HIT"
+  },
+  {
+   "frame": 245,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 329,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 374,
+   "label": "HIT"
+  },
+  {
+   "frame": 430,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 449,
+   "label": "HIT"
+  },
+  {
+   "frame": 509,
+   "label": "HIT"
+  },
+  {
+   "frame": 884,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 941,
+   "label": "HIT"
+  },
+  {
+   "frame": 1140,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1159,
+   "label": "HIT"
+  },
+  {
+   "frame": 1253,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1347,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1440,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1458,
+   "label": "HIT"
+  },
+  {
+   "frame": 1519,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1666,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1795,
+   "label": "BOUNCE"
+  }
+ ],
+ "date": "2026-10-18",
+ "_provenance": {
+  "from": "docs/research/fusion/preds/e2e_B/felix.pred.json",
+  "row": "rallyarb_plus_e2e_bounces"
+ }
+}

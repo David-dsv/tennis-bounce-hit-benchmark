@@ -1,0 +1,378 @@
+{
+ "video": "clay_pro_40s.mp4",
+ "fps": 25.0,
+ "events": [
+  {
+   "frame": 14,
+   "label": "H",
+   "score": 0.874572,
+   "src_label": "far_court_serve",
+   "src_frame": 14
+  },
+  {
+   "frame": 28,
+   "label": "B",
+   "score": 0.990526,
+   "src_label": "near_court_bounce",
+   "src_frame": 28
+  },
+  {
+   "frame": 46,
+   "label": "H",
+   "score": 0.774413,
+   "src_label": "near_court_swing",
+   "src_frame": 46
+  },
+  {
+   "frame": 69,
+   "label": "B",
+   "score": 0.974096,
+   "src_label": "far_court_bounce",
+   "src_frame": 69
+  },
+  {
+   "frame": 76,
+   "label": "H",
+   "score": 0.960487,
+   "src_label": "far_court_swing",
+   "src_frame": 76
+  },
+  {
+   "frame": 99,
+   "label": "B",
+   "score": 0.978365,
+   "src_label": "near_court_bounce",
+   "src_frame": 99
+  },
+  {
+   "frame": 111,
+   "label": "H",
+   "score": 0.972686,
+   "src_label": "near_court_swing",
+   "src_frame": 111
+  },
+  {
+   "frame": 130,
+   "label": "B",
+   "score": 0.949534,
+   "src_label": "far_court_bounce",
+   "src_frame": 130
+  },
+  {
+   "frame": 138,
+   "label": "H",
+   "score": 0.708907,
+   "src_label": "far_court_swing",
+   "src_frame": 138
+  },
+  {
+   "frame": 160,
+   "label": "B",
+   "score": 0.983801,
+   "src_label": "near_court_bounce",
+   "src_frame": 160
+  },
+  {
+   "frame": 167,
+   "label": "H",
+   "score": 0.973206,
+   "src_label": "near_court_swing",
+   "src_frame": 167
+  },
+  {
+   "frame": 187,
+   "label": "B",
+   "score": 0.986125,
+   "src_label": "far_court_bounce",
+   "src_frame": 187
+  },
+  {
+   "frame": 200,
+   "label": "H",
+   "score": 0.856459,
+   "src_label": "far_court_swing",
+   "src_frame": 200
+  },
+  {
+   "frame": 234,
+   "label": "B",
+   "score": 0.748541,
+   "src_label": "near_court_bounce",
+   "src_frame": 234
+  },
+  {
+   "frame": 247,
+   "label": "H",
+   "score": 0.981003,
+   "src_label": "near_court_swing",
+   "src_frame": 247
+  },
+  {
+   "frame": 259,
+   "label": "B",
+   "score": 0.765116,
+   "src_label": "far_court_bounce",
+   "src_frame": 259
+  },
+  {
+   "frame": 357,
+   "label": "B",
+   "score": 0.903074,
+   "src_label": "near_court_bounce",
+   "src_frame": 357
+  },
+  {
+   "frame": 366,
+   "label": "H",
+   "score": 0.985211,
+   "src_label": "near_court_swing",
+   "src_frame": 366
+  },
+  {
+   "frame": 382,
+   "label": "B",
+   "score": 0.932329,
+   "src_label": "far_court_bounce",
+   "src_frame": 382
+  },
+  {
+   "frame": 392,
+   "label": "H",
+   "score": 0.541392,
+   "src_label": "far_court_swing",
+   "src_frame": 392
+  },
+  {
+   "frame": 413,
+   "label": "B",
+   "score": 0.961689,
+   "src_label": "near_court_bounce",
+   "src_frame": 413
+  },
+  {
+   "frame": 426,
+   "label": "H",
+   "score": 0.917583,
+   "src_label": "near_court_swing",
+   "src_frame": 426
+  },
+  {
+   "frame": 443,
+   "label": "B",
+   "score": 0.974481,
+   "src_label": "far_court_bounce",
+   "src_frame": 443
+  },
+  {
+   "frame": 453,
+   "label": "H",
+   "score": 0.983105,
+   "src_label": "far_court_swing",
+   "src_frame": 453
+  },
+  {
+   "frame": 476,
+   "label": "B",
+   "score": 0.982821,
+   "src_label": "near_court_bounce",
+   "src_frame": 476
+  },
+  {
+   "frame": 490,
+   "label": "H",
+   "score": 0.847273,
+   "src_label": "near_court_swing",
+   "src_frame": 490
+  },
+  {
+   "frame": 507,
+   "label": "B",
+   "score": 0.81658,
+   "src_label": "far_court_bounce",
+   "src_frame": 507
+  },
+  {
+   "frame": 518,
+   "label": "H",
+   "score": 0.75972,
+   "src_label": "far_court_swing",
+   "src_frame": 518
+  },
+  {
+   "frame": 537,
+   "label": "B",
+   "score": 0.776247,
+   "src_label": "near_court_bounce",
+   "src_frame": 537
+  },
+  {
+   "frame": 544,
+   "label": "H",
+   "score": 0.955233,
+   "src_label": "near_court_swing",
+   "src_frame": 544
+  },
+  {
+   "frame": 565,
+   "label": "B",
+   "score": 0.967421,
+   "src_label": "far_court_bounce",
+   "src_frame": 565
+  },
+  {
+   "frame": 574,
+   "label": "H",
+   "score": 0.893406,
+   "src_label": "far_court_swing",
+   "src_frame": 574
+  },
+  {
+   "frame": 595,
+   "label": "B",
+   "score": 0.87501,
+   "src_label": "near_court_bounce",
+   "src_frame": 595
+  },
+  {
+   "frame": 610,
+   "label": "H",
+   "score": 0.918612,
+   "src_label": "near_court_swing",
+   "src_frame": 610
+  },
+  {
+   "frame": 646,
+   "label": "B",
+   "score": 0.916443,
+   "src_label": "far_court_bounce",
+   "src_frame": 646
+  },
+  {
+   "frame": 665,
+   "label": "H",
+   "score": 0.952982,
+   "src_label": "far_court_swing",
+   "src_frame": 665
+  },
+  {
+   "frame": 696,
+   "label": "B",
+   "score": 0.555355,
+   "src_label": "near_court_bounce",
+   "src_frame": 696
+  },
+  {
+   "frame": 873,
+   "label": "H",
+   "score": 0.969271,
+   "src_label": "near_court_serve",
+   "src_frame": 873
+  },
+  {
+   "frame": 885,
+   "label": "B",
+   "score": 0.852732,
+   "src_label": "far_court_bounce",
+   "src_frame": 885
+  },
+  {
+   "frame": 894,
+   "label": "H",
+   "score": 0.645112,
+   "src_label": "far_court_swing",
+   "src_frame": 894
+  },
+  {
+   "frame": 912,
+   "label": "B",
+   "score": 0.797116,
+   "src_label": "near_court_bounce",
+   "src_frame": 912
+  },
+  {
+   "frame": 923,
+   "label": "H",
+   "score": 0.988741,
+   "src_label": "near_court_swing",
+   "src_frame": 923
+  },
+  {
+   "frame": 942,
+   "label": "B",
+   "score": 0.98609,
+   "src_label": "far_court_bounce",
+   "src_frame": 942
+  },
+  {
+   "frame": 949,
+   "label": "H",
+   "score": 0.971285,
+   "src_label": "far_court_swing",
+   "src_frame": 949
+  },
+  {
+   "frame": 978,
+   "label": "B",
+   "score": 0.84077,
+   "src_label": "near_court_bounce",
+   "src_frame": 978
+  },
+  {
+   "frame": 988,
+   "label": "H",
+   "score": 0.949307,
+   "src_label": "near_court_swing",
+   "src_frame": 988
+  },
+  {
+   "frame": 1003,
+   "label": "B",
+   "score": 0.973873,
+   "src_label": "far_court_bounce",
+   "src_frame": 1003
+  },
+  {
+   "frame": 1015,
+   "label": "H",
+   "score": 0.933044,
+   "src_label": "far_court_swing",
+   "src_frame": 1015
+  },
+  {
+   "frame": 1035,
+   "label": "B",
+   "score": 0.988225,
+   "src_label": "near_court_bounce",
+   "src_frame": 1035
+  },
+  {
+   "frame": 1041,
+   "label": "H",
+   "score": 0.977704,
+   "src_label": "near_court_swing",
+   "src_frame": 1041
+  }
+ ],
+ "source": {
+  "format": "e2e",
+  "video_id": "clay_pro_40s_native",
+  "spot_fps": 25.0,
+  "stride": 1,
+  "offset": 0,
+  "score_threshold": 0.5,
+  "nms_window_spot_frames": 4,
+  "classes": {
+   "far_court_bounce": "B",
+   "near_court_bounce": "B",
+   "far_court_swing": "H",
+   "near_court_swing": "H",
+   "far_court_serve": "H",
+   "near_court_serve": "H"
+  },
+  "file": "/Users/vuong/Documents/CourtSide-CV/data/output/spot/e2e_rny008_test/pred-test.json"
+ },
+ "_provenance": {
+  "from": "docs/research/learned-spotting/fusion/clay_pro_40s.e2e.pred.json",
+  "row": "camera_rule"
+ }
+}

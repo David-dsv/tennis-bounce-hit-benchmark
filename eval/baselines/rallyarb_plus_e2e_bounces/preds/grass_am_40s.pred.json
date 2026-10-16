@@ -1,0 +1,111 @@
+{
+ "video": "grass_am_40s",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 314,
+   "label": "HIT"
+  },
+  {
+   "frame": 431,
+   "label": "HIT"
+  },
+  {
+   "frame": 563,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 576,
+   "label": "HIT"
+  },
+  {
+   "frame": 1099,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1113,
+   "label": "HIT"
+  },
+  {
+   "frame": 1174,
+   "label": "HIT"
+  },
+  {
+   "frame": 1300,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1393,
+   "label": "HIT"
+  },
+  {
+   "frame": 1432,
+   "label": "HIT"
+  },
+  {
+   "frame": 1559,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1574,
+   "label": "HIT"
+  },
+  {
+   "frame": 1675,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1697,
+   "label": "HIT"
+  },
+  {
+   "frame": 1719,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1739,
+   "label": "HIT"
+  },
+  {
+   "frame": 1803,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1955,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1973,
+   "label": "HIT"
+  },
+  {
+   "frame": 2023,
+   "label": "HIT"
+  },
+  {
+   "frame": 2134,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 2185,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 2274,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 2291,
+   "label": "HIT"
+  },
+  {
+   "frame": 2472,
+   "label": "HIT"
+  }
+ ],
+ "date": "2026-10-18",
+ "_provenance": {
+  "from": "docs/research/fusion/preds/e2e_B/grass_am_40s.pred.json",
+  "row": "rallyarb_plus_e2e_bounces"
+ }
+}

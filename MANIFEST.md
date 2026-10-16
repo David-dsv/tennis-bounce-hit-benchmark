@@ -1,7 +1,7 @@
 # MANIFEST
 
-Benchmark release built 2026-10-05 from the CourtSide-CV repository (branch `feat/accuracy-overhaul`).
-**47 files, 32.0 MB total** (31,953,891 bytes). Nothing in this directory is a video or an image.
+Benchmark release built 2026-10-05 from the CourtSide-CV repository (branch `feat/accuracy-overhaul`), **updated 2026-10-16/18 with the external baseline rows and the pre-registered fusion row** (`eval/baselines/`).
+**128 files, 32.2 MB total** (32,227,277 bytes), plus this manifest. Nothing in this directory is a video or an image.
 
 ## Contents
 
@@ -9,13 +9,16 @@ Benchmark release built 2026-10-05 from the CourtSide-CV repository (branch `fea
 |---|---|---|---|
 | `data/gt/` | ground-truth sidecars (8 clips, 345 events) | 8 | 0.03 MB |
 | `data/fixtures/` | replay fixtures (ball centres + poses + is_real) and meta headers | 16 | 31.79 MB |
-| `eval/preds/` | frozen reference predictions (stripped to event fields) | 8 | 0.03 MB |
+| `data/ (policy)` | annotation policy | 1 | 0.00 MB |
+| `eval/preds/` | frozen RallyArb reference predictions (stripped to event fields) | 8 | 0.03 MB |
 | `eval/expected/` | harness reports on eval/preds (4 views) | 4 | 0.03 MB |
-| `eval/` | harness code + manifest + README (excluding preds/expected) | 4 | 0.03 MB |
+| `eval/` | harness code + manifest + README (excluding preds/expected/baselines) | 4 | 0.03 MB |
+| `eval/baselines/` | external reference rows: 7 manifests + 56 stripped predictions + README + pre-registered PROTOCOL | 66 | 0.19 MB |
+| `eval/baselines/expected/` | harness reports on the baseline rows (dev/test rally-only) + summary | 15 | 0.09 MB |
 | `annotation/` | double-annotation kit | 2 | 0.02 MB |
 | `./` | top-level docs + licenses | 4 | 0.02 MB |
 
-Not included (size / scope): `tests/fixtures/events/<clip>/<clip>_pose.json` (the shot-detector cache: spline-smoothed ball centres + the SAME poses as `_event.json`, ~31 MB more, derivable from `_event.json`), the raw detection dumps, the paper's figures. The full `_annotated_stats.json` outputs (per-frame tracks, speeds, movement) were stripped to the event fields the evaluator reads; the sha256 of each original is in the pred file's `_provenance`.
+Not included (size / scope): `tests/fixtures/events/<clip>/<clip>_pose.json` (the shot-detector cache: spline-smoothed ball centres + the SAME poses as `_event.json`, ~31 MB more, derivable from `_event.json`), the raw detection dumps, the paper's figures, the upstream models' weights/code and raw outputs (VLM transcripts, per-frame score tensors). The full `_annotated_stats.json` outputs (per-frame tracks, speeds, movement) were stripped to the event fields the evaluator reads; the sha256 of each original is in the pred file's `_provenance`.
 
 ## Reproduction commands (run from this directory)
 
@@ -24,6 +27,8 @@ python eval/eval_multiclip.py --manifest eval/manifest.json --split test --exclu
 #   -> pooled bounce F1 0.621 / hit F1 0.459, H>B 4, B>H 4, spurious 26, ignored 11  (== eval/expected/test_rally_only.json)
 python eval/eval_multiclip.py --manifest eval/manifest.json --split dev  --exclude-tags serve,toss,far,dead,offscreen,replay
 #   -> pooled bounce F1 0.852 / hit F1 0.646, H>B 1, B>H 4, spurious 16  (== eval/expected/dev_rally_only.json)
+python eval/eval_multiclip.py --manifest eval/baselines/e2e_spot_rny002_loco/manifest.json --split test --exclude-tags serve,toss,far,dead,offscreen,replay
+#   -> pooled bounce F1 0.846 / hit F1 0.941, spurious 7, confusions 0  (== eval/baselines/expected/e2e_spot_rny002_loco_test_rally_only.json)
 python annotation/agreement.py data/gt/clay_am_40s.events_gt.json data/gt/clay_am_40s.events_gt.json
 #   -> F1 1.000 / 1.000, kappa 1.000, 0 only-in-either (self-test)
 ```
@@ -34,7 +39,7 @@ python annotation/agreement.py data/gt/clay_am_40s.events_gt.json data/gt/clay_a
 |---|---|---|
 | `LICENSE-CODE` | 1,408 | `df15c5cd9a9e080706eb317ef3d7defc533bbf8d2295441f56234930e6777d22` |
 | `LICENSE-DATA` | 2,332 | `0f4d10d6a8c752c1de81d44f4cf05c5d3ee8b6864969ddca930eec13764e2bad` |
-| `README.md` | 10,752 | `de417b67c408d48e6369049351716bebfbd511b963394e44c167e22a08da5bb5` |
+| `README.md` | 11,455 | `ec76747c311fa2331b24e46a1e0e4108c1bb5105acb2d47440d8d5b67048336f` |
 | `SOURCES.md` | 4,893 | `23f0509f2c771f8ec51ecef73b984957a26f5613398feda6e6ada32471376254` |
 | `annotation/PROTOCOL.md` | 6,254 | `8c1ad867cd7952349f3a97e97d904393063cb4730a4d66ad580e84915b91c8fb` |
 | `annotation/agreement.py` | 14,689 | `f8a6fb3b30e356ac3a3052671c718f6aaba505f6ba2ddf3d91c2c9b53f44c953` |
@@ -63,7 +68,88 @@ python annotation/agreement.py data/gt/clay_am_40s.events_gt.json data/gt/clay_a
 | `data/gt/grass_pro_40s.events_gt.json` | 2,742 | `64f643db296dc540f19cbbd4c22a2b20e2b229c21ca09a338213deac26da468f` |
 | `data/gt/hard_pro_40s.events_gt.json` | 5,221 | `b154d2d6d9687b81c4f0aeb84054cd9a5b4805d05082a5c21e5b3f9ce960b5ea` |
 | `data/gt/tennis_demo3.events_gt.json` | 1,909 | `5dc9f347dd80dc4c8333e3077748ead1f9ad01a58da843256cc41b6f41c338c1` |
-| `eval/README.md` | 4,098 | `e257af340a067077b5028c3d592082e9f8c3a7deb392e1c5e77067e4e1302b01` |
+| `eval/README.md` | 4,276 | `db991f886ef9399a5b2aa9e8b5a8e02a9259a81e17bfc0ca4006cfc5566dd776` |
+| `eval/baselines/PROTOCOL.md` | 3,297 | `718b8045567c1a9511b0321e9b5d563ba2128d76787639796cd49953e83a8465` |
+| `eval/baselines/README.md` | 5,180 | `bf35e4cf190f5e5e6a258129e371307712295c8bfc973061d808451312d5f319` |
+| `eval/baselines/camera_rule/manifest.json` | 1,460 | `a359d957a86526f694cb25e6a5ec56b136324a31273236a126bcd5ae7d02e201` |
+| `eval/baselines/camera_rule/preds/clay_am2_40s.pred.json` | 4,068 | `6aeb70299c7ed8f3197130b4c954617e538d1d4fbb27a95fd4c9c7e362d3aa03` |
+| `eval/baselines/camera_rule/preds/clay_am_40s.pred.json` | 3,442 | `0e3775dba8756a1f15fe7de7bacc179881563dd6794bfe00aed277675b8d83b3` |
+| `eval/baselines/camera_rule/preds/clay_pro_40s.pred.json` | 6,690 | `9991f661fddf337aa7841d7eed60d9666eaf7af95105757cba10772cf4ce5c1a` |
+| `eval/baselines/camera_rule/preds/felix.pred.json` | 2,309 | `d90a97ad73ad6abf079f3b2d3c07e86b2a534f88dc821ecbfbdf558aa7af3395` |
+| `eval/baselines/camera_rule/preds/grass_am_40s.pred.json` | 2,992 | `5a123dc8ab8016b3f4f1c004c6d4b35d86317c230cd45cf7bbb10f38d86abc95` |
+| `eval/baselines/camera_rule/preds/grass_pro_40s.pred.json` | 3,543 | `f95ea0ba6282bd1fccb1b38dd4ac2a7f54e8e69ef61392c951837bf9f3a6198b` |
+| `eval/baselines/camera_rule/preds/hard_pro_40s.pred.json` | 4,943 | `89519c9f817b6f35ec4d5f151fe4beec21c4914381398c87654176b6a27572c3` |
+| `eval/baselines/camera_rule/preds/tennis_demo3.pred.json` | 2,804 | `3470061ea26d183f9eed9202a07127cb675e18a2b61049cfc38c8c4ed0c21070` |
+| `eval/baselines/e2e_spot_rny002_loco/manifest.json` | 1,594 | `1bd83a919e81f2a4b0d22c4baea343870c5420ddd789c8878c31724183b51ef2` |
+| `eval/baselines/e2e_spot_rny002_loco/preds/clay_am2_40s.pred.json` | 4,926 | `980d8f31d1e15f594ddfa05ad560ca9ec280c806bb17a8126a40d6579a207ce9` |
+| `eval/baselines/e2e_spot_rny002_loco/preds/clay_am_40s.pred.json` | 3,810 | `38b45caa62992ecf6ed6e8ebea164b3cd1212baac15b509896851969a25d7065` |
+| `eval/baselines/e2e_spot_rny002_loco/preds/clay_pro_40s.pred.json` | 6,306 | `48cd7c22d9d7a8c3af6d4d5876b1f5b025f8452dc9e2a1bfcea32e30a4d6d6b4` |
+| `eval/baselines/e2e_spot_rny002_loco/preds/felix.pred.json` | 1,352 | `6785359d51b4884216db12f129898a597abdb96d71175c1369c53f7792aaedf6` |
+| `eval/baselines/e2e_spot_rny002_loco/preds/grass_am_40s.pred.json` | 3,034 | `27d98e7bdccbe468afbbdc7bc2fb01b48689de941b4afe1404e27ca07ea81ea4` |
+| `eval/baselines/e2e_spot_rny002_loco/preds/grass_pro_40s.pred.json` | 3,456 | `73e4a57c4c57e85a91a7c8316a385daaf170bdab126623ffa6c21d06f76293f5` |
+| `eval/baselines/e2e_spot_rny002_loco/preds/hard_pro_40s.pred.json` | 4,342 | `534587e5425c7c49472ac3838007215bb3893c8838667e7efa059992f86ac8cc` |
+| `eval/baselines/e2e_spot_rny002_loco/preds/tennis_demo3.pred.json` | 2,574 | `5175de225f50d80a83c6bcbba9cb71d81741ad9849a2f2d8c94c84658682b708` |
+| `eval/baselines/e2e_spot_rny008/manifest.json` | 1,577 | `6bbf1442016a20876ab1e63eef06faecadd425c11ce42c9a1a0901934c715372` |
+| `eval/baselines/e2e_spot_rny008/preds/clay_am2_40s.pred.json` | 4,083 | `73c549b5e3c44d1d6b0397093fb4454bb4cea232a8f58aa196893409d5e24121` |
+| `eval/baselines/e2e_spot_rny008/preds/clay_am_40s.pred.json` | 3,457 | `438429066f8b2d544646d8fd412c723b528a19120562274f131c7072039154ab` |
+| `eval/baselines/e2e_spot_rny008/preds/clay_pro_40s.pred.json` | 6,705 | `c7e93c32d9731c8bd0d7f99825528990784ff6c14c626be5950f90e857e6a481` |
+| `eval/baselines/e2e_spot_rny008/preds/felix.pred.json` | 752 | `0317bfbb812aa253e9988d33bb8546a5093d2e75bfefe4cd5af2b816ab30e8c1` |
+| `eval/baselines/e2e_spot_rny008/preds/grass_am_40s.pred.json` | 1,264 | `290fe5155f04f2865c89f0bf516d9484f2e75314cfcd4fb39fb9ae782ea01d3d` |
+| `eval/baselines/e2e_spot_rny008/preds/grass_pro_40s.pred.json` | 3,558 | `e3231c5ec155b3fcc16cebab63dc4bf63d3a5e4f88095b930ddcb4357d0f93d5` |
+| `eval/baselines/e2e_spot_rny008/preds/hard_pro_40s.pred.json` | 901 | `b7ed4c84f0d3cc66d60249b95d598acfb2e2160d2d9d3c860771881097231cb4` |
+| `eval/baselines/e2e_spot_rny008/preds/tennis_demo3.pred.json` | 2,819 | `3623ec68690a848a9bb7191b05bf4d91aa9feb5f43c9317ee9267fa878f26940` |
+| `eval/baselines/expected/camera_rule_dev_rally_only.json` | 4,950 | `00fa720274ea76b4ef3f3e210c14259a735a49acce4554744c4a2d166330b0c2` |
+| `eval/baselines/expected/camera_rule_test_rally_only.json` | 4,349 | `6942f787142264be871342263ac512697438e8f9988d0dc43b0c622d52f0d747` |
+| `eval/baselines/expected/e2e_spot_rny002_loco_dev_rally_only.json` | 4,967 | `016857dd464c9d14f5117b916cada73e33a0bb607920478a39a516f1aa295dd1` |
+| `eval/baselines/expected/e2e_spot_rny002_loco_test_rally_only.json` | 4,668 | `ce0876e65ec17f3cdc88965370638b193f9d11fdd38684a2639c1ac357815dc7` |
+| `eval/baselines/expected/e2e_spot_rny008_dev_rally_only.json` | 4,309 | `6a7d4142de9040046e112f2aa6324ebea20370121844adb6ef68c24cedc74136` |
+| `eval/baselines/expected/e2e_spot_rny008_test_rally_only.json` | 4,092 | `e418e48c18bfa64950252bd70a089eaaa565f76c4a891a0506a0c2ddc2e8f030` |
+| `eval/baselines/expected/rallyarb_plus_e2e_bounces_dev_rally_only.json` | 5,471 | `796fa0083cd2c146762164571250e0add10751f51fed65424c4af522be585995` |
+| `eval/baselines/expected/rallyarb_plus_e2e_bounces_test_rally_only.json` | 5,572 | `03f190aab18dafbf1f86a254c519f569f72471ce516cb6c6f6ee255c908dc29d` |
+| `eval/baselines/expected/summary.json` | 1,336 | `02071d35f09e526a606bac605bbdb238796503fa8917cd5c6189497938bb0a1f` |
+| `eval/baselines/expected/tdeed_small_dev_rally_only.json` | 4,448 | `5711ebecfd6104fe657095b196fd00ff6c772c8a96ce95436bbec3a168b4e054` |
+| `eval/baselines/expected/tdeed_small_test_rally_only.json` | 4,350 | `79b1b9102961c8726128d3809052d1c722d8bd0fb512c50a148a80d5421b0a4d` |
+| `eval/baselines/expected/vlm_gemini-3.8-flash_dev_rally_only.json` | 6,178 | `abb9747d9d8817a898ea76d1c7cb35276325ac5adad59fbb4d1ba0e8295ca771` |
+| `eval/baselines/expected/vlm_gemini-3.8-flash_test_rally_only.json` | 6,855 | `ad9da8f54509673f4a3cceebfc92e1410c3f871586874bb44bc4894e587e9371` |
+| `eval/baselines/expected/vlm_qwen3-vl-235b_dev_rally_only.json` | 11,905 | `fed723037802dfa5c6090b117c68aab80f5c7fedbe14cc10aded721012d40713` |
+| `eval/baselines/expected/vlm_qwen3-vl-235b_test_rally_only.json` | 13,732 | `491c1496a572171622a461d778ca858a6b10fc7047378a153cceabc63191bc63` |
+| `eval/baselines/rallyarb_plus_e2e_bounces/PROTOCOL.md` | 3,849 | `2f55cb7f9b31fbad7669004257e63a8e0c2d6524a9df0d9d99aed64c903475d6` |
+| `eval/baselines/rallyarb_plus_e2e_bounces/manifest.json` | 1,458 | `3d73f3065aa243395716c4bf2ab224e61435e86d4cd4332af45909590a5203d3` |
+| `eval/baselines/rallyarb_plus_e2e_bounces/preds/clay_am2_40s.pred.json` | 1,554 | `8fd41ee62670d25d814e0254b3e3e11d3eec203046ed3921648192c006891ea5` |
+| `eval/baselines/rallyarb_plus_e2e_bounces/preds/clay_am_40s.pred.json` | 2,293 | `71e0c895a164fd99ffb8c975a96677c2e6c0f649034165a0e2d8cd257711150c` |
+| `eval/baselines/rallyarb_plus_e2e_bounces/preds/clay_pro_40s.pred.json` | 1,902 | `8668e20c0b7605ab7573809245a20e146c0f6a33f5c31add782188db67b4ff35` |
+| `eval/baselines/rallyarb_plus_e2e_bounces/preds/felix.pred.json` | 1,120 | `ea886def7ccfb6ea7cb973f51558922129d16422034c3ccc7c48e306b389400a` |
+| `eval/baselines/rallyarb_plus_e2e_bounces/preds/grass_am_40s.pred.json` | 1,364 | `1067e2b8b95bed7767b16a870fc63ba3c1f0a7cf5c8adee93627b4765810908f` |
+| `eval/baselines/rallyarb_plus_e2e_bounces/preds/grass_pro_40s.pred.json` | 1,442 | `4b0c2b75bd9ce860f66cffe5661c6ab8a3a3265a7eb8b3c8c3ba90db5056177c` |
+| `eval/baselines/rallyarb_plus_e2e_bounces/preds/hard_pro_40s.pred.json` | 2,242 | `004961c446b3de1c7edda501cf2224f53ea5c641ddbfa7144c5ea112839dff76` |
+| `eval/baselines/rallyarb_plus_e2e_bounces/preds/tennis_demo3.pred.json` | 1,026 | `d3a0098a91fbfe024a091337875834505047123e4e824e50dbe27754dbe4855b` |
+| `eval/baselines/tdeed_small/manifest.json` | 1,573 | `a01abcfcddd479c7c3fe277c9d93034fcf070e499c3d2e4a1361f0c9c31e0467` |
+| `eval/baselines/tdeed_small/preds/clay_am2_40s.pred.json` | 4,339 | `6a4b62e06d5be43affbda62d8164c3fa7d89de697bcf3061b2e712805edc0cb3` |
+| `eval/baselines/tdeed_small/preds/clay_am_40s.pred.json` | 3,724 | `90969eb220ce14be7936730e059e52be135b6f68f65eb877bef7b8717d4c2a05` |
+| `eval/baselines/tdeed_small/preds/clay_pro_40s.pred.json` | 6,846 | `df148cd76b5ff27e8772268d503fd988470699f90627dbb20c10827e3c1f1069` |
+| `eval/baselines/tdeed_small/preds/felix.pred.json` | 657 | `ece19da229d737f744b1fb04e5449a8204f3a65cf684564d7cb64fbd99924828` |
+| `eval/baselines/tdeed_small/preds/grass_am_40s.pred.json` | 678 | `192fb6a13277f9c933920bfb9715127c82c057ad989c34fcc0fe7ba5d74251fd` |
+| `eval/baselines/tdeed_small/preds/grass_pro_40s.pred.json` | 3,941 | `0fcdcc0bea5bbb80f3f70aa23725a7ea769db0ea5ddc638766683f359a0afa72` |
+| `eval/baselines/tdeed_small/preds/hard_pro_40s.pred.json` | 678 | `cadf49e52e13f9d51be5f696e9f09739625ac77d189a0c45cb7f0e79dfa0126a` |
+| `eval/baselines/tdeed_small/preds/tennis_demo3.pred.json` | 2,965 | `0528099a5bbf16580bd72a36d58c6c35b67ac830a8c4421d3fd72f95443063e0` |
+| `eval/baselines/vlm_gemini-3.8-flash/manifest.json` | 1,582 | `b548e48f03b2f3f41bc33fa4a3185167f4a46b7be703d2292821c711d9838e24` |
+| `eval/baselines/vlm_gemini-3.8-flash/preds/clay_am2_40s.pred.json` | 2,238 | `83b077bea7aa4306e9981691a6ad3e45d1bb015b1d5b5d916650352d13471873` |
+| `eval/baselines/vlm_gemini-3.8-flash/preds/clay_am_40s.pred.json` | 1,672 | `161c11482be94a6f9581a6f2074fe0430e7122f3b189a11c9bc0fbf9820b02b2` |
+| `eval/baselines/vlm_gemini-3.8-flash/preds/clay_pro_40s.pred.json` | 2,150 | `40c1abe23d6b42582dc21b783a39599fa09c388ce9b9318cf50798fd5b635719` |
+| `eval/baselines/vlm_gemini-3.8-flash/preds/felix.pred.json` | 1,442 | `7a2b41e2899d4b67d2769a9f44b4ff7bf1ce3e1135f8705ffa4b71e0a69218d5` |
+| `eval/baselines/vlm_gemini-3.8-flash/preds/grass_am_40s.pred.json` | 1,549 | `aff4f6070752eb356425734378be9a6ff8ffc467e68435e5c358db950cfaeba4` |
+| `eval/baselines/vlm_gemini-3.8-flash/preds/grass_pro_40s.pred.json` | 1,572 | `3e35ca49201f475713ff97274a6bd8bc633d7a91580d896713db28272464f7b1` |
+| `eval/baselines/vlm_gemini-3.8-flash/preds/hard_pro_40s.pred.json` | 2,263 | `f58596a082d2e40809b4a379c202737bee798f3f3b085fe53b536e1c6dad6c38` |
+| `eval/baselines/vlm_gemini-3.8-flash/preds/tennis_demo3.pred.json` | 937 | `650b9c49a36dab25f2af5a78ca13ee9e210a4a6426fc0be4559a3b1590f3ffdc` |
+| `eval/baselines/vlm_qwen3-vl-235b/manifest.json` | 1,579 | `cdec4a254ddb93fd1aaa4d25f3c2286d7ab90c4b937fe24fc729ed324f63f20b` |
+| `eval/baselines/vlm_qwen3-vl-235b/preds/clay_am2_40s.pred.json` | 3,088 | `551084bab69918c6f928aae1abb27d0bf652843618adc7f649f175fd6d470065` |
+| `eval/baselines/vlm_qwen3-vl-235b/preds/clay_am_40s.pred.json` | 3,667 | `75c50924043c29601ae0c8aa4c6be29e9feff5569d4d89b4e79a4ba18f7e624f` |
+| `eval/baselines/vlm_qwen3-vl-235b/preds/clay_pro_40s.pred.json` | 6,900 | `b75639fcdc6c4a39759635b9ddb9ea4364344919306335ad74ad9fd1b3137530` |
+| `eval/baselines/vlm_qwen3-vl-235b/preds/felix.pred.json` | 1,354 | `40d81943fefefe1229240e8b0c281e6bf88a89641502f8e7dda7d0fb748abdc6` |
+| `eval/baselines/vlm_qwen3-vl-235b/preds/grass_am_40s.pred.json` | 1,754 | `29d22fd2339f9bd9048341f6f4b46ce91f837ed1da2dc25378a96c0726af2603` |
+| `eval/baselines/vlm_qwen3-vl-235b/preds/grass_pro_40s.pred.json` | 4,110 | `40b5a7ac0b89c131ee9d501df7087d7b6a76208276749289a52f761fe720396e` |
+| `eval/baselines/vlm_qwen3-vl-235b/preds/hard_pro_40s.pred.json` | 4,171 | `f8b0292e639eea16f85b89c5c06b91de42509d934866e4339bd1305d697d5e6b` |
+| `eval/baselines/vlm_qwen3-vl-235b/preds/tennis_demo3.pred.json` | 2,406 | `fb541bc214b71cda59208b5301eae0de398b17096aa73b7986bf3e4b628173ec` |
 | `eval/eval_multiclip.py` | 18,938 | `c98811eed4c78f729c57a4ee49fcdc0f25a0d48fe5157f01fd57e7b3058c51fd` |
 | `eval/event_eval.py` | 9,605 | `94246c63a75ad04b4e275a188fe90d5d7ec03106bb51064667110948542603d8` |
 | `eval/expected/dev_rally_only.json` | 7,227 | `9a418b0e5e90b2778c1cb83141818aadd8cc9350e86f49f6034f8b3472e1f764` |

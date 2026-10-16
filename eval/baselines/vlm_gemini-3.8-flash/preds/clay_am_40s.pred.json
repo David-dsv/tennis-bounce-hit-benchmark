@@ -1,0 +1,143 @@
+{
+ "video": "clay_am_40s.mp4",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 10,
+   "label": "B"
+  },
+  {
+   "frame": 15,
+   "label": "H"
+  },
+  {
+   "frame": 275,
+   "label": "H"
+  },
+  {
+   "frame": 310,
+   "label": "B"
+  },
+  {
+   "frame": 509,
+   "label": "B"
+  },
+  {
+   "frame": 583,
+   "label": "B"
+  },
+  {
+   "frame": 599,
+   "label": "H"
+  },
+  {
+   "frame": 810,
+   "label": "H"
+  },
+  {
+   "frame": 1140,
+   "label": "H"
+  },
+  {
+   "frame": 1160,
+   "label": "B"
+  },
+  {
+   "frame": 1195,
+   "label": "H"
+  },
+  {
+   "frame": 1269,
+   "label": "B"
+  },
+  {
+   "frame": 1289,
+   "label": "H"
+  },
+  {
+   "frame": 1335,
+   "label": "H"
+  },
+  {
+   "frame": 1362,
+   "label": "B"
+  },
+  {
+   "frame": 1373,
+   "label": "H"
+  },
+  {
+   "frame": 1419,
+   "label": "B"
+  },
+  {
+   "frame": 1441,
+   "label": "H"
+  },
+  {
+   "frame": 1503,
+   "label": "H"
+  },
+  {
+   "frame": 1563,
+   "label": "B"
+  },
+  {
+   "frame": 1575,
+   "label": "B"
+  },
+  {
+   "frame": 1576,
+   "label": "H"
+  },
+  {
+   "frame": 1595,
+   "label": "H"
+  },
+  {
+   "frame": 1735,
+   "label": "H"
+  },
+  {
+   "frame": 1780,
+   "label": "B"
+  },
+  {
+   "frame": 1805,
+   "label": "H"
+  },
+  {
+   "frame": 2174,
+   "label": "H"
+  },
+  {
+   "frame": 2213,
+   "label": "B"
+  },
+  {
+   "frame": 2235,
+   "label": "H"
+  },
+  {
+   "frame": 2305,
+   "label": "B"
+  },
+  {
+   "frame": 2555,
+   "label": "H"
+  },
+  {
+   "frame": 2575,
+   "label": "B"
+  }
+ ],
+ "model": "google/gemini-3.8-flash",
+ "step": 5,
+ "window": 50,
+ "stride": 38,
+ "date": "2026-10-15",
+ "_provenance": {
+  "from": "docs/research/vlm-baseline/preds/clay_am_40s.gemini-3.8-flash.s5.pred.json",
+  "row": "vlm_gemini-3.8-flash"
+ }
+}

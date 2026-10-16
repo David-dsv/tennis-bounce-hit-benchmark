@@ -1,0 +1,131 @@
+{
+ "video": "grass_am_40s.mp4",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 155,
+   "label": "H"
+  },
+  {
+   "frame": 435,
+   "label": "H"
+  },
+  {
+   "frame": 565,
+   "label": "B"
+  },
+  {
+   "frame": 590,
+   "label": "H"
+  },
+  {
+   "frame": 820,
+   "label": "H"
+  },
+  {
+   "frame": 835,
+   "label": "B"
+  },
+  {
+   "frame": 1175,
+   "label": "H"
+  },
+  {
+   "frame": 1205,
+   "label": "B"
+  },
+  {
+   "frame": 1220,
+   "label": "H"
+  },
+  {
+   "frame": 1290,
+   "label": "B"
+  },
+  {
+   "frame": 1305,
+   "label": "H"
+  },
+  {
+   "frame": 1335,
+   "label": "H"
+  },
+  {
+   "frame": 1530,
+   "label": "H"
+  },
+  {
+   "frame": 1545,
+   "label": "H"
+  },
+  {
+   "frame": 1565,
+   "label": "B"
+  },
+  {
+   "frame": 1569,
+   "label": "B"
+  },
+  {
+   "frame": 1580,
+   "label": "H"
+  },
+  {
+   "frame": 1640,
+   "label": "H"
+  },
+  {
+   "frame": 1722,
+   "label": "B"
+  },
+  {
+   "frame": 1740,
+   "label": "H"
+  },
+  {
+   "frame": 1945,
+   "label": "H"
+  },
+  {
+   "frame": 1960,
+   "label": "B"
+  },
+  {
+   "frame": 1975,
+   "label": "H"
+  },
+  {
+   "frame": 2265,
+   "label": "H"
+  },
+  {
+   "frame": 2285,
+   "label": "B"
+  },
+  {
+   "frame": 2290,
+   "label": "H"
+  },
+  {
+   "frame": 2365,
+   "label": "H"
+  },
+  {
+   "frame": 2465,
+   "label": "B"
+  },
+  {
+   "frame": 2480,
+   "label": "H"
+  }
+ ],
+ "model": "google/gemini-3.8-flash",
+ "step": 5,
+ "window": 50,
+ "stride": 38,
+ "date": "2026-10-15",
+ "_provenance": {
+  "from": "docs/research/vlm-baseline/preds/grass_am_40s.gemini-3.8-flash.s5.pred.json",
+  "row": "vlm_gemini-3.8-flash"
+ }
+}

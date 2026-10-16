@@ -1,0 +1,154 @@
+{
+ "video": "tennis_demo3.mp4",
+ "fps": 50.0,
+ "events": [
+  {
+   "frame": 44,
+   "label": "H",
+   "score": 0.985002,
+   "src_label": "far_court_serve",
+   "src_frame": 22
+  },
+  {
+   "frame": 62,
+   "label": "B",
+   "score": 0.990037,
+   "src_label": "near_court_bounce",
+   "src_frame": 31
+  },
+  {
+   "frame": 82,
+   "label": "H",
+   "score": 0.993635,
+   "src_label": "near_court_swing",
+   "src_frame": 41
+  },
+  {
+   "frame": 120,
+   "label": "B",
+   "score": 0.988625,
+   "src_label": "far_court_bounce",
+   "src_frame": 60
+  },
+  {
+   "frame": 142,
+   "label": "H",
+   "score": 0.948367,
+   "src_label": "far_court_swing",
+   "src_frame": 71
+  },
+  {
+   "frame": 174,
+   "label": "B",
+   "score": 0.988591,
+   "src_label": "near_court_bounce",
+   "src_frame": 87
+  },
+  {
+   "frame": 196,
+   "label": "H",
+   "score": 0.996905,
+   "src_label": "near_court_swing",
+   "src_frame": 98
+  },
+  {
+   "frame": 254,
+   "label": "B",
+   "score": 0.995387,
+   "src_label": "far_court_bounce",
+   "src_frame": 127
+  },
+  {
+   "frame": 268,
+   "label": "H",
+   "score": 0.913576,
+   "src_label": "far_court_swing",
+   "src_frame": 134
+  },
+  {
+   "frame": 308,
+   "label": "B",
+   "score": 0.984457,
+   "src_label": "near_court_bounce",
+   "src_frame": 154
+  },
+  {
+   "frame": 334,
+   "label": "H",
+   "score": 0.991465,
+   "src_label": "near_court_swing",
+   "src_frame": 167
+  },
+  {
+   "frame": 368,
+   "label": "B",
+   "score": 0.899159,
+   "src_label": "far_court_bounce",
+   "src_frame": 184
+  },
+  {
+   "frame": 394,
+   "label": "H",
+   "score": 0.983668,
+   "src_label": "far_court_swing",
+   "src_frame": 197
+  },
+  {
+   "frame": 456,
+   "label": "B",
+   "score": 0.992278,
+   "src_label": "near_court_bounce",
+   "src_frame": 228
+  },
+  {
+   "frame": 468,
+   "label": "H",
+   "score": 0.822429,
+   "src_label": "near_court_swing",
+   "src_frame": 234
+  },
+  {
+   "frame": 512,
+   "label": "B",
+   "score": 0.825913,
+   "src_label": "far_court_bounce",
+   "src_frame": 256
+  },
+  {
+   "frame": 526,
+   "label": "H",
+   "score": 0.994895,
+   "src_label": "far_court_swing",
+   "src_frame": 263
+  },
+  {
+   "frame": 570,
+   "label": "B",
+   "score": 0.953161,
+   "src_label": "near_court_bounce",
+   "src_frame": 285
+  }
+ ],
+ "source": {
+  "format": "e2e",
+  "video_id": "tennis_demo3",
+  "spot_fps": 25.0,
+  "stride": 2,
+  "offset": 0,
+  "score_threshold": 0.5,
+  "nms_window_spot_frames": 4,
+  "classes": {
+   "far_court_bounce": "B",
+   "near_court_bounce": "B",
+   "far_court_swing": "H",
+   "near_court_swing": "H",
+   "far_court_serve": "H",
+   "near_court_serve": "H"
+  },
+  "file": "/Users/vuong/Documents/CourtSide-CV/data/output/spot/e2e_rny008/pred-test.json"
+ },
+ "_provenance": {
+  "from": "docs/research/learned-spotting/preds/e2e_rny008.t0.5.tennis_demo3.pred.json",
+  "row": "e2e_spot_rny008"
+ }
+}

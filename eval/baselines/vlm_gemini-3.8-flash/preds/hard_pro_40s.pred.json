@@ -1,0 +1,199 @@
+{
+ "video": "hard_pro_40s.mp4",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 35,
+   "label": "H"
+  },
+  {
+   "frame": 45,
+   "label": "B"
+  },
+  {
+   "frame": 70,
+   "label": "H"
+  },
+  {
+   "frame": 105,
+   "label": "B"
+  },
+  {
+   "frame": 150,
+   "label": "H"
+  },
+  {
+   "frame": 210,
+   "label": "B"
+  },
+  {
+   "frame": 218,
+   "label": "B"
+  },
+  {
+   "frame": 226,
+   "label": "H"
+  },
+  {
+   "frame": 319,
+   "label": "H"
+  },
+  {
+   "frame": 389,
+   "label": "B"
+  },
+  {
+   "frame": 402,
+   "label": "H"
+  },
+  {
+   "frame": 465,
+   "label": "B"
+  },
+  {
+   "frame": 505,
+   "label": "H"
+  },
+  {
+   "frame": 530,
+   "label": "B"
+  },
+  {
+   "frame": 622,
+   "label": "H"
+  },
+  {
+   "frame": 760,
+   "label": "H"
+  },
+  {
+   "frame": 807,
+   "label": "B"
+  },
+  {
+   "frame": 820,
+   "label": "B"
+  },
+  {
+   "frame": 850,
+   "label": "H"
+  },
+  {
+   "frame": 875,
+   "label": "H"
+  },
+  {
+   "frame": 1060,
+   "label": "H"
+  },
+  {
+   "frame": 1090,
+   "label": "B"
+  },
+  {
+   "frame": 1225,
+   "label": "H"
+  },
+  {
+   "frame": 1240,
+   "label": "B"
+  },
+  {
+   "frame": 1265,
+   "label": "H"
+  },
+  {
+   "frame": 1300,
+   "label": "B"
+  },
+  {
+   "frame": 1385,
+   "label": "B"
+  },
+  {
+   "frame": 1570,
+   "label": "H"
+  },
+  {
+   "frame": 1735,
+   "label": "H"
+  },
+  {
+   "frame": 1755,
+   "label": "H"
+  },
+  {
+   "frame": 1760,
+   "label": "B"
+  },
+  {
+   "frame": 1802,
+   "label": "B"
+  },
+  {
+   "frame": 1815,
+   "label": "H"
+  },
+  {
+   "frame": 1860,
+   "label": "B"
+  },
+  {
+   "frame": 1870,
+   "label": "H"
+  },
+  {
+   "frame": 1940,
+   "label": "B"
+  },
+  {
+   "frame": 1945,
+   "label": "H"
+  },
+  {
+   "frame": 2100,
+   "label": "H"
+  },
+  {
+   "frame": 2220,
+   "label": "H"
+  },
+  {
+   "frame": 2260,
+   "label": "B"
+  },
+  {
+   "frame": 2275,
+   "label": "H"
+  },
+  {
+   "frame": 2404,
+   "label": "H"
+  },
+  {
+   "frame": 2422,
+   "label": "B"
+  },
+  {
+   "frame": 2430,
+   "label": "B"
+  },
+  {
+   "frame": 2434,
+   "label": "H"
+  },
+  {
+   "frame": 2445,
+   "label": "H"
+  }
+ ],
+ "model": "google/gemini-3.8-flash",
+ "step": 5,
+ "window": 50,
+ "stride": 38,
+ "date": "2026-10-15",
+ "_provenance": {
+  "from": "docs/research/vlm-baseline/preds/hard_pro_40s.gemini-3.8-flash.s5.pred.json",
+  "row": "vlm_gemini-3.8-flash"
+ }
+}

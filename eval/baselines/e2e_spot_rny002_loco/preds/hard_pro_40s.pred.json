@@ -1,0 +1,264 @@
+{
+ "video": "hard_pro_40s.mp4",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 10,
+   "label": "H",
+   "score": 0.550865,
+   "src_label": "hit",
+   "src_frame": 5
+  },
+  {
+   "frame": 72,
+   "label": "H",
+   "score": 0.599279,
+   "src_label": "hit",
+   "src_frame": 36
+  },
+  {
+   "frame": 118,
+   "label": "B",
+   "score": 0.923191,
+   "src_label": "bounce",
+   "src_frame": 59
+  },
+  {
+   "frame": 150,
+   "label": "H",
+   "score": 0.873285,
+   "src_label": "hit",
+   "src_frame": 75
+  },
+  {
+   "frame": 218,
+   "label": "B",
+   "score": 0.876652,
+   "src_label": "bounce",
+   "src_frame": 109
+  },
+  {
+   "frame": 226,
+   "label": "H",
+   "score": 0.625705,
+   "src_label": "hit",
+   "src_frame": 113
+  },
+  {
+   "frame": 352,
+   "label": "H",
+   "score": 0.558936,
+   "src_label": "hit",
+   "src_frame": 176
+  },
+  {
+   "frame": 378,
+   "label": "B",
+   "score": 0.827104,
+   "src_label": "bounce",
+   "src_frame": 189
+  },
+  {
+   "frame": 398,
+   "label": "H",
+   "score": 0.876176,
+   "src_label": "hit",
+   "src_frame": 199
+  },
+  {
+   "frame": 492,
+   "label": "H",
+   "score": 0.953716,
+   "src_label": "hit",
+   "src_frame": 246
+  },
+  {
+   "frame": 536,
+   "label": "B",
+   "score": 0.801815,
+   "src_label": "bounce",
+   "src_frame": 268
+  },
+  {
+   "frame": 606,
+   "label": "B",
+   "score": 0.811169,
+   "src_label": "bounce",
+   "src_frame": 303
+  },
+  {
+   "frame": 624,
+   "label": "H",
+   "score": 0.845477,
+   "src_label": "hit",
+   "src_frame": 312
+  },
+  {
+   "frame": 710,
+   "label": "H",
+   "score": 0.643524,
+   "src_label": "hit",
+   "src_frame": 355
+  },
+  {
+   "frame": 752,
+   "label": "H",
+   "score": 0.808262,
+   "src_label": "hit",
+   "src_frame": 376
+  },
+  {
+   "frame": 820,
+   "label": "B",
+   "score": 0.872811,
+   "src_label": "bounce",
+   "src_frame": 410
+  },
+  {
+   "frame": 846,
+   "label": "H",
+   "score": 0.695256,
+   "src_label": "hit",
+   "src_frame": 423
+  },
+  {
+   "frame": 858,
+   "label": "H",
+   "score": 0.670895,
+   "src_label": "hit",
+   "src_frame": 429
+  },
+  {
+   "frame": 902,
+   "label": "B",
+   "score": 0.880448,
+   "src_label": "bounce",
+   "src_frame": 451
+  },
+  {
+   "frame": 1062,
+   "label": "H",
+   "score": 0.636138,
+   "src_label": "hit",
+   "src_frame": 531
+  },
+  {
+   "frame": 1242,
+   "label": "B",
+   "score": 0.68812,
+   "src_label": "bounce",
+   "src_frame": 621
+  },
+  {
+   "frame": 1386,
+   "label": "B",
+   "score": 0.53567,
+   "src_label": "bounce",
+   "src_frame": 693
+  },
+  {
+   "frame": 1602,
+   "label": "H",
+   "score": 0.697739,
+   "src_label": "hit",
+   "src_frame": 801
+  },
+  {
+   "frame": 1628,
+   "label": "B",
+   "score": 0.604234,
+   "src_label": "bounce",
+   "src_frame": 814
+  },
+  {
+   "frame": 1768,
+   "label": "H",
+   "score": 0.933671,
+   "src_label": "hit",
+   "src_frame": 884
+  },
+  {
+   "frame": 1796,
+   "label": "B",
+   "score": 0.875822,
+   "src_label": "bounce",
+   "src_frame": 898
+  },
+  {
+   "frame": 1864,
+   "label": "B",
+   "score": 0.818121,
+   "src_label": "bounce",
+   "src_frame": 932
+  },
+  {
+   "frame": 1888,
+   "label": "H",
+   "score": 0.644924,
+   "src_label": "hit",
+   "src_frame": 944
+  },
+  {
+   "frame": 1944,
+   "label": "B",
+   "score": 0.555437,
+   "src_label": "bounce",
+   "src_frame": 972
+  },
+  {
+   "frame": 2230,
+   "label": "H",
+   "score": 0.504876,
+   "src_label": "hit",
+   "src_frame": 1115
+  },
+  {
+   "frame": 2256,
+   "label": "B",
+   "score": 0.720349,
+   "src_label": "bounce",
+   "src_frame": 1128
+  },
+  {
+   "frame": 2272,
+   "label": "H",
+   "score": 0.843195,
+   "src_label": "hit",
+   "src_frame": 1136
+  },
+  {
+   "frame": 2400,
+   "label": "H",
+   "score": 0.865214,
+   "src_label": "hit",
+   "src_frame": 1200
+  },
+  {
+   "frame": 2490,
+   "label": "B",
+   "score": 0.646433,
+   "src_label": "bounce",
+   "src_frame": 1245
+  }
+ ],
+ "source": {
+  "format": "e2e",
+  "video_id": "hard_pro_40s",
+  "spot_fps": 30.0,
+  "stride": 2,
+  "offset": 0,
+  "score_threshold": 0.5,
+  "nms_window_spot_frames": 4,
+  "classes": {
+   "bounce": "B",
+   "hit": "H"
+  },
+  "file": "/Users/vuong/Documents/CourtSide-CV/docs/research/learned-spotting/loco/runs/tennis/fold_hard_pro_40s/pred-test.json",
+  "loco_variant": "tennis",
+  "held_out": true
+ },
+ "_provenance": {
+  "from": "docs/research/learned-spotting/loco/preds/loco_tennis.t0.5.hard_pro_40s.pred.json",
+  "row": "e2e_spot_rny002_loco"
+ }
+}

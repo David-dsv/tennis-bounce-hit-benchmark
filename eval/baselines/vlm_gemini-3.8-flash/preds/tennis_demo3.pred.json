@@ -1,0 +1,75 @@
+{
+ "video": "tennis_demo3.mp4",
+ "fps": 50.0,
+ "events": [
+  {
+   "frame": 44,
+   "label": "H"
+  },
+  {
+   "frame": 172,
+   "label": "B"
+  },
+  {
+   "frame": 176,
+   "label": "B"
+  },
+  {
+   "frame": 188,
+   "label": "H"
+  },
+  {
+   "frame": 196,
+   "label": "H"
+  },
+  {
+   "frame": 268,
+   "label": "H"
+  },
+  {
+   "frame": 312,
+   "label": "B"
+  },
+  {
+   "frame": 316,
+   "label": "B"
+  },
+  {
+   "frame": 328,
+   "label": "H"
+  },
+  {
+   "frame": 332,
+   "label": "H"
+  },
+  {
+   "frame": 392,
+   "label": "H"
+  },
+  {
+   "frame": 465,
+   "label": "H"
+  },
+  {
+   "frame": 535,
+   "label": "H"
+  },
+  {
+   "frame": 571,
+   "label": "B"
+  },
+  {
+   "frame": 587,
+   "label": "H"
+  }
+ ],
+ "model": "google/gemini-3.8-flash",
+ "step": 4,
+ "window": 50,
+ "stride": 38,
+ "date": "2026-10-15",
+ "_provenance": {
+  "from": "docs/research/vlm-baseline/preds/tennis_demo3.gemini-3.8-flash.s4.pred.json",
+  "row": "vlm_gemini-3.8-flash"
+ }
+}

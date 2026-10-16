@@ -1,0 +1,375 @@
+{
+ "video": "hard_pro_40s.mp4",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 100,
+   "label": "H"
+  },
+  {
+   "frame": 165,
+   "label": "H"
+  },
+  {
+   "frame": 205,
+   "label": "B"
+  },
+  {
+   "frame": 225,
+   "label": "H"
+  },
+  {
+   "frame": 235,
+   "label": "H"
+  },
+  {
+   "frame": 295,
+   "label": "H"
+  },
+  {
+   "frame": 510,
+   "label": "H"
+  },
+  {
+   "frame": 520,
+   "label": "B"
+  },
+  {
+   "frame": 580,
+   "label": "B"
+  },
+  {
+   "frame": 630,
+   "label": "H"
+  },
+  {
+   "frame": 1100,
+   "label": "B"
+  },
+  {
+   "frame": 1105,
+   "label": "B"
+  },
+  {
+   "frame": 1110,
+   "label": "B"
+  },
+  {
+   "frame": 1115,
+   "label": "B"
+  },
+  {
+   "frame": 1120,
+   "label": "B"
+  },
+  {
+   "frame": 1125,
+   "label": "B"
+  },
+  {
+   "frame": 1130,
+   "label": "B"
+  },
+  {
+   "frame": 1135,
+   "label": "B"
+  },
+  {
+   "frame": 1140,
+   "label": "B"
+  },
+  {
+   "frame": 1145,
+   "label": "B"
+  },
+  {
+   "frame": 1150,
+   "label": "B"
+  },
+  {
+   "frame": 1155,
+   "label": "B"
+  },
+  {
+   "frame": 1160,
+   "label": "B"
+  },
+  {
+   "frame": 1165,
+   "label": "B"
+  },
+  {
+   "frame": 1170,
+   "label": "B"
+  },
+  {
+   "frame": 1175,
+   "label": "B"
+  },
+  {
+   "frame": 1180,
+   "label": "B"
+  },
+  {
+   "frame": 1185,
+   "label": "B"
+  },
+  {
+   "frame": 1190,
+   "label": "B"
+  },
+  {
+   "frame": 1195,
+   "label": "B"
+  },
+  {
+   "frame": 1200,
+   "label": "B"
+  },
+  {
+   "frame": 1205,
+   "label": "B"
+  },
+  {
+   "frame": 1210,
+   "label": "B"
+  },
+  {
+   "frame": 1215,
+   "label": "B"
+  },
+  {
+   "frame": 1220,
+   "label": "B"
+  },
+  {
+   "frame": 1225,
+   "label": "B"
+  },
+  {
+   "frame": 1230,
+   "label": "B"
+  },
+  {
+   "frame": 1235,
+   "label": "B"
+  },
+  {
+   "frame": 1240,
+   "label": "B"
+  },
+  {
+   "frame": 1245,
+   "label": "B"
+  },
+  {
+   "frame": 1250,
+   "label": "B"
+  },
+  {
+   "frame": 1255,
+   "label": "B"
+  },
+  {
+   "frame": 1610,
+   "label": "H"
+  },
+  {
+   "frame": 1630,
+   "label": "B"
+  },
+  {
+   "frame": 1635,
+   "label": "B"
+  },
+  {
+   "frame": 1650,
+   "label": "H"
+  },
+  {
+   "frame": 1675,
+   "label": "H"
+  },
+  {
+   "frame": 1685,
+   "label": "B"
+  },
+  {
+   "frame": 1710,
+   "label": "H"
+  },
+  {
+   "frame": 1725,
+   "label": "H"
+  },
+  {
+   "frame": 1735,
+   "label": "B"
+  },
+  {
+   "frame": 1755,
+   "label": "H"
+  },
+  {
+   "frame": 1800,
+   "label": "H"
+  },
+  {
+   "frame": 1850,
+   "label": "B"
+  },
+  {
+   "frame": 1930,
+   "label": "H"
+  },
+  {
+   "frame": 1935,
+   "label": "B"
+  },
+  {
+   "frame": 1975,
+   "label": "B"
+  },
+  {
+   "frame": 2045,
+   "label": "H"
+  },
+  {
+   "frame": 2060,
+   "label": "B"
+  },
+  {
+   "frame": 2075,
+   "label": "H"
+  },
+  {
+   "frame": 2090,
+   "label": "B"
+  },
+  {
+   "frame": 2105,
+   "label": "H"
+  },
+  {
+   "frame": 2120,
+   "label": "B"
+  },
+  {
+   "frame": 2135,
+   "label": "H"
+  },
+  {
+   "frame": 2150,
+   "label": "B"
+  },
+  {
+   "frame": 2240,
+   "label": "H"
+  },
+  {
+   "frame": 2245,
+   "label": "H"
+  },
+  {
+   "frame": 2250,
+   "label": "B"
+  },
+  {
+   "frame": 2275,
+   "label": "H"
+  },
+  {
+   "frame": 2280,
+   "label": "B"
+  },
+  {
+   "frame": 2340,
+   "label": "H"
+  },
+  {
+   "frame": 2410,
+   "label": "H"
+  },
+  {
+   "frame": 2420,
+   "label": "B"
+  },
+  {
+   "frame": 2430,
+   "label": "H"
+  },
+  {
+   "frame": 2440,
+   "label": "B"
+  },
+  {
+   "frame": 2440,
+   "label": "H"
+  },
+  {
+   "frame": 2450,
+   "label": "H"
+  },
+  {
+   "frame": 2460,
+   "label": "B"
+  },
+  {
+   "frame": 2465,
+   "label": "B"
+  },
+  {
+   "frame": 2470,
+   "label": "H"
+  },
+  {
+   "frame": 2480,
+   "label": "B"
+  },
+  {
+   "frame": 2490,
+   "label": "H"
+  },
+  {
+   "frame": 2500,
+   "label": "B"
+  },
+  {
+   "frame": 2510,
+   "label": "H"
+  },
+  {
+   "frame": 2520,
+   "label": "B"
+  },
+  {
+   "frame": 2525,
+   "label": "B"
+  },
+  {
+   "frame": 2530,
+   "label": "H"
+  },
+  {
+   "frame": 2540,
+   "label": "B"
+  },
+  {
+   "frame": 2550,
+   "label": "H"
+  },
+  {
+   "frame": 2560,
+   "label": "B"
+  }
+ ],
+ "model": "qwen/qwen3-vl-235b-a22b-instruct",
+ "step": 5,
+ "window": 32,
+ "stride": 20,
+ "date": "2026-10-16",
+ "_provenance": {
+  "from": "docs/research/vlm-baseline/preds/hard_pro_40s.qwen3-vl-235b.s5.pred.json",
+  "row": "vlm_qwen3-vl-235b"
+ }
+}

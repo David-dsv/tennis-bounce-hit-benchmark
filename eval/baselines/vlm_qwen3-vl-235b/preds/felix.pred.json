@@ -1,0 +1,115 @@
+{
+ "video": "felix.mp4",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 200,
+   "label": "H"
+  },
+  {
+   "frame": 355,
+   "label": "H"
+  },
+  {
+   "frame": 380,
+   "label": "H"
+  },
+  {
+   "frame": 450,
+   "label": "B"
+  },
+  {
+   "frame": 820,
+   "label": "H"
+  },
+  {
+   "frame": 830,
+   "label": "B"
+  },
+  {
+   "frame": 840,
+   "label": "H"
+  },
+  {
+   "frame": 850,
+   "label": "B"
+  },
+  {
+   "frame": 860,
+   "label": "H"
+  },
+  {
+   "frame": 870,
+   "label": "B"
+  },
+  {
+   "frame": 880,
+   "label": "H"
+  },
+  {
+   "frame": 890,
+   "label": "B"
+  },
+  {
+   "frame": 900,
+   "label": "H"
+  },
+  {
+   "frame": 910,
+   "label": "B"
+  },
+  {
+   "frame": 920,
+   "label": "H"
+  },
+  {
+   "frame": 930,
+   "label": "B"
+  },
+  {
+   "frame": 940,
+   "label": "H"
+  },
+  {
+   "frame": 950,
+   "label": "B"
+  },
+  {
+   "frame": 1100,
+   "label": "H"
+  },
+  {
+   "frame": 1110,
+   "label": "H"
+  },
+  {
+   "frame": 1130,
+   "label": "H"
+  },
+  {
+   "frame": 1180,
+   "label": "H"
+  },
+  {
+   "frame": 1200,
+   "label": "H"
+  },
+  {
+   "frame": 1220,
+   "label": "H"
+  },
+  {
+   "frame": 1240,
+   "label": "H"
+  }
+ ],
+ "model": "qwen/qwen3-vl-235b-a22b-instruct",
+ "step": 5,
+ "window": 32,
+ "stride": 20,
+ "date": "2026-10-16",
+ "_provenance": {
+  "from": "docs/research/vlm-baseline/preds/felix.qwen3-vl-235b.s5.pred.json",
+  "row": "vlm_qwen3-vl-235b"
+ }
+}

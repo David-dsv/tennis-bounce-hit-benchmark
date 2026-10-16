@@ -1,0 +1,75 @@
+{
+ "video": "felix.mp4",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 160,
+   "label": "B",
+   "score": 0.79093,
+   "src_label": "bounce",
+   "src_frame": 80
+  },
+  {
+   "frame": 246,
+   "label": "B",
+   "score": 0.686343,
+   "src_label": "bounce",
+   "src_frame": 123
+  },
+  {
+   "frame": 374,
+   "label": "H",
+   "score": 0.595603,
+   "src_label": "hit",
+   "src_frame": 187
+  },
+  {
+   "frame": 1110,
+   "label": "H",
+   "score": 0.52703,
+   "src_label": "hit",
+   "src_frame": 555
+  },
+  {
+   "frame": 1460,
+   "label": "H",
+   "score": 0.535087,
+   "src_label": "hit",
+   "src_frame": 730
+  },
+  {
+   "frame": 1606,
+   "label": "B",
+   "score": 0.519833,
+   "src_label": "bounce",
+   "src_frame": 803
+  },
+  {
+   "frame": 1610,
+   "label": "H",
+   "score": 0.854854,
+   "src_label": "hit",
+   "src_frame": 805
+  }
+ ],
+ "source": {
+  "format": "e2e",
+  "video_id": "felix",
+  "spot_fps": 30.0,
+  "stride": 2,
+  "offset": 0,
+  "score_threshold": 0.5,
+  "nms_window_spot_frames": 4,
+  "classes": {
+   "bounce": "B",
+   "hit": "H"
+  },
+  "file": "/Users/vuong/Documents/CourtSide-CV/docs/research/learned-spotting/loco/runs/tennis/fold_felix/pred-test.json",
+  "loco_variant": "tennis",
+  "held_out": true
+ },
+ "_provenance": {
+  "from": "docs/research/learned-spotting/loco/preds/loco_tennis.t0.5.felix.pred.json",
+  "row": "e2e_spot_rny002_loco"
+ }
+}

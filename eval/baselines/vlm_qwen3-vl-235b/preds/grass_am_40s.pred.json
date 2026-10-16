@@ -1,0 +1,151 @@
+{
+ "video": "grass_am_40s.mp4",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 140,
+   "label": "H"
+  },
+  {
+   "frame": 150,
+   "label": "H"
+  },
+  {
+   "frame": 325,
+   "label": "H"
+  },
+  {
+   "frame": 425,
+   "label": "H"
+  },
+  {
+   "frame": 435,
+   "label": "H"
+  },
+  {
+   "frame": 555,
+   "label": "H"
+  },
+  {
+   "frame": 565,
+   "label": "B"
+  },
+  {
+   "frame": 570,
+   "label": "H"
+  },
+  {
+   "frame": 600,
+   "label": "H"
+  },
+  {
+   "frame": 730,
+   "label": "B"
+  },
+  {
+   "frame": 735,
+   "label": "B"
+  },
+  {
+   "frame": 750,
+   "label": "B"
+  },
+  {
+   "frame": 750,
+   "label": "H"
+  },
+  {
+   "frame": 820,
+   "label": "H"
+  },
+  {
+   "frame": 830,
+   "label": "B"
+  },
+  {
+   "frame": 910,
+   "label": "H"
+  },
+  {
+   "frame": 930,
+   "label": "B"
+  },
+  {
+   "frame": 930,
+   "label": "H"
+  },
+  {
+   "frame": 980,
+   "label": "B"
+  },
+  {
+   "frame": 1040,
+   "label": "H"
+  },
+  {
+   "frame": 1100,
+   "label": "B"
+  },
+  {
+   "frame": 1155,
+   "label": "H"
+  },
+  {
+   "frame": 1165,
+   "label": "H"
+  },
+  {
+   "frame": 1285,
+   "label": "H"
+  },
+  {
+   "frame": 1730,
+   "label": "H"
+  },
+  {
+   "frame": 1735,
+   "label": "B"
+  },
+  {
+   "frame": 1835,
+   "label": "H"
+  },
+  {
+   "frame": 1955,
+   "label": "H"
+  },
+  {
+   "frame": 1965,
+   "label": "H"
+  },
+  {
+   "frame": 2025,
+   "label": "H"
+  },
+  {
+   "frame": 2050,
+   "label": "H"
+  },
+  {
+   "frame": 2295,
+   "label": "H"
+  },
+  {
+   "frame": 2300,
+   "label": "H"
+  },
+  {
+   "frame": 2480,
+   "label": "H"
+  }
+ ],
+ "model": "qwen/qwen3-vl-235b-a22b-instruct",
+ "step": 5,
+ "window": 32,
+ "stride": 20,
+ "date": "2026-10-17",
+ "_provenance": {
+  "from": "docs/research/vlm-baseline/preds/grass_am_40s.qwen3-vl-235b.s5.pred.json",
+  "row": "vlm_qwen3-vl-235b"
+ }
+}

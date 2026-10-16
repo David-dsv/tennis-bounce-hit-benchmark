@@ -1,0 +1,159 @@
+{
+ "video": "clay_pro_40s",
+ "fps": 25.0,
+ "events": [
+  {
+   "frame": 5,
+   "label": "HIT"
+  },
+  {
+   "frame": 28,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 46,
+   "label": "HIT"
+  },
+  {
+   "frame": 67,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 72,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 83,
+   "label": "HIT"
+  },
+  {
+   "frame": 175,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 204,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 222,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 274,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 357,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 365,
+   "label": "HIT"
+  },
+  {
+   "frame": 382,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 413,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 424,
+   "label": "HIT"
+  },
+  {
+   "frame": 443,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 458,
+   "label": "HIT"
+  },
+  {
+   "frame": 476,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 488,
+   "label": "HIT"
+  },
+  {
+   "frame": 507,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 518,
+   "label": "HIT"
+  },
+  {
+   "frame": 534,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 565,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 574,
+   "label": "HIT"
+  },
+  {
+   "frame": 595,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 645,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 657,
+   "label": "HIT"
+  },
+  {
+   "frame": 695,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 719,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 873,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 895,
+   "label": "HIT"
+  },
+  {
+   "frame": 912,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 931,
+   "label": "HIT"
+  },
+  {
+   "frame": 942,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 986,
+   "label": "HIT"
+  },
+  {
+   "frame": 1003,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1040,
+   "label": "HIT"
+  }
+ ],
+ "date": "2026-10-18",
+ "_provenance": {
+  "from": "docs/research/fusion/preds/e2e_B/clay_pro_40s.pred.json",
+  "row": "rallyarb_plus_e2e_bounces"
+ }
+}

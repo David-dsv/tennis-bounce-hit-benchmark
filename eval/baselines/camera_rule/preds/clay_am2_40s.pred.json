@@ -1,0 +1,224 @@
+{
+ "video": "clay_am2_40s.mp4",
+ "fps": 59.94,
+ "events": [
+  {
+   "frame": 230,
+   "label": "H",
+   "score": 0.56961,
+   "src_label": "near_court_swing",
+   "src_frame": 115
+  },
+  {
+   "frame": 376,
+   "label": "B",
+   "score": 0.838845,
+   "src_label": "near_court_bounce",
+   "src_frame": 188
+  },
+  {
+   "frame": 392,
+   "label": "H",
+   "score": 0.759319,
+   "src_label": "near_court_swing",
+   "src_frame": 196
+  },
+  {
+   "frame": 500,
+   "label": "H",
+   "score": 0.719548,
+   "src_label": "far_court_swing",
+   "src_frame": 250
+  },
+  {
+   "frame": 568,
+   "label": "B",
+   "score": 0.963727,
+   "src_label": "near_court_bounce",
+   "src_frame": 284
+  },
+  {
+   "frame": 788,
+   "label": "B",
+   "score": 0.503873,
+   "src_label": "near_court_bounce",
+   "src_frame": 394
+  },
+  {
+   "frame": 840,
+   "label": "H",
+   "score": 0.946844,
+   "src_label": "near_court_swing",
+   "src_frame": 420
+  },
+  {
+   "frame": 948,
+   "label": "H",
+   "score": 0.525165,
+   "src_label": "far_court_swing",
+   "src_frame": 474
+  },
+  {
+   "frame": 1022,
+   "label": "B",
+   "score": 0.845174,
+   "src_label": "near_court_bounce",
+   "src_frame": 511
+  },
+  {
+   "frame": 1066,
+   "label": "H",
+   "score": 0.976833,
+   "src_label": "near_court_swing",
+   "src_frame": 533
+  },
+  {
+   "frame": 1156,
+   "label": "H",
+   "score": 0.769466,
+   "src_label": "far_court_swing",
+   "src_frame": 578
+  },
+  {
+   "frame": 1212,
+   "label": "B",
+   "score": 0.929574,
+   "src_label": "near_court_bounce",
+   "src_frame": 606
+  },
+  {
+   "frame": 1248,
+   "label": "H",
+   "score": 0.970787,
+   "src_label": "near_court_swing",
+   "src_frame": 624
+  },
+  {
+   "frame": 1396,
+   "label": "B",
+   "score": 0.746711,
+   "src_label": "near_court_bounce",
+   "src_frame": 698
+  },
+  {
+   "frame": 1438,
+   "label": "H",
+   "score": 0.97829,
+   "src_label": "near_court_swing",
+   "src_frame": 719
+  },
+  {
+   "frame": 1524,
+   "label": "H",
+   "score": 0.544748,
+   "src_label": "far_court_swing",
+   "src_frame": 762
+  },
+  {
+   "frame": 1588,
+   "label": "B",
+   "score": 0.698155,
+   "src_label": "near_court_bounce",
+   "src_frame": 794
+  },
+  {
+   "frame": 1604,
+   "label": "H",
+   "score": 0.917644,
+   "src_label": "near_court_swing",
+   "src_frame": 802
+  },
+  {
+   "frame": 1706,
+   "label": "H",
+   "score": 0.617863,
+   "src_label": "far_court_swing",
+   "src_frame": 853
+  },
+  {
+   "frame": 2000,
+   "label": "B",
+   "score": 0.571478,
+   "src_label": "near_court_bounce",
+   "src_frame": 1000
+  },
+  {
+   "frame": 2016,
+   "label": "H",
+   "score": 0.599796,
+   "src_label": "near_court_swing",
+   "src_frame": 1008
+  },
+  {
+   "frame": 2132,
+   "label": "H",
+   "score": 0.563929,
+   "src_label": "far_court_swing",
+   "src_frame": 1066
+  },
+  {
+   "frame": 2204,
+   "label": "B",
+   "score": 0.93607,
+   "src_label": "near_court_bounce",
+   "src_frame": 1102
+  },
+  {
+   "frame": 2238,
+   "label": "H",
+   "score": 0.953073,
+   "src_label": "near_court_swing",
+   "src_frame": 1119
+  },
+  {
+   "frame": 2326,
+   "label": "H",
+   "score": 0.716892,
+   "src_label": "far_court_swing",
+   "src_frame": 1163
+  },
+  {
+   "frame": 2412,
+   "label": "H",
+   "score": 0.9738,
+   "src_label": "near_court_swing",
+   "src_frame": 1206
+  },
+  {
+   "frame": 2498,
+   "label": "H",
+   "score": 0.839281,
+   "src_label": "far_court_swing",
+   "src_frame": 1249
+  },
+  {
+   "frame": 2586,
+   "label": "H",
+   "score": 0.967471,
+   "src_label": "near_court_swing",
+   "src_frame": 1293
+  }
+ ],
+ "source": {
+  "format": "e2e",
+  "video_id": "clay_am2_40s",
+  "spot_fps": 29.97002997002997,
+  "stride": 2,
+  "offset": 0,
+  "score_threshold": 0.5,
+  "nms_window_spot_frames": 4,
+  "classes": {
+   "far_court_bounce": "B",
+   "near_court_bounce": "B",
+   "far_court_swing": "H",
+   "near_court_swing": "H",
+   "far_court_serve": "H",
+   "near_court_serve": "H"
+  },
+  "file": "/Users/vuong/Documents/CourtSide-CV/data/output/spot/e2e_rny008_test/pred-test.json"
+ },
+ "_provenance": {
+  "from": "docs/research/learned-spotting/fusion/clay_am2_40s.e2e.pred.json",
+  "row": "camera_rule"
+ }
+}

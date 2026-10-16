@@ -138,6 +138,17 @@ One greedy one-to-one matcher over both classes at once, nearest frame first, to
 matched it is *ignored* (not spurious). Pooled scores are micro-averages; the CI is a
 clip-level bootstrap (10 000 iterations, seed 20260901) and is wide with 4 clips per split.
 
+## External baselines
+
+`eval/baselines/` holds the frozen predictions of the external systems the paper scores on this
+benchmark — E2E-Spot and T-DEED with their published broadcast weights, a zero-shot
+vision-language model, a camera-type selection rule, and E2E-Spot fine-tuned leave-one-clip-out on
+these very annotations — one `manifest.json` per row, scored by the same harness, with the
+pre-registered protocol (`eval/baselines/PROTOCOL.md`) and the expected reports. Every row
+reproduces the paper's pooled numbers bit-identically from the released files; see
+`eval/baselines/README.md` for the table and the caveats (single executions, differing information
+regimes, read per camera type).
+
 ## The frozen split rule
 
 - **dev** = `tennis_demo3, felix, clay_am_40s, hard_pro_40s` — tuning allowed, score as often

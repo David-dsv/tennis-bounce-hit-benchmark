@@ -1,0 +1,319 @@
+{
+ "split": "test",
+ "exclude_tags": [
+  "dead",
+  "far",
+  "offscreen",
+  "replay",
+  "serve",
+  "toss"
+ ],
+ "tolerance_policy": "round(0.15*fps)",
+ "clips": [
+  {
+   "clip": "clay_pro_40s",
+   "split": "test",
+   "fps": 25.0,
+   "tol": 4,
+   "counts": {
+    "b_tp": 25,
+    "b_fp": 0,
+    "b_fn": 0,
+    "h_tp": 23,
+    "h_fp": 1,
+    "h_fn": 0,
+    "conf_HtoB": 0,
+    "conf_BtoH": 0,
+    "spurious": 1,
+    "ignored": 2,
+    "n_gt_b": 25,
+    "n_gt_h": 23
+   },
+   "bounce": {
+    "tp": 25,
+    "fp": 0,
+    "fn": 0,
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0
+   },
+   "hit": {
+    "tp": 23,
+    "fp": 1,
+    "fn": 0,
+    "P": 0.9583333333333334,
+    "R": 1.0,
+    "F1": 0.9787234042553191
+   },
+   "conf_HtoB": 0,
+   "conf_BtoH": 0,
+   "spurious": [
+    [
+     708,
+     "HIT"
+    ]
+   ],
+   "ignored_preds": [
+    [
+     14,
+     "HIT"
+    ],
+    [
+     873,
+     "HIT"
+    ]
+   ],
+   "FN_b": [],
+   "FN_h": [],
+   "annotations": {
+    "camera": "broadcast"
+   }
+  },
+  {
+   "clip": "clay_am2_40s",
+   "split": "test",
+   "fps": 59.94,
+   "tol": 9,
+   "counts": {
+    "b_tp": 9,
+    "b_fp": 1,
+    "b_fn": 15,
+    "h_tp": 19,
+    "h_fp": 1,
+    "h_fn": 6,
+    "conf_HtoB": 0,
+    "conf_BtoH": 0,
+    "spurious": 2,
+    "ignored": 0,
+    "n_gt_b": 24,
+    "n_gt_h": 25
+   },
+   "bounce": {
+    "tp": 9,
+    "fp": 1,
+    "fn": 15,
+    "P": 0.9,
+    "R": 0.375,
+    "F1": 0.5294117647058825
+   },
+   "hit": {
+    "tp": 19,
+    "fp": 1,
+    "fn": 6,
+    "P": 0.95,
+    "R": 0.76,
+    "F1": 0.8444444444444444
+   },
+   "conf_HtoB": 0,
+   "conf_BtoH": 0,
+   "spurious": [
+    [
+     580,
+     "HIT"
+    ],
+    [
+     2630,
+     "BOUNCE"
+    ]
+   ],
+   "ignored_preds": [],
+   "FN_b": [
+    197,
+    278,
+    459,
+    660,
+    912,
+    1123,
+    1211,
+    1312,
+    1498,
+    1681,
+    1751,
+    1882,
+    2103,
+    2294,
+    2466
+   ],
+   "FN_h": [
+    229,
+    306,
+    696,
+    1792,
+    1930,
+    2130
+   ],
+   "annotations": {
+    "camera": "fixed"
+   }
+  },
+  {
+   "clip": "grass_pro_40s",
+   "split": "test",
+   "fps": 60.0,
+   "tol": 9,
+   "counts": {
+    "b_tp": 10,
+    "b_fp": 1,
+    "b_fn": 1,
+    "h_tp": 13,
+    "h_fp": 2,
+    "h_fn": 0,
+    "conf_HtoB": 0,
+    "conf_BtoH": 0,
+    "spurious": 3,
+    "ignored": 1,
+    "n_gt_b": 11,
+    "n_gt_h": 13
+   },
+   "bounce": {
+    "tp": 10,
+    "fp": 1,
+    "fn": 1,
+    "P": 0.9090909090909091,
+    "R": 0.9090909090909091,
+    "F1": 0.9090909090909091
+   },
+   "hit": {
+    "tp": 13,
+    "fp": 2,
+    "fn": 0,
+    "P": 0.8666666666666667,
+    "R": 1.0,
+    "F1": 0.9285714285714286
+   },
+   "conf_HtoB": 0,
+   "conf_BtoH": 0,
+   "spurious": [
+    [
+     566,
+     "HIT"
+    ],
+    [
+     816,
+     "BOUNCE"
+    ],
+    [
+     1166,
+     "HIT"
+    ]
+   ],
+   "ignored_preds": [
+    [
+     28,
+     "HIT"
+    ]
+   ],
+   "FN_b": [
+    728
+   ],
+   "FN_h": [],
+   "annotations": {
+    "camera": "broadcast"
+   }
+  },
+  {
+   "clip": "grass_am_40s",
+   "split": "test",
+   "fps": 60.0,
+   "tol": 9,
+   "counts": {
+    "b_tp": 0,
+    "b_fp": 0,
+    "b_fn": 11,
+    "h_tp": 0,
+    "h_fp": 0,
+    "h_fn": 8,
+    "conf_HtoB": 0,
+    "conf_BtoH": 0,
+    "spurious": 0,
+    "ignored": 0,
+    "n_gt_b": 11,
+    "n_gt_h": 8
+   },
+   "bounce": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 11,
+    "P": 0.0,
+    "R": 0.0,
+    "F1": 0.0
+   },
+   "hit": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "P": 0.0,
+    "R": 0.0,
+    "F1": 0.0
+   },
+   "conf_HtoB": 0,
+   "conf_BtoH": 0,
+   "spurious": [],
+   "ignored_preds": [],
+   "FN_b": [
+    309,
+    563,
+    719,
+    1101,
+    1294,
+    1560,
+    1720,
+    1954,
+    2134,
+    2274,
+    2438
+   ],
+   "FN_h": [
+    589,
+    918,
+    1306,
+    1574,
+    1739,
+    1973,
+    2291,
+    2474
+   ],
+   "annotations": {
+    "camera": "phone"
+   }
+  }
+ ],
+ "pooled": {
+  "bounce": {
+   "tp": 44,
+   "fp": 2,
+   "fn": 27,
+   "P": 0.9565217391304348,
+   "R": 0.6197183098591549,
+   "F1": 0.7521367521367522
+  },
+  "hit": {
+   "tp": 55,
+   "fp": 4,
+   "fn": 14,
+   "P": 0.9322033898305084,
+   "R": 0.7971014492753623,
+   "F1": 0.859375
+  },
+  "conf_HtoB": 0,
+  "conf_BtoH": 0,
+  "spurious": 6,
+  "ignored": 3,
+  "n_gt_b": 71,
+  "n_gt_h": 69
+ },
+ "bootstrap": {
+  "bounce_f1": [
+   0.36363636363636365,
+   0.9722222222222222
+  ],
+  "hit_f1": [
+   0.5507246376811594,
+   0.9600000000000001
+  ],
+  "n_clips": 4,
+  "n_iters": 10000,
+  "seed": 20260901,
+  "narrow_valid": true
+ }
+}

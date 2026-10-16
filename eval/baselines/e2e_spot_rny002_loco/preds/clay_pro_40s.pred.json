@@ -1,0 +1,390 @@
+{
+ "video": "clay_pro_40s.mp4",
+ "fps": 25.0,
+ "events": [
+  {
+   "frame": 14,
+   "label": "H",
+   "score": 0.980359,
+   "src_label": "hit",
+   "src_frame": 14
+  },
+  {
+   "frame": 28,
+   "label": "B",
+   "score": 0.983254,
+   "src_label": "bounce",
+   "src_frame": 28
+  },
+  {
+   "frame": 46,
+   "label": "H",
+   "score": 0.680467,
+   "src_label": "hit",
+   "src_frame": 46
+  },
+  {
+   "frame": 69,
+   "label": "B",
+   "score": 0.911304,
+   "src_label": "bounce",
+   "src_frame": 69
+  },
+  {
+   "frame": 75,
+   "label": "H",
+   "score": 0.858397,
+   "src_label": "hit",
+   "src_frame": 75
+  },
+  {
+   "frame": 98,
+   "label": "B",
+   "score": 0.935571,
+   "src_label": "bounce",
+   "src_frame": 98
+  },
+  {
+   "frame": 111,
+   "label": "H",
+   "score": 0.967028,
+   "src_label": "hit",
+   "src_frame": 111
+  },
+  {
+   "frame": 130,
+   "label": "B",
+   "score": 0.948665,
+   "src_label": "bounce",
+   "src_frame": 130
+  },
+  {
+   "frame": 137,
+   "label": "H",
+   "score": 0.724624,
+   "src_label": "hit",
+   "src_frame": 137
+  },
+  {
+   "frame": 159,
+   "label": "B",
+   "score": 0.838237,
+   "src_label": "bounce",
+   "src_frame": 159
+  },
+  {
+   "frame": 167,
+   "label": "H",
+   "score": 0.983728,
+   "src_label": "hit",
+   "src_frame": 167
+  },
+  {
+   "frame": 187,
+   "label": "B",
+   "score": 0.992463,
+   "src_label": "bounce",
+   "src_frame": 187
+  },
+  {
+   "frame": 200,
+   "label": "H",
+   "score": 0.71914,
+   "src_label": "hit",
+   "src_frame": 200
+  },
+  {
+   "frame": 233,
+   "label": "B",
+   "score": 0.99032,
+   "src_label": "bounce",
+   "src_frame": 233
+  },
+  {
+   "frame": 247,
+   "label": "H",
+   "score": 0.950806,
+   "src_label": "hit",
+   "src_frame": 247
+  },
+  {
+   "frame": 258,
+   "label": "B",
+   "score": 0.88511,
+   "src_label": "bounce",
+   "src_frame": 258
+  },
+  {
+   "frame": 276,
+   "label": "B",
+   "score": 0.641178,
+   "src_label": "bounce",
+   "src_frame": 276
+  },
+  {
+   "frame": 357,
+   "label": "B",
+   "score": 0.922927,
+   "src_label": "bounce",
+   "src_frame": 357
+  },
+  {
+   "frame": 366,
+   "label": "H",
+   "score": 0.836984,
+   "src_label": "hit",
+   "src_frame": 366
+  },
+  {
+   "frame": 382,
+   "label": "B",
+   "score": 0.93273,
+   "src_label": "bounce",
+   "src_frame": 382
+  },
+  {
+   "frame": 391,
+   "label": "H",
+   "score": 0.65407,
+   "src_label": "hit",
+   "src_frame": 391
+  },
+  {
+   "frame": 413,
+   "label": "B",
+   "score": 0.976902,
+   "src_label": "bounce",
+   "src_frame": 413
+  },
+  {
+   "frame": 425,
+   "label": "H",
+   "score": 0.960961,
+   "src_label": "hit",
+   "src_frame": 425
+  },
+  {
+   "frame": 442,
+   "label": "B",
+   "score": 0.732055,
+   "src_label": "bounce",
+   "src_frame": 442
+  },
+  {
+   "frame": 453,
+   "label": "H",
+   "score": 0.932269,
+   "src_label": "hit",
+   "src_frame": 453
+  },
+  {
+   "frame": 476,
+   "label": "B",
+   "score": 0.972744,
+   "src_label": "bounce",
+   "src_frame": 476
+  },
+  {
+   "frame": 489,
+   "label": "H",
+   "score": 0.968245,
+   "src_label": "hit",
+   "src_frame": 489
+  },
+  {
+   "frame": 507,
+   "label": "B",
+   "score": 0.952307,
+   "src_label": "bounce",
+   "src_frame": 507
+  },
+  {
+   "frame": 517,
+   "label": "H",
+   "score": 0.809055,
+   "src_label": "hit",
+   "src_frame": 517
+  },
+  {
+   "frame": 536,
+   "label": "B",
+   "score": 0.934175,
+   "src_label": "bounce",
+   "src_frame": 536
+  },
+  {
+   "frame": 544,
+   "label": "H",
+   "score": 0.856844,
+   "src_label": "hit",
+   "src_frame": 544
+  },
+  {
+   "frame": 565,
+   "label": "B",
+   "score": 0.953229,
+   "src_label": "bounce",
+   "src_frame": 565
+  },
+  {
+   "frame": 573,
+   "label": "H",
+   "score": 0.798999,
+   "src_label": "hit",
+   "src_frame": 573
+  },
+  {
+   "frame": 595,
+   "label": "B",
+   "score": 0.785322,
+   "src_label": "bounce",
+   "src_frame": 595
+  },
+  {
+   "frame": 609,
+   "label": "H",
+   "score": 0.927171,
+   "src_label": "hit",
+   "src_frame": 609
+  },
+  {
+   "frame": 645,
+   "label": "B",
+   "score": 0.697667,
+   "src_label": "bounce",
+   "src_frame": 645
+  },
+  {
+   "frame": 662,
+   "label": "H",
+   "score": 0.88175,
+   "src_label": "hit",
+   "src_frame": 662
+  },
+  {
+   "frame": 695,
+   "label": "B",
+   "score": 0.624885,
+   "src_label": "bounce",
+   "src_frame": 695
+  },
+  {
+   "frame": 760,
+   "label": "B",
+   "score": 0.78706,
+   "src_label": "bounce",
+   "src_frame": 760
+  },
+  {
+   "frame": 873,
+   "label": "H",
+   "score": 0.986843,
+   "src_label": "hit",
+   "src_frame": 873
+  },
+  {
+   "frame": 884,
+   "label": "B",
+   "score": 0.965023,
+   "src_label": "bounce",
+   "src_frame": 884
+  },
+  {
+   "frame": 893,
+   "label": "H",
+   "score": 0.857418,
+   "src_label": "hit",
+   "src_frame": 893
+  },
+  {
+   "frame": 913,
+   "label": "B",
+   "score": 0.950538,
+   "src_label": "bounce",
+   "src_frame": 913
+  },
+  {
+   "frame": 923,
+   "label": "H",
+   "score": 0.970541,
+   "src_label": "hit",
+   "src_frame": 923
+  },
+  {
+   "frame": 942,
+   "label": "B",
+   "score": 0.983847,
+   "src_label": "bounce",
+   "src_frame": 942
+  },
+  {
+   "frame": 949,
+   "label": "H",
+   "score": 0.892274,
+   "src_label": "hit",
+   "src_frame": 949
+  },
+  {
+   "frame": 977,
+   "label": "B",
+   "score": 0.831457,
+   "src_label": "bounce",
+   "src_frame": 977
+  },
+  {
+   "frame": 987,
+   "label": "H",
+   "score": 0.965967,
+   "src_label": "hit",
+   "src_frame": 987
+  },
+  {
+   "frame": 1003,
+   "label": "B",
+   "score": 0.960564,
+   "src_label": "bounce",
+   "src_frame": 1003
+  },
+  {
+   "frame": 1013,
+   "label": "H",
+   "score": 0.845871,
+   "src_label": "hit",
+   "src_frame": 1013
+  },
+  {
+   "frame": 1035,
+   "label": "B",
+   "score": 0.96046,
+   "src_label": "bounce",
+   "src_frame": 1035
+  },
+  {
+   "frame": 1041,
+   "label": "H",
+   "score": 0.983497,
+   "src_label": "hit",
+   "src_frame": 1041
+  }
+ ],
+ "source": {
+  "format": "e2e",
+  "video_id": "clay_pro_40s_native",
+  "spot_fps": 25.0,
+  "stride": 1,
+  "offset": 0,
+  "score_threshold": 0.5,
+  "nms_window_spot_frames": 4,
+  "classes": {
+   "bounce": "B",
+   "hit": "H"
+  },
+  "file": "/Users/vuong/Documents/CourtSide-CV/docs/research/learned-spotting/loco/runs/tennis/fold_clay_pro_40s/pred-test.json",
+  "loco_variant": "tennis",
+  "held_out": true
+ },
+ "_provenance": {
+  "from": "docs/research/learned-spotting/loco/preds/loco_tennis.t0.5.clay_pro_40s.pred.json",
+  "row": "e2e_spot_rny002_loco"
+ }
+}

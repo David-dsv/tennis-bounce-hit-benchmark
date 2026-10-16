@@ -17,6 +17,9 @@ python eval/event_eval.py --pred preds/tennis_demo3.pred.json \
     --truth-bounces <bounces.json> --truth-shots <shots.json>
 ```
 
+External baseline rows (supervised spotters, VLM, camera rule, LOCO fine-tune) live in
+`baselines/` with their own manifests and expected reports — see `baselines/README.md`.
+
 ## Prediction JSON format
 
 One file per clip, referenced by the manifest's `pred` key. Two layouts are accepted

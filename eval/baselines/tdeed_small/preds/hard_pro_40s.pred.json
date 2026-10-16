@@ -1,0 +1,27 @@
+{
+ "video": "hard_pro_40s.mp4",
+ "fps": 60.0,
+ "events": [],
+ "source": {
+  "format": "tdeed",
+  "video_id": null,
+  "spot_fps": 30.0,
+  "stride": 2,
+  "offset": 0,
+  "score_threshold": 0.3,
+  "nms_window_spot_frames": 4,
+  "classes": {
+   "far_court_bounce": "B",
+   "near_court_bounce": "B",
+   "far_court_swing": "H",
+   "near_court_swing": "H",
+   "far_court_serve": "H",
+   "near_court_serve": "H"
+  },
+  "file": "/Users/vuong/Documents/CourtSide-CV/data/output/spot/tdeed_small_hard_pro_40s/inference_output/results_inference.json"
+ },
+ "_provenance": {
+  "from": "docs/research/learned-spotting/preds/tdeed_small.t0.3.hard_pro_40s.pred.json",
+  "row": "tdeed_small"
+ }
+}

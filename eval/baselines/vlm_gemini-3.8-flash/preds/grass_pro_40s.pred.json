@@ -1,0 +1,135 @@
+{
+ "video": "grass_pro_40s.mp4",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 30,
+   "label": "H"
+  },
+  {
+   "frame": 60,
+   "label": "B"
+  },
+  {
+   "frame": 70,
+   "label": "H"
+  },
+  {
+   "frame": 130,
+   "label": "B"
+  },
+  {
+   "frame": 145,
+   "label": "H"
+  },
+  {
+   "frame": 223,
+   "label": "B"
+  },
+  {
+   "frame": 230,
+   "label": "B"
+  },
+  {
+   "frame": 236,
+   "label": "H"
+  },
+  {
+   "frame": 240,
+   "label": "H"
+  },
+  {
+   "frame": 410,
+   "label": "H"
+  },
+  {
+   "frame": 435,
+   "label": "B"
+  },
+  {
+   "frame": 464,
+   "label": "B"
+  },
+  {
+   "frame": 472,
+   "label": "H"
+  },
+  {
+   "frame": 532,
+   "label": "B"
+  },
+  {
+   "frame": 557,
+   "label": "H"
+  },
+  {
+   "frame": 580,
+   "label": "H"
+  },
+  {
+   "frame": 670,
+   "label": "H"
+  },
+  {
+   "frame": 725,
+   "label": "B"
+  },
+  {
+   "frame": 755,
+   "label": "H"
+  },
+  {
+   "frame": 765,
+   "label": "H"
+  },
+  {
+   "frame": 834,
+   "label": "B"
+  },
+  {
+   "frame": 880,
+   "label": "H"
+  },
+  {
+   "frame": 909,
+   "label": "H"
+  },
+  {
+   "frame": 986,
+   "label": "B"
+  },
+  {
+   "frame": 992,
+   "label": "H"
+  },
+  {
+   "frame": 1033,
+   "label": "H"
+  },
+  {
+   "frame": 1110,
+   "label": "B"
+  },
+  {
+   "frame": 1118,
+   "label": "H"
+  },
+  {
+   "frame": 1142,
+   "label": "H"
+  },
+  {
+   "frame": 1170,
+   "label": "H"
+  }
+ ],
+ "model": "google/gemini-3.8-flash",
+ "step": 5,
+ "window": 50,
+ "stride": 38,
+ "date": "2026-10-15",
+ "_provenance": {
+  "from": "docs/research/vlm-baseline/preds/grass_pro_40s.gemini-3.8-flash.s5.pred.json",
+  "row": "vlm_gemini-3.8-flash"
+ }
+}

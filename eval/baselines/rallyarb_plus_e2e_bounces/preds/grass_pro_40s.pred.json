@@ -1,0 +1,119 @@
+{
+ "video": "grass_pro_40s",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 32,
+   "label": "HIT"
+  },
+  {
+   "frame": 49,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 65,
+   "label": "HIT"
+  },
+  {
+   "frame": 145,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 167,
+   "label": "HIT"
+  },
+  {
+   "frame": 206,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 233,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 396,
+   "label": "HIT"
+  },
+  {
+   "frame": 430,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 470,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 519,
+   "label": "HIT"
+  },
+  {
+   "frame": 540,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 566,
+   "label": "HIT"
+  },
+  {
+   "frame": 593,
+   "label": "HIT"
+  },
+  {
+   "frame": 633,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 676,
+   "label": "HIT"
+  },
+  {
+   "frame": 728,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 740,
+   "label": "HIT"
+  },
+  {
+   "frame": 786,
+   "label": "HIT"
+  },
+  {
+   "frame": 828,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 860,
+   "label": "HIT"
+  },
+  {
+   "frame": 932,
+   "label": "HIT"
+  },
+  {
+   "frame": 959,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 989,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1109,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1140,
+   "label": "HIT"
+  },
+  {
+   "frame": 1170,
+   "label": "BOUNCE"
+  }
+ ],
+ "date": "2026-10-18",
+ "_provenance": {
+  "from": "docs/research/fusion/preds/e2e_B/grass_pro_40s.pred.json",
+  "row": "rallyarb_plus_e2e_bounces"
+ }
+}

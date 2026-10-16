@@ -1,0 +1,375 @@
+{
+ "video": "grass_pro_40s.mp4",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 45,
+   "label": "B"
+  },
+  {
+   "frame": 50,
+   "label": "H"
+  },
+  {
+   "frame": 65,
+   "label": "B"
+  },
+  {
+   "frame": 70,
+   "label": "H"
+  },
+  {
+   "frame": 85,
+   "label": "B"
+  },
+  {
+   "frame": 90,
+   "label": "H"
+  },
+  {
+   "frame": 105,
+   "label": "B"
+  },
+  {
+   "frame": 110,
+   "label": "H"
+  },
+  {
+   "frame": 125,
+   "label": "B"
+  },
+  {
+   "frame": 130,
+   "label": "H"
+  },
+  {
+   "frame": 145,
+   "label": "B"
+  },
+  {
+   "frame": 150,
+   "label": "H"
+  },
+  {
+   "frame": 195,
+   "label": "H"
+  },
+  {
+   "frame": 235,
+   "label": "H"
+  },
+  {
+   "frame": 240,
+   "label": "B"
+  },
+  {
+   "frame": 335,
+   "label": "H"
+  },
+  {
+   "frame": 375,
+   "label": "H"
+  },
+  {
+   "frame": 425,
+   "label": "B"
+  },
+  {
+   "frame": 475,
+   "label": "H"
+  },
+  {
+   "frame": 500,
+   "label": "B"
+  },
+  {
+   "frame": 505,
+   "label": "B"
+  },
+  {
+   "frame": 505,
+   "label": "H"
+  },
+  {
+   "frame": 510,
+   "label": "B"
+  },
+  {
+   "frame": 515,
+   "label": "H"
+  },
+  {
+   "frame": 520,
+   "label": "B"
+  },
+  {
+   "frame": 525,
+   "label": "H"
+  },
+  {
+   "frame": 530,
+   "label": "B"
+  },
+  {
+   "frame": 535,
+   "label": "H"
+  },
+  {
+   "frame": 540,
+   "label": "B"
+  },
+  {
+   "frame": 545,
+   "label": "H"
+  },
+  {
+   "frame": 550,
+   "label": "B"
+  },
+  {
+   "frame": 555,
+   "label": "H"
+  },
+  {
+   "frame": 560,
+   "label": "B"
+  },
+  {
+   "frame": 565,
+   "label": "H"
+  },
+  {
+   "frame": 570,
+   "label": "B"
+  },
+  {
+   "frame": 575,
+   "label": "H"
+  },
+  {
+   "frame": 580,
+   "label": "B"
+  },
+  {
+   "frame": 585,
+   "label": "H"
+  },
+  {
+   "frame": 590,
+   "label": "B"
+  },
+  {
+   "frame": 595,
+   "label": "H"
+  },
+  {
+   "frame": 600,
+   "label": "B"
+  },
+  {
+   "frame": 605,
+   "label": "H"
+  },
+  {
+   "frame": 610,
+   "label": "B"
+  },
+  {
+   "frame": 615,
+   "label": "H"
+  },
+  {
+   "frame": 620,
+   "label": "B"
+  },
+  {
+   "frame": 625,
+   "label": "H"
+  },
+  {
+   "frame": 630,
+   "label": "B"
+  },
+  {
+   "frame": 635,
+   "label": "B"
+  },
+  {
+   "frame": 635,
+   "label": "H"
+  },
+  {
+   "frame": 640,
+   "label": "B"
+  },
+  {
+   "frame": 645,
+   "label": "H"
+  },
+  {
+   "frame": 650,
+   "label": "B"
+  },
+  {
+   "frame": 655,
+   "label": "H"
+  },
+  {
+   "frame": 665,
+   "label": "H"
+  },
+  {
+   "frame": 695,
+   "label": "B"
+  },
+  {
+   "frame": 710,
+   "label": "H"
+  },
+  {
+   "frame": 730,
+   "label": "H"
+  },
+  {
+   "frame": 735,
+   "label": "B"
+  },
+  {
+   "frame": 755,
+   "label": "H"
+  },
+  {
+   "frame": 760,
+   "label": "H"
+  },
+  {
+   "frame": 830,
+   "label": "B"
+  },
+  {
+   "frame": 835,
+   "label": "H"
+  },
+  {
+   "frame": 860,
+   "label": "H"
+  },
+  {
+   "frame": 880,
+   "label": "H"
+  },
+  {
+   "frame": 900,
+   "label": "H"
+  },
+  {
+   "frame": 940,
+   "label": "B"
+  },
+  {
+   "frame": 985,
+   "label": "H"
+  },
+  {
+   "frame": 1000,
+   "label": "H"
+  },
+  {
+   "frame": 1005,
+   "label": "B"
+  },
+  {
+   "frame": 1010,
+   "label": "H"
+  },
+  {
+   "frame": 1020,
+   "label": "B"
+  },
+  {
+   "frame": 1030,
+   "label": "H"
+  },
+  {
+   "frame": 1040,
+   "label": "B"
+  },
+  {
+   "frame": 1050,
+   "label": "H"
+  },
+  {
+   "frame": 1060,
+   "label": "B"
+  },
+  {
+   "frame": 1070,
+   "label": "H"
+  },
+  {
+   "frame": 1080,
+   "label": "B"
+  },
+  {
+   "frame": 1090,
+   "label": "H"
+  },
+  {
+   "frame": 1100,
+   "label": "B"
+  },
+  {
+   "frame": 1100,
+   "label": "H"
+  },
+  {
+   "frame": 1110,
+   "label": "H"
+  },
+  {
+   "frame": 1120,
+   "label": "B"
+  },
+  {
+   "frame": 1130,
+   "label": "H"
+  },
+  {
+   "frame": 1140,
+   "label": "B"
+  },
+  {
+   "frame": 1150,
+   "label": "H"
+  },
+  {
+   "frame": 1160,
+   "label": "H"
+  },
+  {
+   "frame": 1170,
+   "label": "B"
+  },
+  {
+   "frame": 1170,
+   "label": "H"
+  },
+  {
+   "frame": 1175,
+   "label": "H"
+  },
+  {
+   "frame": 1180,
+   "label": "B"
+  }
+ ],
+ "model": "qwen/qwen3-vl-235b-a22b-instruct",
+ "step": 5,
+ "window": 32,
+ "stride": 20,
+ "date": "2026-10-17",
+ "_provenance": {
+  "from": "docs/research/vlm-baseline/preds/grass_pro_40s.qwen3-vl-235b.s5.pred.json",
+  "row": "vlm_qwen3-vl-235b"
+ }
+}

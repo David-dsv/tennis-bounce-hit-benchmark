@@ -1,0 +1,215 @@
+{
+ "video": "tennis_demo3.mp4",
+ "fps": 50.0,
+ "events": [
+  {
+   "frame": 80,
+   "label": "H"
+  },
+  {
+   "frame": 84,
+   "label": "B"
+  },
+  {
+   "frame": 84,
+   "label": "H"
+  },
+  {
+   "frame": 88,
+   "label": "B"
+  },
+  {
+   "frame": 88,
+   "label": "H"
+  },
+  {
+   "frame": 160,
+   "label": "B"
+  },
+  {
+   "frame": 164,
+   "label": "B"
+  },
+  {
+   "frame": 164,
+   "label": "H"
+  },
+  {
+   "frame": 168,
+   "label": "H"
+  },
+  {
+   "frame": 172,
+   "label": "B"
+  },
+  {
+   "frame": 176,
+   "label": "H"
+  },
+  {
+   "frame": 180,
+   "label": "B"
+  },
+  {
+   "frame": 184,
+   "label": "B"
+  },
+  {
+   "frame": 184,
+   "label": "H"
+  },
+  {
+   "frame": 188,
+   "label": "B"
+  },
+  {
+   "frame": 188,
+   "label": "H"
+  },
+  {
+   "frame": 192,
+   "label": "H"
+  },
+  {
+   "frame": 196,
+   "label": "B"
+  },
+  {
+   "frame": 200,
+   "label": "H"
+  },
+  {
+   "frame": 204,
+   "label": "B"
+  },
+  {
+   "frame": 208,
+   "label": "B"
+  },
+  {
+   "frame": 212,
+   "label": "H"
+  },
+  {
+   "frame": 220,
+   "label": "B"
+  },
+  {
+   "frame": 224,
+   "label": "H"
+  },
+  {
+   "frame": 232,
+   "label": "B"
+  },
+  {
+   "frame": 236,
+   "label": "H"
+  },
+  {
+   "frame": 244,
+   "label": "B"
+  },
+  {
+   "frame": 248,
+   "label": "H"
+  },
+  {
+   "frame": 256,
+   "label": "B"
+  },
+  {
+   "frame": 260,
+   "label": "H"
+  },
+  {
+   "frame": 268,
+   "label": "B"
+  },
+  {
+   "frame": 272,
+   "label": "H"
+  },
+  {
+   "frame": 280,
+   "label": "B"
+  },
+  {
+   "frame": 284,
+   "label": "H"
+  },
+  {
+   "frame": 320,
+   "label": "H"
+  },
+  {
+   "frame": 328,
+   "label": "B"
+  },
+  {
+   "frame": 332,
+   "label": "H"
+  },
+  {
+   "frame": 340,
+   "label": "B"
+  },
+  {
+   "frame": 356,
+   "label": "H"
+  },
+  {
+   "frame": 376,
+   "label": "B"
+  },
+  {
+   "frame": 432,
+   "label": "B"
+  },
+  {
+   "frame": 440,
+   "label": "H"
+  },
+  {
+   "frame": 456,
+   "label": "H"
+  },
+  {
+   "frame": 480,
+   "label": "B"
+  },
+  {
+   "frame": 512,
+   "label": "H"
+  },
+  {
+   "frame": 552,
+   "label": "H"
+  },
+  {
+   "frame": 572,
+   "label": "B"
+  },
+  {
+   "frame": 572,
+   "label": "H"
+  },
+  {
+   "frame": 576,
+   "label": "B"
+  },
+  {
+   "frame": 576,
+   "label": "H"
+  }
+ ],
+ "model": "qwen/qwen3-vl-235b-a22b-instruct",
+ "step": 4,
+ "window": 32,
+ "stride": 20,
+ "date": "2026-10-16",
+ "_provenance": {
+  "from": "docs/research/vlm-baseline/preds/tennis_demo3.qwen3-vl-235b.s4.pred.json",
+  "row": "vlm_qwen3-vl-235b"
+ }
+}

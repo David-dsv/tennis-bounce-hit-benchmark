@@ -1,0 +1,191 @@
+{
+ "video": "clay_pro_40s.mp4",
+ "fps": 25.0,
+ "events": [
+  {
+   "frame": 8,
+   "label": "H"
+  },
+  {
+   "frame": 32,
+   "label": "B"
+  },
+  {
+   "frame": 40,
+   "label": "H"
+  },
+  {
+   "frame": 77,
+   "label": "H"
+  },
+  {
+   "frame": 98,
+   "label": "B"
+  },
+  {
+   "frame": 112,
+   "label": "H"
+  },
+  {
+   "frame": 130,
+   "label": "B"
+  },
+  {
+   "frame": 136,
+   "label": "H"
+  },
+  {
+   "frame": 158,
+   "label": "B"
+  },
+  {
+   "frame": 162,
+   "label": "H"
+  },
+  {
+   "frame": 164,
+   "label": "B"
+  },
+  {
+   "frame": 166,
+   "label": "H"
+  },
+  {
+   "frame": 204,
+   "label": "B"
+  },
+  {
+   "frame": 208,
+   "label": "H"
+  },
+  {
+   "frame": 238,
+   "label": "B"
+  },
+  {
+   "frame": 242,
+   "label": "B"
+  },
+  {
+   "frame": 247,
+   "label": "H"
+  },
+  {
+   "frame": 268,
+   "label": "B"
+  },
+  {
+   "frame": 396,
+   "label": "H"
+  },
+  {
+   "frame": 414,
+   "label": "B"
+  },
+  {
+   "frame": 424,
+   "label": "H"
+  },
+  {
+   "frame": 454,
+   "label": "B"
+  },
+  {
+   "frame": 462,
+   "label": "H"
+  },
+  {
+   "frame": 476,
+   "label": "B"
+  },
+  {
+   "frame": 490,
+   "label": "H"
+  },
+  {
+   "frame": 512,
+   "label": "B"
+  },
+  {
+   "frame": 516,
+   "label": "H"
+  },
+  {
+   "frame": 538,
+   "label": "B"
+  },
+  {
+   "frame": 545,
+   "label": "H"
+  },
+  {
+   "frame": 570,
+   "label": "B"
+  },
+  {
+   "frame": 578,
+   "label": "H"
+  },
+  {
+   "frame": 600,
+   "label": "B"
+  },
+  {
+   "frame": 609,
+   "label": "H"
+  },
+  {
+   "frame": 662,
+   "label": "B"
+  },
+  {
+   "frame": 670,
+   "label": "H"
+  },
+  {
+   "frame": 694,
+   "label": "B"
+  },
+  {
+   "frame": 872,
+   "label": "H"
+  },
+  {
+   "frame": 904,
+   "label": "B"
+  },
+  {
+   "frame": 921,
+   "label": "H"
+  },
+  {
+   "frame": 944,
+   "label": "B"
+  },
+  {
+   "frame": 948,
+   "label": "H"
+  },
+  {
+   "frame": 956,
+   "label": "H"
+  },
+  {
+   "frame": 984,
+   "label": "B"
+  },
+  {
+   "frame": 989,
+   "label": "H"
+  }
+ ],
+ "model": "google/gemini-3.8-flash",
+ "step": 2,
+ "window": 50,
+ "stride": 38,
+ "date": "2026-10-15",
+ "_provenance": {
+  "from": "docs/research/vlm-baseline/preds/clay_pro_40s.gemini-3.8-flash.s2.pred.json",
+  "row": "vlm_gemini-3.8-flash"
+ }
+}

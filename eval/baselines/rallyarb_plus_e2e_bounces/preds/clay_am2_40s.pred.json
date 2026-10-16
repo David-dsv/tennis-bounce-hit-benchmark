@@ -1,0 +1,127 @@
+{
+ "video": "clay_am2_40s",
+ "fps": 59.94005994005994,
+ "events": [
+  {
+   "frame": 196,
+   "label": "HIT"
+  },
+  {
+   "frame": 231,
+   "label": "HIT"
+  },
+  {
+   "frame": 292,
+   "label": "HIT"
+  },
+  {
+   "frame": 341,
+   "label": "HIT"
+  },
+  {
+   "frame": 373,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 386,
+   "label": "HIT"
+  },
+  {
+   "frame": 568,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 589,
+   "label": "HIT"
+  },
+  {
+   "frame": 785,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 837,
+   "label": "HIT"
+  },
+  {
+   "frame": 1588,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1601,
+   "label": "HIT"
+  },
+  {
+   "frame": 1751,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1792,
+   "label": "HIT"
+  },
+  {
+   "frame": 1852,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1888,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1911,
+   "label": "HIT"
+  },
+  {
+   "frame": 2015,
+   "label": "HIT"
+  },
+  {
+   "frame": 2059,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 2083,
+   "label": "HIT"
+  },
+  {
+   "frame": 2102,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 2201,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 2237,
+   "label": "HIT"
+  },
+  {
+   "frame": 2303,
+   "label": "HIT"
+  },
+  {
+   "frame": 2374,
+   "label": "HIT"
+  },
+  {
+   "frame": 2411,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 2423,
+   "label": "HIT"
+  },
+  {
+   "frame": 2467,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 2574,
+   "label": "HIT"
+  }
+ ],
+ "date": "2026-10-18",
+ "_provenance": {
+  "from": "docs/research/fusion/preds/e2e_B/clay_am2_40s.pred.json",
+  "row": "rallyarb_plus_e2e_bounces"
+ }
+}

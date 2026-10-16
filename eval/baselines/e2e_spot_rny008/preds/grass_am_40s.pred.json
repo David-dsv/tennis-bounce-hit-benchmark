@@ -1,0 +1,63 @@
+{
+ "video": "grass_am_40s.mp4",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 434,
+   "label": "H",
+   "score": 0.581299,
+   "src_label": "near_court_serve",
+   "src_frame": 217
+  },
+  {
+   "frame": 564,
+   "label": "B",
+   "score": 0.695073,
+   "src_label": "near_court_bounce",
+   "src_frame": 282
+  },
+  {
+   "frame": 820,
+   "label": "H",
+   "score": 0.527992,
+   "src_label": "far_court_serve",
+   "src_frame": 410
+  },
+  {
+   "frame": 1740,
+   "label": "H",
+   "score": 0.774833,
+   "src_label": "near_court_swing",
+   "src_frame": 870
+  },
+  {
+   "frame": 2470,
+   "label": "H",
+   "score": 0.570769,
+   "src_label": "near_court_swing",
+   "src_frame": 1235
+  }
+ ],
+ "source": {
+  "format": "e2e",
+  "video_id": "grass_am_40s",
+  "spot_fps": 30.0,
+  "stride": 2,
+  "offset": 0,
+  "score_threshold": 0.5,
+  "nms_window_spot_frames": 4,
+  "classes": {
+   "far_court_bounce": "B",
+   "near_court_bounce": "B",
+   "far_court_swing": "H",
+   "near_court_swing": "H",
+   "far_court_serve": "H",
+   "near_court_serve": "H"
+  },
+  "file": "/Users/vuong/Documents/CourtSide-CV/data/output/spot/e2e_rny008_test/pred-test.json"
+ },
+ "_provenance": {
+  "from": "docs/research/learned-spotting/preds/e2e_rny008.t0.5.grass_am_40s.pred.json",
+  "row": "e2e_spot_rny008"
+ }
+}

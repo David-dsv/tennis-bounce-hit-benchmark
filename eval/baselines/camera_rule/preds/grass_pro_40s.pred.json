@@ -1,0 +1,196 @@
+{
+ "video": "grass_pro_40s.mp4",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 28,
+   "label": "H",
+   "score": 0.988791,
+   "src_label": "far_court_serve",
+   "src_frame": 14
+  },
+  {
+   "frame": 50,
+   "label": "B",
+   "score": 0.924558,
+   "src_label": "near_court_bounce",
+   "src_frame": 25
+  },
+  {
+   "frame": 66,
+   "label": "H",
+   "score": 0.864523,
+   "src_label": "near_court_swing",
+   "src_frame": 33
+  },
+  {
+   "frame": 146,
+   "label": "B",
+   "score": 0.956663,
+   "src_label": "far_court_bounce",
+   "src_frame": 73
+  },
+  {
+   "frame": 174,
+   "label": "H",
+   "score": 0.979903,
+   "src_label": "far_court_swing",
+   "src_frame": 87
+  },
+  {
+   "frame": 208,
+   "label": "B",
+   "score": 0.928005,
+   "src_label": "near_court_bounce",
+   "src_frame": 104
+  },
+  {
+   "frame": 234,
+   "label": "H",
+   "score": 0.690664,
+   "src_label": "near_court_swing",
+   "src_frame": 117
+  },
+  {
+   "frame": 410,
+   "label": "H",
+   "score": 0.963151,
+   "src_label": "far_court_serve",
+   "src_frame": 205
+  },
+  {
+   "frame": 430,
+   "label": "B",
+   "score": 0.990327,
+   "src_label": "near_court_bounce",
+   "src_frame": 215
+  },
+  {
+   "frame": 472,
+   "label": "H",
+   "score": 0.972599,
+   "src_label": "near_court_swing",
+   "src_frame": 236
+  },
+  {
+   "frame": 540,
+   "label": "B",
+   "score": 0.986854,
+   "src_label": "far_court_bounce",
+   "src_frame": 270
+  },
+  {
+   "frame": 558,
+   "label": "H",
+   "score": 0.935752,
+   "src_label": "far_court_swing",
+   "src_frame": 279
+  },
+  {
+   "frame": 634,
+   "label": "B",
+   "score": 0.990615,
+   "src_label": "near_court_bounce",
+   "src_frame": 317
+  },
+  {
+   "frame": 676,
+   "label": "H",
+   "score": 0.991253,
+   "src_label": "near_court_swing",
+   "src_frame": 338
+  },
+  {
+   "frame": 736,
+   "label": "H",
+   "score": 0.749285,
+   "src_label": "far_court_swing",
+   "src_frame": 368
+  },
+  {
+   "frame": 830,
+   "label": "B",
+   "score": 0.907784,
+   "src_label": "near_court_bounce",
+   "src_frame": 415
+  },
+  {
+   "frame": 880,
+   "label": "H",
+   "score": 0.96342,
+   "src_label": "near_court_swing",
+   "src_frame": 440
+  },
+  {
+   "frame": 914,
+   "label": "H",
+   "score": 0.690479,
+   "src_label": "far_court_swing",
+   "src_frame": 457
+  },
+  {
+   "frame": 960,
+   "label": "B",
+   "score": 0.950491,
+   "src_label": "near_court_bounce",
+   "src_frame": 480
+  },
+  {
+   "frame": 990,
+   "label": "H",
+   "score": 0.967423,
+   "src_label": "near_court_swing",
+   "src_frame": 495
+  },
+  {
+   "frame": 1030,
+   "label": "H",
+   "score": 0.802038,
+   "src_label": "far_court_swing",
+   "src_frame": 515
+  },
+  {
+   "frame": 1110,
+   "label": "B",
+   "score": 0.995988,
+   "src_label": "near_court_bounce",
+   "src_frame": 555
+  },
+  {
+   "frame": 1142,
+   "label": "H",
+   "score": 0.983053,
+   "src_label": "near_court_swing",
+   "src_frame": 571
+  },
+  {
+   "frame": 1176,
+   "label": "B",
+   "score": 0.960785,
+   "src_label": "far_court_bounce",
+   "src_frame": 588
+  }
+ ],
+ "source": {
+  "format": "e2e",
+  "video_id": "grass_pro_40s",
+  "spot_fps": 30.0,
+  "stride": 2,
+  "offset": 0,
+  "score_threshold": 0.5,
+  "nms_window_spot_frames": 4,
+  "classes": {
+   "far_court_bounce": "B",
+   "near_court_bounce": "B",
+   "far_court_swing": "H",
+   "near_court_swing": "H",
+   "far_court_serve": "H",
+   "near_court_serve": "H"
+  },
+  "file": "/Users/vuong/Documents/CourtSide-CV/data/output/spot/e2e_rny008_test/pred-test.json"
+ },
+ "_provenance": {
+  "from": "docs/research/learned-spotting/fusion/grass_pro_40s.e2e.pred.json",
+  "row": "camera_rule"
+ }
+}

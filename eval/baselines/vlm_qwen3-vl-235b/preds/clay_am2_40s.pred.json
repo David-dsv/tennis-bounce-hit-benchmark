@@ -1,0 +1,275 @@
+{
+ "video": "clay_am2_40s.mp4",
+ "fps": 59.94005994005994,
+ "events": [
+  {
+   "frame": 235,
+   "label": "H"
+  },
+  {
+   "frame": 240,
+   "label": "B"
+  },
+  {
+   "frame": 375,
+   "label": "B"
+  },
+  {
+   "frame": 395,
+   "label": "H"
+  },
+  {
+   "frame": 400,
+   "label": "H"
+  },
+  {
+   "frame": 415,
+   "label": "B"
+  },
+  {
+   "frame": 555,
+   "label": "H"
+  },
+  {
+   "frame": 560,
+   "label": "B"
+  },
+  {
+   "frame": 565,
+   "label": "H"
+  },
+  {
+   "frame": 570,
+   "label": "B"
+  },
+  {
+   "frame": 575,
+   "label": "H"
+  },
+  {
+   "frame": 580,
+   "label": "B"
+  },
+  {
+   "frame": 585,
+   "label": "H"
+  },
+  {
+   "frame": 590,
+   "label": "B"
+  },
+  {
+   "frame": 595,
+   "label": "H"
+  },
+  {
+   "frame": 600,
+   "label": "B"
+  },
+  {
+   "frame": 600,
+   "label": "H"
+  },
+  {
+   "frame": 605,
+   "label": "H"
+  },
+  {
+   "frame": 610,
+   "label": "B"
+  },
+  {
+   "frame": 615,
+   "label": "H"
+  },
+  {
+   "frame": 620,
+   "label": "B"
+  },
+  {
+   "frame": 625,
+   "label": "H"
+  },
+  {
+   "frame": 630,
+   "label": "B"
+  },
+  {
+   "frame": 635,
+   "label": "H"
+  },
+  {
+   "frame": 640,
+   "label": "B"
+  },
+  {
+   "frame": 645,
+   "label": "H"
+  },
+  {
+   "frame": 650,
+   "label": "B"
+  },
+  {
+   "frame": 655,
+   "label": "H"
+  },
+  {
+   "frame": 785,
+   "label": "B"
+  },
+  {
+   "frame": 840,
+   "label": "H"
+  },
+  {
+   "frame": 845,
+   "label": "B"
+  },
+  {
+   "frame": 1050,
+   "label": "B"
+  },
+  {
+   "frame": 1055,
+   "label": "H"
+  },
+  {
+   "frame": 1060,
+   "label": "H"
+  },
+  {
+   "frame": 1070,
+   "label": "B"
+  },
+  {
+   "frame": 1600,
+   "label": "H"
+  },
+  {
+   "frame": 1800,
+   "label": "H"
+  },
+  {
+   "frame": 1830,
+   "label": "B"
+  },
+  {
+   "frame": 1835,
+   "label": "H"
+  },
+  {
+   "frame": 1870,
+   "label": "B"
+  },
+  {
+   "frame": 1875,
+   "label": "H"
+  },
+  {
+   "frame": 1900,
+   "label": "H"
+  },
+  {
+   "frame": 1910,
+   "label": "B"
+  },
+  {
+   "frame": 1915,
+   "label": "H"
+  },
+  {
+   "frame": 1950,
+   "label": "B"
+  },
+  {
+   "frame": 1955,
+   "label": "H"
+  },
+  {
+   "frame": 2025,
+   "label": "B"
+  },
+  {
+   "frame": 2025,
+   "label": "H"
+  },
+  {
+   "frame": 2030,
+   "label": "H"
+  },
+  {
+   "frame": 2215,
+   "label": "B"
+  },
+  {
+   "frame": 2215,
+   "label": "H"
+  },
+  {
+   "frame": 2220,
+   "label": "B"
+  },
+  {
+   "frame": 2220,
+   "label": "H"
+  },
+  {
+   "frame": 2240,
+   "label": "H"
+  },
+  {
+   "frame": 2345,
+   "label": "H"
+  },
+  {
+   "frame": 2390,
+   "label": "B"
+  },
+  {
+   "frame": 2400,
+   "label": "B"
+  },
+  {
+   "frame": 2400,
+   "label": "H"
+  },
+  {
+   "frame": 2405,
+   "label": "H"
+  },
+  {
+   "frame": 2410,
+   "label": "B"
+  },
+  {
+   "frame": 2420,
+   "label": "H"
+  },
+  {
+   "frame": 2550,
+   "label": "H"
+  },
+  {
+   "frame": 2555,
+   "label": "B"
+  },
+  {
+   "frame": 2590,
+   "label": "H"
+  },
+  {
+   "frame": 2630,
+   "label": "B"
+  }
+ ],
+ "model": "qwen/qwen3-vl-235b-a22b-instruct",
+ "step": 5,
+ "window": 32,
+ "stride": 20,
+ "date": "2026-10-17",
+ "_provenance": {
+  "from": "docs/research/vlm-baseline/preds/clay_am2_40s.qwen3-vl-235b.s5.pred.json",
+  "row": "vlm_qwen3-vl-235b"
+ }
+}

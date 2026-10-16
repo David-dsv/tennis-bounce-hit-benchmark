@@ -1,0 +1,331 @@
+{
+ "video": "clay_am_40s.mp4",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 20,
+   "label": "H"
+  },
+  {
+   "frame": 25,
+   "label": "B"
+  },
+  {
+   "frame": 250,
+   "label": "H"
+  },
+  {
+   "frame": 280,
+   "label": "H"
+  },
+  {
+   "frame": 295,
+   "label": "H"
+  },
+  {
+   "frame": 365,
+   "label": "H"
+  },
+  {
+   "frame": 450,
+   "label": "H"
+  },
+  {
+   "frame": 500,
+   "label": "B"
+  },
+  {
+   "frame": 510,
+   "label": "B"
+  },
+  {
+   "frame": 520,
+   "label": "B"
+  },
+  {
+   "frame": 530,
+   "label": "B"
+  },
+  {
+   "frame": 540,
+   "label": "B"
+  },
+  {
+   "frame": 550,
+   "label": "B"
+  },
+  {
+   "frame": 600,
+   "label": "H"
+  },
+  {
+   "frame": 845,
+   "label": "H"
+  },
+  {
+   "frame": 850,
+   "label": "B"
+  },
+  {
+   "frame": 855,
+   "label": "H"
+  },
+  {
+   "frame": 860,
+   "label": "B"
+  },
+  {
+   "frame": 865,
+   "label": "H"
+  },
+  {
+   "frame": 870,
+   "label": "B"
+  },
+  {
+   "frame": 875,
+   "label": "H"
+  },
+  {
+   "frame": 880,
+   "label": "B"
+  },
+  {
+   "frame": 885,
+   "label": "H"
+  },
+  {
+   "frame": 890,
+   "label": "B"
+  },
+  {
+   "frame": 895,
+   "label": "H"
+  },
+  {
+   "frame": 900,
+   "label": "B"
+  },
+  {
+   "frame": 905,
+   "label": "H"
+  },
+  {
+   "frame": 910,
+   "label": "B"
+  },
+  {
+   "frame": 915,
+   "label": "H"
+  },
+  {
+   "frame": 920,
+   "label": "B"
+  },
+  {
+   "frame": 925,
+   "label": "H"
+  },
+  {
+   "frame": 930,
+   "label": "B"
+  },
+  {
+   "frame": 935,
+   "label": "H"
+  },
+  {
+   "frame": 940,
+   "label": "B"
+  },
+  {
+   "frame": 945,
+   "label": "H"
+  },
+  {
+   "frame": 950,
+   "label": "B"
+  },
+  {
+   "frame": 955,
+   "label": "H"
+  },
+  {
+   "frame": 1140,
+   "label": "H"
+  },
+  {
+   "frame": 1250,
+   "label": "H"
+  },
+  {
+   "frame": 1800,
+   "label": "H"
+  },
+  {
+   "frame": 2110,
+   "label": "H"
+  },
+  {
+   "frame": 2155,
+   "label": "H"
+  },
+  {
+   "frame": 2175,
+   "label": "H"
+  },
+  {
+   "frame": 2235,
+   "label": "H"
+  },
+  {
+   "frame": 2275,
+   "label": "B"
+  },
+  {
+   "frame": 2300,
+   "label": "B"
+  },
+  {
+   "frame": 2305,
+   "label": "B"
+  },
+  {
+   "frame": 2310,
+   "label": "B"
+  },
+  {
+   "frame": 2315,
+   "label": "B"
+  },
+  {
+   "frame": 2320,
+   "label": "B"
+  },
+  {
+   "frame": 2325,
+   "label": "B"
+  },
+  {
+   "frame": 2330,
+   "label": "B"
+  },
+  {
+   "frame": 2335,
+   "label": "B"
+  },
+  {
+   "frame": 2335,
+   "label": "H"
+  },
+  {
+   "frame": 2340,
+   "label": "B"
+  },
+  {
+   "frame": 2345,
+   "label": "B"
+  },
+  {
+   "frame": 2350,
+   "label": "B"
+  },
+  {
+   "frame": 2355,
+   "label": "B"
+  },
+  {
+   "frame": 2360,
+   "label": "B"
+  },
+  {
+   "frame": 2365,
+   "label": "B"
+  },
+  {
+   "frame": 2370,
+   "label": "B"
+  },
+  {
+   "frame": 2375,
+   "label": "B"
+  },
+  {
+   "frame": 2380,
+   "label": "B"
+  },
+  {
+   "frame": 2385,
+   "label": "B"
+  },
+  {
+   "frame": 2390,
+   "label": "B"
+  },
+  {
+   "frame": 2395,
+   "label": "B"
+  },
+  {
+   "frame": 2400,
+   "label": "B"
+  },
+  {
+   "frame": 2405,
+   "label": "B"
+  },
+  {
+   "frame": 2410,
+   "label": "B"
+  },
+  {
+   "frame": 2415,
+   "label": "B"
+  },
+  {
+   "frame": 2420,
+   "label": "B"
+  },
+  {
+   "frame": 2425,
+   "label": "B"
+  },
+  {
+   "frame": 2430,
+   "label": "B"
+  },
+  {
+   "frame": 2435,
+   "label": "B"
+  },
+  {
+   "frame": 2440,
+   "label": "B"
+  },
+  {
+   "frame": 2445,
+   "label": "B"
+  },
+  {
+   "frame": 2450,
+   "label": "B"
+  },
+  {
+   "frame": 2455,
+   "label": "B"
+  },
+  {
+   "frame": 2555,
+   "label": "H"
+  }
+ ],
+ "model": "qwen/qwen3-vl-235b-a22b-instruct",
+ "step": 5,
+ "window": 32,
+ "stride": 20,
+ "date": "2026-10-16",
+ "_provenance": {
+  "from": "docs/research/vlm-baseline/preds/clay_am_40s.qwen3-vl-235b.s5.pred.json",
+  "row": "vlm_qwen3-vl-235b"
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "video": "hard_pro_40s",
+ "fps": 60.0,
+ "events": [
+  {
+   "frame": 8,
+   "label": "HIT"
+  },
+  {
+   "frame": 54,
+   "label": "HIT"
+  },
+  {
+   "frame": 95,
+   "label": "HIT"
+  },
+  {
+   "frame": 107,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 130,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 150,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 233,
+   "label": "HIT"
+  },
+  {
+   "frame": 296,
+   "label": "HIT"
+  },
+  {
+   "frame": 379,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 399,
+   "label": "HIT"
+  },
+  {
+   "frame": 466,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 500,
+   "label": "HIT"
+  },
+  {
+   "frame": 533,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 608,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 669,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 754,
+   "label": "HIT"
+  },
+  {
+   "frame": 817,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 856,
+   "label": "HIT"
+  },
+  {
+   "frame": 904,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1092,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1124,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1243,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1264,
+   "label": "HIT"
+  },
+  {
+   "frame": 1302,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1321,
+   "label": "HIT"
+  },
+  {
+   "frame": 1386,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1704,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1762,
+   "label": "HIT"
+  },
+  {
+   "frame": 1796,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1815,
+   "label": "HIT"
+  },
+  {
+   "frame": 1851,
+   "label": "HIT"
+  },
+  {
+   "frame": 1863,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 1886,
+   "label": "HIT"
+  },
+  {
+   "frame": 1938,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 2089,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 2109,
+   "label": "HIT"
+  },
+  {
+   "frame": 2255,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 2273,
+   "label": "HIT"
+  },
+  {
+   "frame": 2341,
+   "label": "HIT"
+  },
+  {
+   "frame": 2426,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 2439,
+   "label": "HIT"
+  },
+  {
+   "frame": 2489,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 2527,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 2557,
+   "label": "BOUNCE"
+  }
+ ],
+ "date": "2026-10-18",
+ "_provenance": {
+  "from": "docs/research/fusion/preds/e2e_B/hard_pro_40s.pred.json",
+  "row": "rallyarb_plus_e2e_bounces"
+ }
+}

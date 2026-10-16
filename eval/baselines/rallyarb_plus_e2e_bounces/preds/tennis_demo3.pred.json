@@ -1,0 +1,83 @@
+{
+ "video": "tennis_demo3",
+ "fps": 50.0,
+ "events": [
+  {
+   "frame": 44,
+   "label": "HIT"
+  },
+  {
+   "frame": 62,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 79,
+   "label": "HIT"
+  },
+  {
+   "frame": 120,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 144,
+   "label": "HIT"
+  },
+  {
+   "frame": 172,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 194,
+   "label": "HIT"
+  },
+  {
+   "frame": 253,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 275,
+   "label": "HIT"
+  },
+  {
+   "frame": 307,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 331,
+   "label": "HIT"
+  },
+  {
+   "frame": 369,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 396,
+   "label": "HIT"
+  },
+  {
+   "frame": 455,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 468,
+   "label": "HIT"
+  },
+  {
+   "frame": 510,
+   "label": "BOUNCE"
+  },
+  {
+   "frame": 527,
+   "label": "HIT"
+  },
+  {
+   "frame": 568,
+   "label": "BOUNCE"
+  }
+ ],
+ "date": "2026-10-18",
+ "_provenance": {
+  "from": "docs/research/fusion/preds/e2e_B/tennis_demo3.pred.json",
+  "row": "rallyarb_plus_e2e_bounces"
+ }
+}

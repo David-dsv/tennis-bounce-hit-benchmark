@@ -1,0 +1,238 @@
+{
+ "video": "clay_am2_40s.mp4",
+ "fps": 59.94,
+ "events": [
+  {
+   "frame": 376,
+   "label": "B",
+   "score": 0.630413,
+   "src_label": "near_court_bounce",
+   "src_frame": 188
+  },
+  {
+   "frame": 392,
+   "label": "H",
+   "score": 0.745134,
+   "src_label": "near_court_swing",
+   "src_frame": 196
+  },
+  {
+   "frame": 502,
+   "label": "H",
+   "score": 0.699551,
+   "src_label": "far_court_swing",
+   "src_frame": 251
+  },
+  {
+   "frame": 570,
+   "label": "B",
+   "score": 0.749286,
+   "src_label": "near_court_bounce",
+   "src_frame": 285
+  },
+  {
+   "frame": 580,
+   "label": "H",
+   "score": 0.446831,
+   "src_label": "near_court_swing",
+   "src_frame": 290
+  },
+  {
+   "frame": 590,
+   "label": "H",
+   "score": 0.438838,
+   "src_label": "near_court_swing",
+   "src_frame": 295
+  },
+  {
+   "frame": 788,
+   "label": "B",
+   "score": 0.686299,
+   "src_label": "near_court_bounce",
+   "src_frame": 394
+  },
+  {
+   "frame": 842,
+   "label": "H",
+   "score": 0.597556,
+   "src_label": "near_court_swing",
+   "src_frame": 421
+  },
+  {
+   "frame": 948,
+   "label": "H",
+   "score": 0.636491,
+   "src_label": "far_court_swing",
+   "src_frame": 474
+  },
+  {
+   "frame": 1024,
+   "label": "B",
+   "score": 0.71756,
+   "src_label": "near_court_bounce",
+   "src_frame": 512
+  },
+  {
+   "frame": 1064,
+   "label": "H",
+   "score": 0.310917,
+   "src_label": "near_court_swing",
+   "src_frame": 532
+  },
+  {
+   "frame": 1156,
+   "label": "H",
+   "score": 0.748363,
+   "src_label": "far_court_swing",
+   "src_frame": 578
+  },
+  {
+   "frame": 1248,
+   "label": "H",
+   "score": 0.494073,
+   "src_label": "near_court_swing",
+   "src_frame": 624
+  },
+  {
+   "frame": 1346,
+   "label": "H",
+   "score": 0.768591,
+   "src_label": "far_court_swing",
+   "src_frame": 673
+  },
+  {
+   "frame": 1398,
+   "label": "B",
+   "score": 0.53346,
+   "src_label": "near_court_bounce",
+   "src_frame": 699
+  },
+  {
+   "frame": 1438,
+   "label": "H",
+   "score": 0.753325,
+   "src_label": "near_court_swing",
+   "src_frame": 719
+  },
+  {
+   "frame": 1528,
+   "label": "H",
+   "score": 0.696578,
+   "src_label": "far_court_swing",
+   "src_frame": 764
+  },
+  {
+   "frame": 1586,
+   "label": "B",
+   "score": 0.55261,
+   "src_label": "near_court_bounce",
+   "src_frame": 793
+  },
+  {
+   "frame": 1604,
+   "label": "H",
+   "score": 0.830526,
+   "src_label": "near_court_swing",
+   "src_frame": 802
+  },
+  {
+   "frame": 1704,
+   "label": "H",
+   "score": 0.616544,
+   "src_label": "far_court_swing",
+   "src_frame": 852
+  },
+  {
+   "frame": 1998,
+   "label": "B",
+   "score": 0.450721,
+   "src_label": "near_court_bounce",
+   "src_frame": 999
+  },
+  {
+   "frame": 2018,
+   "label": "H",
+   "score": 0.817516,
+   "src_label": "near_court_swing",
+   "src_frame": 1009
+  },
+  {
+   "frame": 2202,
+   "label": "B",
+   "score": 0.738987,
+   "src_label": "near_court_bounce",
+   "src_frame": 1101
+  },
+  {
+   "frame": 2238,
+   "label": "H",
+   "score": 0.511515,
+   "src_label": "near_court_swing",
+   "src_frame": 1119
+  },
+  {
+   "frame": 2324,
+   "label": "H",
+   "score": 0.475871,
+   "src_label": "far_court_swing",
+   "src_frame": 1162
+  },
+  {
+   "frame": 2374,
+   "label": "B",
+   "score": 0.342326,
+   "src_label": "near_court_bounce",
+   "src_frame": 1187
+  },
+  {
+   "frame": 2414,
+   "label": "H",
+   "score": 0.839144,
+   "src_label": "near_court_swing",
+   "src_frame": 1207
+  },
+  {
+   "frame": 2500,
+   "label": "H",
+   "score": 0.836828,
+   "src_label": "far_court_swing",
+   "src_frame": 1250
+  },
+  {
+   "frame": 2586,
+   "label": "H",
+   "score": 0.840974,
+   "src_label": "near_court_swing",
+   "src_frame": 1293
+  },
+  {
+   "frame": 2630,
+   "label": "B",
+   "score": 0.547414,
+   "src_label": "far_court_bounce",
+   "src_frame": 1315
+  }
+ ],
+ "source": {
+  "format": "tdeed",
+  "video_id": null,
+  "spot_fps": 29.97,
+  "stride": 2,
+  "offset": 0,
+  "score_threshold": 0.3,
+  "nms_window_spot_frames": 4,
+  "classes": {
+   "far_court_bounce": "B",
+   "near_court_bounce": "B",
+   "far_court_swing": "H",
+   "near_court_swing": "H",
+   "far_court_serve": "H",
+   "near_court_serve": "H"
+  },
+  "file": "/Users/vuong/Documents/CourtSide-CV/data/output/spot/tdeed_small_clay_am2_40s/inference_output/results_inference.json"
+ },
+ "_provenance": {
+  "from": "docs/research/learned-spotting/preds/tdeed_small.t0.3.clay_am2_40s.pred.json",
+  "row": "tdeed_small"
+ }
+}
