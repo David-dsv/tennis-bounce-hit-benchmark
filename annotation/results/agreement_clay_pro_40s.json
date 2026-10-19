@@ -1,0 +1,143 @@
+{
+ "clip": "clay_pro_40s.mp4",
+ "fps": 25.0,
+ "a1_file": "release/benchmark/data/gt/clay_pro_40s.events_gt.json",
+ "a2_file": "kit_double_annotation/resultats/clay_pro_40s.events_gt.A2.json",
+ "a1_annotator": "",
+ "a2_annotator": "plemaistre",
+ "a1_policy_version": 1,
+ "a2_policy_version": 2,
+ "exclude_tags_for_untagged_view": "all tags",
+ "views": {
+  "all": {
+   "tolerance_frames": 4,
+   "n_a1": 52,
+   "n_a2": 51,
+   "n_a1_bounce": 27,
+   "n_a1_hit": 25,
+   "n_a2_bounce": 26,
+   "n_a2_hit": 25,
+   "matched": 51,
+   "pairs_dropped_by_tag": 0,
+   "confusion": {
+    "TP_b": 26,
+    "TP_h": 25,
+    "A1_B_as_A2_H": 0,
+    "A1_H_as_A2_B": 0,
+    "only_in_A1_bounce": 1,
+    "only_in_A1_hit": 0,
+    "only_in_A2_bounce": 0,
+    "only_in_A2_hit": 0
+   },
+   "bounce": {
+    "tp": 26,
+    "fp": 0,
+    "fn": 1,
+    "P": 1.0,
+    "R": 0.9629629629629629,
+    "F1": 0.9811320754716981
+   },
+   "hit": {
+    "tp": 25,
+    "fp": 0,
+    "fn": 0,
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0
+   },
+   "label_kappa": {
+    "n": 51,
+    "agreement": 1.0,
+    "kappa": 1.0
+   },
+   "only_in_A1": {
+    "bounce": [
+     719
+    ],
+    "hit": []
+   },
+   "only_in_A2": [],
+   "offset": {
+    "mean_abs": 0.19607843137254902,
+    "max_abs": 1,
+    "mean_signed_a2_minus_a1": 0.0392156862745098,
+    "exact_frame_rate": 0.803921568627451,
+    "hist_abs": {
+     "0": 41,
+     "1": 10
+    }
+   },
+   "attributes_on_matched": {
+    "tag_agreement": 0.9803921568627451,
+    "hit_pairs": 25,
+    "player_agreement": 1.0,
+    "stroke_pairs_both_set": 25,
+    "stroke_agreement": 1.0
+   }
+  },
+  "untagged": {
+   "tolerance_frames": 4,
+   "n_a1": 47,
+   "n_a2": 47,
+   "n_a1_bounce": 24,
+   "n_a1_hit": 23,
+   "n_a2_bounce": 24,
+   "n_a2_hit": 23,
+   "matched": 47,
+   "pairs_dropped_by_tag": 4,
+   "confusion": {
+    "TP_b": 24,
+    "TP_h": 23,
+    "A1_B_as_A2_H": 0,
+    "A1_H_as_A2_B": 0,
+    "only_in_A1_bounce": 0,
+    "only_in_A1_hit": 0,
+    "only_in_A2_bounce": 0,
+    "only_in_A2_hit": 0
+   },
+   "bounce": {
+    "tp": 24,
+    "fp": 0,
+    "fn": 0,
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0
+   },
+   "hit": {
+    "tp": 23,
+    "fp": 0,
+    "fn": 0,
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0
+   },
+   "label_kappa": {
+    "n": 47,
+    "agreement": 1.0,
+    "kappa": 1.0
+   },
+   "only_in_A1": {
+    "bounce": [],
+    "hit": []
+   },
+   "only_in_A2": [],
+   "offset": {
+    "mean_abs": 0.2127659574468085,
+    "max_abs": 1,
+    "mean_signed_a2_minus_a1": 0.0425531914893617,
+    "exact_frame_rate": 0.7872340425531915,
+    "hist_abs": {
+     "0": 37,
+     "1": 10
+    }
+   },
+   "attributes_on_matched": {
+    "tag_agreement": 1.0,
+    "hit_pairs": 23,
+    "player_agreement": 1.0,
+    "stroke_pairs_both_set": 23,
+    "stroke_agreement": 1.0
+   }
+  }
+ }
+}

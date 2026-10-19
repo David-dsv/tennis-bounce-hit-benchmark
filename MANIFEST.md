@@ -1,7 +1,7 @@
 # MANIFEST
 
 Benchmark release built 2026-10-05 from the CourtSide-CV repository (branch `feat/accuracy-overhaul`), **updated 2026-10-16/18 with the external baseline rows the pre-registered fusion row and the ImageNet-initialised LOCO control (2026-10-19)** (`eval/baselines/`).
-**139 files, 32.2 MB total** (32,243,506 bytes), plus this manifest. Nothing in this directory is a video or an image.
+**146 files, 32.3 MB total** (32,268,222 bytes), plus this manifest. Nothing in this directory is a video or an image.
 
 ## Contents
 
@@ -15,7 +15,7 @@ Benchmark release built 2026-10-05 from the CourtSide-CV repository (branch `fea
 | `eval/` | harness code + manifest + README (excluding preds/expected/baselines) | 4 | 0.03 MB |
 | `eval/baselines/` | external reference rows: 8 manifests + 64 stripped predictions + README + pre-registered PROTOCOL | 75 | 0.19 MB |
 | `eval/baselines/expected/` | harness reports on the baseline rows (dev/test rally-only) + summary | 17 | 0.10 MB |
-| `annotation/` | double-annotation kit | 2 | 0.02 MB |
+| `annotation/` | double-annotation kit + results (A2 sidecars, agreement reports, 2026-10-19) | 9 | 0.05 MB |
 | `./` | top-level docs + licenses | 4 | 0.02 MB |
 
 Not included (size / scope): `tests/fixtures/events/<clip>/<clip>_pose.json` (the shot-detector cache: spline-smoothed ball centres + the SAME poses as `_event.json`, ~31 MB more, derivable from `_event.json`), the raw detection dumps, the paper's figures, the upstream models' weights/code and raw outputs (VLM transcripts, per-frame score tensors). The full `_annotated_stats.json` outputs (per-frame tracks, speeds, movement) were stripped to the event fields the evaluator reads; the sha256 of each original is in the pred file's `_provenance`.
@@ -41,8 +41,15 @@ python annotation/agreement.py data/gt/clay_am_40s.events_gt.json data/gt/clay_a
 | `LICENSE-DATA` | 2,332 | `0f4d10d6a8c752c1de81d44f4cf05c5d3ee8b6864969ddca930eec13764e2bad` |
 | `README.md` | 11,455 | `ec76747c311fa2331b24e46a1e0e4108c1bb5105acb2d47440d8d5b67048336f` |
 | `SOURCES.md` | 4,893 | `23f0509f2c771f8ec51ecef73b984957a26f5613398feda6e6ada32471376254` |
-| `annotation/PROTOCOL.md` | 6,254 | `8c1ad867cd7952349f3a97e97d904393063cb4730a4d66ad580e84915b91c8fb` |
+| `annotation/PROTOCOL.md` | 7,070 | `ba7af15ed5688cf3f2506933dd0fd8e455ce965e7006736f5083c2464588e6e4` |
 | `annotation/agreement.py` | 14,689 | `f8a6fb3b30e356ac3a3052671c718f6aaba505f6ba2ddf3d91c2c9b53f44c953` |
+| `annotation/results/agreement_clay_am_40s.json` | 3,002 | `ac805dd0e6f775e723a0ad7ef306827f6c427a7c86dc2d9df99f7b98c9cebba1` |
+| `annotation/results/agreement_clay_pro_40s.json` | 2,743 | `4034fa6fa24d45390704bc3028bd5647738737c47c1e3c77a9b52cae4cb5ce91` |
+| `annotation/results/agreement_grass_am_40s.json` | 2,972 | `2e4b24b65226f7fd9693462d9aae44d39cfc6695ff542c513f4df0d5c69a49bb` |
+| `annotation/results/clay_am_40s.events_gt.A2.json` | 4,106 | `e21059967860526c9dc0d1219e758f2dd0326c3ff824567c0dfdf2a6659a0995` |
+| `annotation/results/clay_pro_40s.events_gt.A2.json` | 5,379 | `1cb94578822c668dae39b35bf3911b4fb7aac9ba48e958a305d9a1ed6307c3b2` |
+| `annotation/results/grass_am_40s.events_gt.A2.json` | 5,280 | `355b559f6eb912d391d9c24c856cfcdff2a7ba3f36976f02b19551841913d944` |
+| `annotation/results/pooled.json` | 418 | `536982f26032766221640258102e1ba82c38bbf9371600253b76cc81fe198630` |
 | `data/POLICY.md` | 4,559 | `282d43e6605abba9186875acc1a582bcca2a6667403ddfdef7f43a116751c3ef` |
 | `data/fixtures/clay_am2_40s.meta.json` | 777 | `fdf81c6133bd3e99a07b09a66064994d8a49d57e8131b82401bd30f4583b6ee9` |
 | `data/fixtures/clay_am2_40s_event.json` | 5,949,464 | `09f88d87020ff9b95f9425878e0547ee3b5017b9dc0359fce59fb7e223cd2b14` |

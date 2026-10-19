@@ -1,0 +1,162 @@
+{
+ "clip": "grass_am_40s.mp4",
+ "fps": 60.0,
+ "a1_file": "release/benchmark/data/gt/grass_am_40s.events_gt.json",
+ "a2_file": "kit_double_annotation/resultats/grass_am_40s.events_gt.A2.json",
+ "a1_annotator": "",
+ "a2_annotator": "plemaistre",
+ "a1_policy_version": 2,
+ "a2_policy_version": 2,
+ "exclude_tags_for_untagged_view": "all tags",
+ "views": {
+  "all": {
+   "tolerance_frames": 9,
+   "n_a1": 55,
+   "n_a2": 45,
+   "n_a1_bounce": 24,
+   "n_a1_hit": 31,
+   "n_a2_bounce": 21,
+   "n_a2_hit": 24,
+   "matched": 44,
+   "pairs_dropped_by_tag": 0,
+   "confusion": {
+    "TP_b": 20,
+    "TP_h": 24,
+    "A1_B_as_A2_H": 0,
+    "A1_H_as_A2_B": 0,
+    "only_in_A1_bounce": 4,
+    "only_in_A1_hit": 7,
+    "only_in_A2_bounce": 1,
+    "only_in_A2_hit": 0
+   },
+   "bounce": {
+    "tp": 20,
+    "fp": 1,
+    "fn": 4,
+    "P": 0.9523809523809523,
+    "R": 0.8333333333333334,
+    "F1": 0.888888888888889
+   },
+   "hit": {
+    "tp": 24,
+    "fp": 0,
+    "fn": 7,
+    "P": 1.0,
+    "R": 0.7741935483870968,
+    "F1": 0.8727272727272727
+   },
+   "label_kappa": {
+    "n": 44,
+    "agreement": 1.0,
+    "kappa": 1.0
+   },
+   "only_in_A1": {
+    "bounce": [
+     643,
+     1369,
+     1401,
+     2038
+    ],
+    "hit": [
+     106,
+     383,
+     759,
+     1114,
+     1494,
+     1880,
+     2204
+    ]
+   },
+   "only_in_A2": [
+    [
+     4,
+     "BOUNCE"
+    ]
+   ],
+   "offset": {
+    "mean_abs": 0.3181818181818182,
+    "max_abs": 3,
+    "mean_signed_a2_minus_a1": -0.09090909090909091,
+    "exact_frame_rate": 0.7727272727272727,
+    "hist_abs": {
+     "0": 34,
+     "1": 7,
+     "2": 2,
+     "3": 1
+    }
+   },
+   "attributes_on_matched": {
+    "tag_agreement": 0.9318181818181818,
+    "hit_pairs": 24,
+    "player_agreement": 1.0,
+    "stroke_pairs_both_set": 24,
+    "stroke_agreement": 1.0
+   }
+  },
+  "untagged": {
+   "tolerance_frames": 9,
+   "n_a1": 19,
+   "n_a2": 19,
+   "n_a1_bounce": 11,
+   "n_a1_hit": 8,
+   "n_a2_bounce": 11,
+   "n_a2_hit": 8,
+   "matched": 19,
+   "pairs_dropped_by_tag": 25,
+   "confusion": {
+    "TP_b": 11,
+    "TP_h": 8,
+    "A1_B_as_A2_H": 0,
+    "A1_H_as_A2_B": 0,
+    "only_in_A1_bounce": 0,
+    "only_in_A1_hit": 0,
+    "only_in_A2_bounce": 0,
+    "only_in_A2_hit": 0
+   },
+   "bounce": {
+    "tp": 11,
+    "fp": 0,
+    "fn": 0,
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0
+   },
+   "hit": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0
+   },
+   "label_kappa": {
+    "n": 19,
+    "agreement": 1.0,
+    "kappa": 1.0
+   },
+   "only_in_A1": {
+    "bounce": [],
+    "hit": []
+   },
+   "only_in_A2": [],
+   "offset": {
+    "mean_abs": 0.2631578947368421,
+    "max_abs": 2,
+    "mean_signed_a2_minus_a1": -0.15789473684210525,
+    "exact_frame_rate": 0.8421052631578947,
+    "hist_abs": {
+     "0": 16,
+     "1": 1,
+     "2": 2
+    }
+   },
+   "attributes_on_matched": {
+    "tag_agreement": 1.0,
+    "hit_pairs": 8,
+    "player_agreement": 1.0,
+    "stroke_pairs_both_set": 8,
+    "stroke_agreement": 1.0
+   }
+  }
+ }
+}

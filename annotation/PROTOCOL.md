@@ -109,3 +109,15 @@ Disagreements are reviewed jointly only after the agreement numbers are recorded
 published. Any change to the released GT that results from adjudication is a new GT
 version (date + commit), and the test split is then re-scored **once** for each system
 version, never iteratively.
+
+## 8. Results (2026-10-19)
+
+Carried out by a second annotator (a colleague, no access to A1 or to any prediction) on the three
+clips above; sidecars and reports in `results/`. Rally-only view (the paper's): bounce / hit F1
+1.000 / 0.957 pooled (clay_am 1.000 / 0.867, grass_am 1.000 / 1.000, clay_pro 1.000 / 1.000);
+all events: 0.935 / 0.922. Label kappa 1.00 on 130 matched pairs, zero B/H confusion, player and
+stroke agreement 1.00. Frame offsets: mean 0.24, max 3, 79% exact, against tolerances of 4–9
+frames. Disagreements are tags (far-half events on grass_am, consecutive dead bounces on clay_am) and
+two clay_am hits placed 11 and 15 frames apart. A2 states in `notes` that part of the serve/dead tags
+were applied by a script from two written rules on hand-entered events. No ground truth was changed.
+

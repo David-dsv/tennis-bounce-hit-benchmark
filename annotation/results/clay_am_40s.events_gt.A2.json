@@ -1,0 +1,235 @@
+{
+  "video": "clay_am_40s.mp4",
+  "fps": 60.0,
+  "n_frames": 2591,
+  "width": 1920,
+  "height": 1080,
+  "frame_offset": 0,
+  "annotator": "plemaistre",
+  "created": "2026-10-19T11:09:20",
+  "policy_version": 2,
+  "notes": "Choix de l annotateur (regle 6) : frappe de service = stroke serve + tag serve, y compris pour le service du joueur du fond (serve prioritaire sur far). Rebonds consecutifs sans frappe entre eux : le premier sans tag, les suivants dead. Une partie des tags serve/dead a ete appliquee par script a partir de ces deux regles, sur les evenements saisis a la main.",
+  "events": [
+    {
+      "frame": 14,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 189,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 278,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "smash"
+    },
+    {
+      "frame": 303,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 358,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "BH"
+    },
+    {
+      "frame": 513,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 597,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 752,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 831,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "smash"
+    },
+    {
+      "frame": 871,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 906,
+      "label": "B",
+      "tag": "dead"
+    },
+    {
+      "frame": 933,
+      "label": "B",
+      "tag": "dead"
+    },
+    {
+      "frame": 1139,
+      "label": "H",
+      "tag": "serve",
+      "player": "near",
+      "stroke": "serve"
+    },
+    {
+      "frame": 1171,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1200,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "BH"
+    },
+    {
+      "frame": 1270,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1289,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "BH"
+    },
+    {
+      "frame": 1335,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1365,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 1419,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1441,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 1496,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1506,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 1572,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1596,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "FH"
+    },
+    {
+      "frame": 1693,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1727,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "BH"
+    },
+    {
+      "frame": 1776,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1804,
+      "label": "H",
+      "tag": null,
+      "player": "near",
+      "stroke": "BH"
+    },
+    {
+      "frame": 1903,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 1967,
+      "label": "B",
+      "tag": "dead"
+    },
+    {
+      "frame": 2173,
+      "label": "H",
+      "tag": "serve",
+      "player": "near",
+      "stroke": "serve"
+    },
+    {
+      "frame": 2204,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 2230,
+      "label": "H",
+      "tag": null,
+      "player": "far",
+      "stroke": "FH"
+    },
+    {
+      "frame": 2285,
+      "label": "B",
+      "tag": null
+    },
+    {
+      "frame": 2554,
+      "label": "H",
+      "tag": "serve",
+      "player": "near",
+      "stroke": "serve"
+    },
+    {
+      "frame": 2582,
+      "label": "B",
+      "tag": null
+    }
+  ]
+}
