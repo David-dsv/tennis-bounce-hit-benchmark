@@ -110,5 +110,21 @@
    9,
    true
   ]
+ },
+ "e2e_spot_rny002_loco_imagenet": {
+  "dev": [
+   0.0,
+   0.0,
+   0,
+   0,
+   null
+  ],
+  "test": [
+   0.0,
+   0.0,
+   0,
+   0,
+   null
+  ]
  }
 }

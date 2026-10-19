@@ -1,0 +1,25 @@
+{
+ "video": "clay_am2_40s.mp4",
+ "fps": 59.94005994005994,
+ "events": [],
+ "source": {
+  "format": "e2e",
+  "video_id": "clay_am2_40s",
+  "spot_fps": 29.97002997002997,
+  "stride": 2,
+  "offset": 0,
+  "score_threshold": 0.5,
+  "nms_window_spot_frames": 4,
+  "classes": {
+   "bounce": "B",
+   "hit": "H"
+  },
+  "file": "/Users/vuong/Documents/CourtSide-CV/docs/research/learned-spotting/loco/runs/imagenet/fold_clay_am2_40s/pred-test.json",
+  "loco_variant": "imagenet",
+  "held_out": true
+ },
+ "_provenance": {
+  "from": "docs/research/learned-spotting/loco/preds/loco_imagenet.t0.5.clay_am2_40s.pred.json",
+  "row": "e2e_spot_rny002_loco_imagenet"
+ }
+}

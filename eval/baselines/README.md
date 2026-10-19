@@ -11,6 +11,7 @@ Reference Rows* (and its leave-one-clip-out fine-tuning), one directory per row:
 | `vlm_gemini-3.8-flash/` | Gemini 3.8 Flash via OpenRouter, zero-shot (API dated October 2026) | — | 50-frame windows at ~12 fps, frame index burned into each image, one fixed prompt, ±3-frame merge | 0.519 / 0.523 | 0.406 / 0.593 | 59 / 9 |
 | `vlm_qwen3-vl-235b/` | Qwen3-VL-235B-A22B Instruct via OpenRouter, zero-shot (open weights; API dated October 2026) | — | 32-frame windows at ~12 fps (provider limit: 32 images per request), stride 20, same prompt and burned frame index, no reasoning budget, ±3-frame merge | 0.135 / 0.217 | 0.190 / 0.257 | 256 / 28 |
 | `camera_rule/` | selection by camera type | — | broadcast or fixed elevated → `e2e_spot_rny008`; phone / court-level → RallyArb | 0.854 / 0.721 | 0.846 / 0.896 | 4 / 1 |
+| `e2e_spot_rny002_loco_imagenet/` | control: the identical leave-one-clip-out protocol started from ImageNet weights (timm `regnety_002`, fresh 3-way head) instead of the tennis weights | the 7 *other* clips' ground truth, per fold; no broadcast pre-training | same settings, one run per fold, threshold 0.5 | 0.000 / 0.000 | 0.000 / 0.000 | 0 / 0 (no prediction on any fold; max class probability 0.18) |
 | `rallyarb_plus_e2e_bounces/` | RallyArb with the bounce frames of zero-shot E2E-Spot rny008 admitted into its candidate pool (same firewall, same decoder; `PROTOCOL.md` in the directory) | RallyArb's dev-fixed constants only; the spotter learned nothing from our clips | fusion variant chosen on dev among six (bounce votes only), test scored once | 0.883 / 0.667 | 0.704 / 0.459 | 26 / 9 |
 | `e2e_spot_rny002_loco/` | E2E-Spot RegNetY-002, fine-tuned leave-one-clip-out on this release's events | the 7 *other* clips' ground truth, per fold | AdamW 1e-4, 10 epochs × 256 windows, last epoch, threshold 0.5, all fixed before the first fold | 0.753 / 0.684 | 0.846 / 0.941 | 7 / 0 |
 
@@ -20,7 +21,7 @@ reports are in `expected/<row>_<split>_rally_only.json` and `expected/summary.js
 
 ```bash
 # from release/benchmark/
-for row in e2e_spot_rny008 tdeed_small vlm_gemini-3.8-flash vlm_qwen3-vl-235b camera_rule e2e_spot_rny002_loco rallyarb_plus_e2e_bounces; do
+for row in e2e_spot_rny008 tdeed_small vlm_gemini-3.8-flash vlm_qwen3-vl-235b camera_rule e2e_spot_rny002_loco e2e_spot_rny002_loco_imagenet rallyarb_plus_e2e_bounces; do
   for split in dev test; do
     python eval/eval_multiclip.py --manifest eval/baselines/$row/manifest.json --split $split \
         --exclude-tags serve,toss,far,dead,offscreen,replay

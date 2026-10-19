@@ -1,7 +1,7 @@
 # MANIFEST
 
-Benchmark release built 2026-10-05 from the CourtSide-CV repository (branch `feat/accuracy-overhaul`), **updated 2026-10-16/18 with the external baseline rows and the pre-registered fusion row** (`eval/baselines/`).
-**128 files, 32.2 MB total** (32,227,277 bytes), plus this manifest. Nothing in this directory is a video or an image.
+Benchmark release built 2026-10-05 from the CourtSide-CV repository (branch `feat/accuracy-overhaul`), **updated 2026-10-16/18 with the external baseline rows the pre-registered fusion row and the ImageNet-initialised LOCO control (2026-10-19)** (`eval/baselines/`).
+**139 files, 32.2 MB total** (32,243,506 bytes), plus this manifest. Nothing in this directory is a video or an image.
 
 ## Contents
 
@@ -13,8 +13,8 @@ Benchmark release built 2026-10-05 from the CourtSide-CV repository (branch `fea
 | `eval/preds/` | frozen RallyArb reference predictions (stripped to event fields) | 8 | 0.03 MB |
 | `eval/expected/` | harness reports on eval/preds (4 views) | 4 | 0.03 MB |
 | `eval/` | harness code + manifest + README (excluding preds/expected/baselines) | 4 | 0.03 MB |
-| `eval/baselines/` | external reference rows: 7 manifests + 56 stripped predictions + README + pre-registered PROTOCOL | 66 | 0.19 MB |
-| `eval/baselines/expected/` | harness reports on the baseline rows (dev/test rally-only) + summary | 15 | 0.09 MB |
+| `eval/baselines/` | external reference rows: 8 manifests + 64 stripped predictions + README + pre-registered PROTOCOL | 75 | 0.19 MB |
+| `eval/baselines/expected/` | harness reports on the baseline rows (dev/test rally-only) + summary | 17 | 0.10 MB |
 | `annotation/` | double-annotation kit | 2 | 0.02 MB |
 | `./` | top-level docs + licenses | 4 | 0.02 MB |
 
@@ -70,7 +70,7 @@ python annotation/agreement.py data/gt/clay_am_40s.events_gt.json data/gt/clay_a
 | `data/gt/tennis_demo3.events_gt.json` | 1,909 | `5dc9f347dd80dc4c8333e3077748ead1f9ad01a58da843256cc41b6f41c338c1` |
 | `eval/README.md` | 4,276 | `db991f886ef9399a5b2aa9e8b5a8e02a9259a81e17bfc0ca4006cfc5566dd776` |
 | `eval/baselines/PROTOCOL.md` | 3,297 | `718b8045567c1a9511b0321e9b5d563ba2128d76787639796cd49953e83a8465` |
-| `eval/baselines/README.md` | 5,180 | `bf35e4cf190f5e5e6a258129e371307712295c8bfc973061d808451312d5f319` |
+| `eval/baselines/README.md` | 5,617 | `70966462e8b4f5e2e103a9c9b84ce99ace882dbd807909ac906e08913d0a7cf4` |
 | `eval/baselines/camera_rule/manifest.json` | 1,460 | `a359d957a86526f694cb25e6a5ec56b136324a31273236a126bcd5ae7d02e201` |
 | `eval/baselines/camera_rule/preds/clay_am2_40s.pred.json` | 4,068 | `6aeb70299c7ed8f3197130b4c954617e538d1d4fbb27a95fd4c9c7e362d3aa03` |
 | `eval/baselines/camera_rule/preds/clay_am_40s.pred.json` | 3,442 | `0e3775dba8756a1f15fe7de7bacc179881563dd6794bfe00aed277675b8d83b3` |
@@ -89,6 +89,15 @@ python annotation/agreement.py data/gt/clay_am_40s.events_gt.json data/gt/clay_a
 | `eval/baselines/e2e_spot_rny002_loco/preds/grass_pro_40s.pred.json` | 3,456 | `73e4a57c4c57e85a91a7c8316a385daaf170bdab126623ffa6c21d06f76293f5` |
 | `eval/baselines/e2e_spot_rny002_loco/preds/hard_pro_40s.pred.json` | 4,342 | `534587e5425c7c49472ac3838007215bb3893c8838667e7efa059992f86ac8cc` |
 | `eval/baselines/e2e_spot_rny002_loco/preds/tennis_demo3.pred.json` | 2,574 | `5175de225f50d80a83c6bcbba9cb71d81741ad9849a2f2d8c94c84658682b708` |
+| `eval/baselines/e2e_spot_rny002_loco_imagenet/manifest.json` | 1,603 | `343f4fe5f58b940cd5fe2f3480b303aa2f45ad3f7af928fe975f21a1bac8cc80` |
+| `eval/baselines/e2e_spot_rny002_loco_imagenet/preds/clay_am2_40s.pred.json` | 654 | `020686a936f2b7de92481652b4980b95e7675b52a601c7876a5912fcdffab5a4` |
+| `eval/baselines/e2e_spot_rny002_loco_imagenet/preds/clay_am_40s.pred.json` | 624 | `e7622cc1773123c7e76152db8525b00824e18c22e55a2cd4bacfa859b95ed1a4` |
+| `eval/baselines/e2e_spot_rny002_loco_imagenet/preds/clay_pro_40s.pred.json` | 635 | `307ae04891abcc77de94c5f326128a0b671c8c56e4bd0b580605b35dda2e47bb` |
+| `eval/baselines/e2e_spot_rny002_loco_imagenet/preds/felix.pred.json` | 600 | `09b8d6a375e7fefd12bc73079364e3c11c1066b3e43ff3900601848d7fb710b5` |
+| `eval/baselines/e2e_spot_rny002_loco_imagenet/preds/grass_am_40s.pred.json` | 628 | `640de9b8d45ba8c6ddc4d8aa4a09c6abc054a42ba8edef6b692c0692bc3a5f62` |
+| `eval/baselines/e2e_spot_rny002_loco_imagenet/preds/grass_pro_40s.pred.json` | 632 | `2e917f64e2f9e0df7d81bffd579e9c34e71f51a1445cef5e0229969b8f1a2fd1` |
+| `eval/baselines/e2e_spot_rny002_loco_imagenet/preds/hard_pro_40s.pred.json` | 628 | `d1f9d13d960c29f7b1233f405c16b45e7d316e0bd12027e5ed21c73fa2015a14` |
+| `eval/baselines/e2e_spot_rny002_loco_imagenet/preds/tennis_demo3.pred.json` | 628 | `d59b4b2a09cd9686e9099bf0bfd2b9d7e72302491b021d73c0fab0eb382c62a6` |
 | `eval/baselines/e2e_spot_rny008/manifest.json` | 1,577 | `6bbf1442016a20876ab1e63eef06faecadd425c11ce42c9a1a0901934c715372` |
 | `eval/baselines/e2e_spot_rny008/preds/clay_am2_40s.pred.json` | 4,083 | `73c549b5e3c44d1d6b0397093fb4454bb4cea232a8f58aa196893409d5e24121` |
 | `eval/baselines/e2e_spot_rny008/preds/clay_am_40s.pred.json` | 3,457 | `438429066f8b2d544646d8fd412c723b528a19120562274f131c7072039154ab` |
@@ -101,12 +110,14 @@ python annotation/agreement.py data/gt/clay_am_40s.events_gt.json data/gt/clay_a
 | `eval/baselines/expected/camera_rule_dev_rally_only.json` | 4,950 | `00fa720274ea76b4ef3f3e210c14259a735a49acce4554744c4a2d166330b0c2` |
 | `eval/baselines/expected/camera_rule_test_rally_only.json` | 4,349 | `6942f787142264be871342263ac512697438e8f9988d0dc43b0c622d52f0d747` |
 | `eval/baselines/expected/e2e_spot_rny002_loco_dev_rally_only.json` | 4,967 | `016857dd464c9d14f5117b916cada73e33a0bb607920478a39a516f1aa295dd1` |
+| `eval/baselines/expected/e2e_spot_rny002_loco_imagenet_dev_rally_only.json` | 4,342 | `0969f3cbf2a39d9470ca13d67da5a9f8daac62b7887329e42ad7e20f095dbc27` |
+| `eval/baselines/expected/e2e_spot_rny002_loco_imagenet_test_rally_only.json` | 4,674 | `15ff330a28ec29a1deacd647666b8a736a2b5f5fc03023cad9c48dc6702e2561` |
 | `eval/baselines/expected/e2e_spot_rny002_loco_test_rally_only.json` | 4,668 | `ce0876e65ec17f3cdc88965370638b193f9d11fdd38684a2639c1ac357815dc7` |
 | `eval/baselines/expected/e2e_spot_rny008_dev_rally_only.json` | 4,309 | `6a7d4142de9040046e112f2aa6324ebea20370121844adb6ef68c24cedc74136` |
 | `eval/baselines/expected/e2e_spot_rny008_test_rally_only.json` | 4,092 | `e418e48c18bfa64950252bd70a089eaaa565f76c4a891a0506a0c2ddc2e8f030` |
 | `eval/baselines/expected/rallyarb_plus_e2e_bounces_dev_rally_only.json` | 5,471 | `796fa0083cd2c146762164571250e0add10751f51fed65424c4af522be585995` |
 | `eval/baselines/expected/rallyarb_plus_e2e_bounces_test_rally_only.json` | 5,572 | `03f190aab18dafbf1f86a254c519f569f72471ce516cb6c6f6ee255c908dc29d` |
-| `eval/baselines/expected/summary.json` | 1,336 | `02071d35f09e526a606bac605bbdb238796503fa8917cd5c6189497938bb0a1f` |
+| `eval/baselines/expected/summary.json` | 1,480 | `bcdae8c48e6abca3e3be0a9eb1e2cb8a45db7af0b43ac840bb2ec1761e7cb1cc` |
 | `eval/baselines/expected/tdeed_small_dev_rally_only.json` | 4,448 | `5711ebecfd6104fe657095b196fd00ff6c772c8a96ce95436bbec3a168b4e054` |
 | `eval/baselines/expected/tdeed_small_test_rally_only.json` | 4,350 | `79b1b9102961c8726128d3809052d1c722d8bd0fb512c50a148a80d5421b0a4d` |
 | `eval/baselines/expected/vlm_gemini-3.8-flash_dev_rally_only.json` | 6,178 | `abb9747d9d8817a898ea76d1c7cb35276325ac5adad59fbb4d1ba0e8295ca771` |
